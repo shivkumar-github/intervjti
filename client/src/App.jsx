@@ -1,6 +1,7 @@
 import { useState } from "react"
 import axios, { all } from 'axios'
 import { useEffect } from "react";
+import ExperienceCard from "./components/ExperienceCard";
 
 function App() {
   const [studentName, setStudentName] = useState('');
@@ -11,13 +12,15 @@ function App() {
   useEffect(() => {
     const getAllExp = async () => {
       const response = await axios.get('http://localhost:1000/api/experiences');
-      const data = response.data.data;
-      const success = response.data.success;
-      setAllExp(data);
-      console.log(data);
+      if (!response.data.success) {
+        console.log('Error occured while fetching data from backend');
+        return;
+      }
+      console.log('Fetched data successfully.');
+      setAllExp(response.data.data);
     }
     getAllExp();
-  }, []);
+  }, []); 
   const handleSubmitExperience = (e) => {
     e.preventDefault();
     const data = { studentName, companyName, batch, expText };
@@ -31,8 +34,7 @@ function App() {
   }
   return ( 
     <>
-      inter-vjti
-      <form>
+      {/* <form>
         <input type="text" placeholder='your name'value={studentName} onChange={(e)=>setStudentName(e.target.value)}/>
         <input type="text" placeholder='company name'value={companyName} onChange={(e)=>setCompanyName(e.target.value)} />
         <input type="number" placeholder='batch' value={batch} onChange={(e)=>setBatch(e.target.value)}/> 
@@ -42,15 +44,12 @@ function App() {
 
       <div>
         {
-          allExp.forEach((exp) => {
-            return (
-              <>
-                {exp.expText}
-              </>
-            )
-          }) 
+          allExp.map((exp) => {
+            return (<ExperienceCard key={exp._id} {...exp} />);
+          })
         }
-      </div>
+      </div> */}
+      
     </>
   )
 }

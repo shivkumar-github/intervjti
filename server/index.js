@@ -34,7 +34,7 @@ app.get('/api/experiences', async (req, res) => {
 	try {
 		const experiences = db.collection('experiences');
 		const data = await experiences.find().toArray();
-		console.log('fetched details successfully.', data);
+		console.log('fetched details successfully.');
 		res.status(200).json({
 			success: true,
 			data: data
