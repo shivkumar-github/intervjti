@@ -16,6 +16,10 @@ export default function UploadPage() {
     } catch (err) {
       console.error("error submitting your experience");
     }
+    setStudentName('');
+    setCompanyName('');
+    setBatch(0);
+    setExpText('');
   }
   return (
     <form>

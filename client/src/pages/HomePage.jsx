@@ -3,8 +3,6 @@ import { useState } from "react"
 import axios, { all } from 'axios'
 import { useEffect } from "react";
 
-
-
 export default function HomePage() {
   
   const [allExp, setAllExp] = useState([]);
