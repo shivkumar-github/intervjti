@@ -1,0 +1,135 @@
+import React from 'react'
+import { useAuth } from '../context/AuthContext';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useParams } from 'react-router-dom';
+import { onApprove, onReject } from '../api/experienceApi';
+
+
+export default function ExperienceDetailsPage() {
+  const statusStyles = {
+		approved: "bg-green-100 text-green-700",
+		pending: "bg-yellow-100 text-yellow-700",
+		rejected: "bg-red-100 text-red-700"
+	};
+
+  const { id } = useParams();
+  const { accessToken, role } = useAuth();
+
+  const [experience, setExperience] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  const handleApprove = async (id) => {
+    try {
+      await onApprove(id, accessToken);
+      // console.log('successfully updated the status');
+    } catch (err) {
+      console.log('An error occured while approving the experience', err);
+    }
+  };
+
+  const handleReject = async (id) => {
+    try {
+      await onReject(id, accessToken);
+    } catch (err) {
+      console.log('An error occured while rejecting the experience', err);
+    }
+  }
+
+
+
+  useEffect(() => {
+    const getExperience = async () => {
+      try {
+        const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
+
+        const res = await axios.get(`http://localhost:1000/api/experiences/${id}`,
+          { headers }
+        );
+        setExperience(res.data.experience);
+
+      } catch (err) {
+        if (err.response?.status === 403) {
+          setError("You are not allowed to view this experience!");
+        } else if (err.response?.status === 404) {
+          setError("Experience not found");
+        } else {
+          setError("Something went wrong!");
+        }
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    getExperience();
+  }, [id, accessToken]);
+
+  if (loading) {
+    return (
+      <div className='min-h-screen flex items-center justify-center text-gray-500'>
+        Loading Experience...
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className='min-h-screen flex items-center justify-center text-red-500'>
+        {error}
+      </div>
+    );
+  }
+
+  return (
+    <div className='min-h-screen bg-gray-50'>
+
+      <div className='max-w-3xl mx-auto px-6 py-12'>
+
+        <div className='bg-white border border-gray-200 rounded-xl p-8 shadow-sm'>
+
+          <div className='mb-6 border-b border-gray-100 pb-4'>
+            <h1 className='text-2xl font-semibold text-gray-800 mb-2'>
+              {experience?.companyName}
+            </h1>
+
+            <div className='text-sm text-gray-500 flex flex-wrap gap-2'>
+              <span>{experience?.studentName}</span>
+              <span>.</span>
+              <span>{experience?.batch}</span>
+              <span>.</span>
+              <span className={`capitalize px-2 py-0.5 rounded ${statusStyles[experience?.status] || 'bg-gray-100 text-gray-600'}`}>{experience?.status}</span>
+            </div>
+          </div>
+          <article
+            className='prose prose-lg prose-gray max-w-none'
+            dangerouslySetInnerHTML={{
+              __html: experience.content
+            }}
+          >
+          </article>
+          {role === 'admin' && (
+            <div className='flex gap-3 mt-4'>
+              {experience.status !== 'approved' && (
+                <button
+                  onClick={() => handleApprove(id)}
+                  className='flex-1 bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition cursor-pointer'
+                >
+                  Approve
+                </button>
+              )}
+              {experience.status !== 'rejected' && (
+                <button
+                  onClick={() => handleReject(id)}
+                  className='flex-1 bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition cursor-pointer'
+                >
+                  Reject
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
