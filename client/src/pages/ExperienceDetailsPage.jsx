@@ -8,10 +8,12 @@ import { onApprove, onReject } from '../api/experienceApi';
 
 export default function ExperienceDetailsPage() {
   const statusStyles = {
-		approved: "bg-green-100 text-green-700",
-		pending: "bg-yellow-100 text-yellow-700",
-		rejected: "bg-red-100 text-red-700"
-	};
+    approved: "bg-green-100 text-green-700",
+    pending: "bg-yellow-100 text-yellow-700",
+    rejected: "bg-red-100 text-red-700"
+  };
+
+  const rejectionReasons = ['SPAM', 'DUPLICATE', 'INCOMPLETE DETAILS', 'OTHER'];
 
   const { id } = useParams();
   const { accessToken, role } = useAuth();
@@ -19,11 +21,14 @@ export default function ExperienceDetailsPage() {
   const [experience, setExperience] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [rejecting, setRejecting] = useState(false);
+  const [reason, setReason] = useState('');
+  const [remark, setRemark] = useState('');
 
   const handleApprove = async (id) => {
     try {
       await onApprove(id, accessToken);
-      // console.log('successfully updated the status');
+      console.log('successfully updated the status');
     } catch (err) {
       console.log('An error occured while approving the experience', err);
     }
@@ -31,7 +36,8 @@ export default function ExperienceDetailsPage() {
 
   const handleReject = async (id) => {
     try {
-      await onReject(id, accessToken);
+      await onReject(id, accessToken, reason, remark);
+      console.log('successfully rejected the experience');
     } catch (err) {
       console.log('An error occured while rejecting the experience', err);
     }
@@ -109,22 +115,48 @@ export default function ExperienceDetailsPage() {
           >
           </article>
           {role === 'admin' && (
-            <div className='flex gap-3 mt-4'>
-              {experience.status !== 'approved' && (
-                <button
-                  onClick={() => handleApprove(id)}
-                  className='flex-1 bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition cursor-pointer'
-                >
-                  Approve
-                </button>
-              )}
-              {experience.status !== 'rejected' && (
-                <button
-                  onClick={() => handleReject(id)}
-                  className='flex-1 bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition cursor-pointer'
-                >
-                  Reject
-                </button>
+            <div>
+              <div className='flex gap-3 mt-4'>
+                {experience.status !== 'approved' && (
+                  <button
+                    onClick={() => handleApprove(id)}
+                    className='flex-1 bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition cursor-pointer'
+                  >
+                    Approve
+                  </button>
+                )}
+                {experience.status !== 'rejected' && (
+                  <button
+                    onClick={() => setRejecting(true)}
+                    className='flex-1 bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition cursor-pointer'
+                  >
+                    Reject
+                  </button>
+                )}
+              </div>
+              {rejecting && (
+                <div className='flex flex-col gap-3 mt-4'>
+                  <select
+                    value={reason}
+                    onChange={(e)=>setReason(e.target.value)}
+                    className='border rounded-md p-2' required
+                  >
+                    <option value="">Select reason for rejection</option>
+                    {
+                      rejectionReasons.map((reason) => {
+                        return (<option key={reason} value={reason}>{reason}</option>)
+                      })
+                    }
+                  </select>
+                  <label>Enter Remark</label>
+                  <input type="text" value={remark} onChange={(e)=>setRemark(e.target.value)} placeholder='Enter remark' className='border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition'/>
+                  <button
+                    onClick={() => handleReject(id, accessToken)}
+                    className='flex-1 bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition cursor-pointer'
+                  >
+                    Submit
+                  </button>
+                </div>
               )}
             </div>
           )}

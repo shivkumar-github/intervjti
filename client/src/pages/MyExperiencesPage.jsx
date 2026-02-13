@@ -22,7 +22,7 @@ export default function MyExperiencesPage() {
 				);
 				setUserExps(response.data.data);
 			} catch (err) {
-				console.log('failed to load your experiences!');
+				// console.log('failed to load your experiences!');
 			} finally {
 				setLoading(false);
 			}

@@ -6,14 +6,14 @@ module.exports.getExperience = async (req, res) => {
 	try {
 		const { id } = req.params;
 		// 1. status == 'approved'
-		const experience = await Experience.findById(id).lean();
+		const experience = await Experience.findById(id);
 		if (!experience) {
 			return res.status(404).json({
 				success: false,
 				message: "Can not find requested experience!"
 			});
 		}
-		if (experience.status === 'approved' || (req.user && (req.user.role === 'admin' ||  req.user.userId === String(experience.userId)))) {
+		if (experience.status === 'approved' || (req.user && (req.user.role === 'admin' || req.user.userId === String(experience.userId)))) {
 			return res.status(200).json({
 				success: true,
 				experience,
@@ -21,7 +21,7 @@ module.exports.getExperience = async (req, res) => {
 		}
 		// console.log(req.user);
 		// console.log((req.user && (req.user.role === 'admin' || req.user.userId === String(experience.userId))));
-		
+
 		return res.status(403).json({
 			success: false,
 			message: "You do not have access to this experience!"
@@ -37,7 +37,7 @@ module.exports.getExperience = async (req, res) => {
 module.exports.getExperiences = async (req, res) => {
 	try {
 		// console.log('getting experiences')
-		const data = await Experience.find({status:'approved'}).select("-content").sort({createdAt:-1}).lean();
+		const data = await Experience.find({ status: 'approved' }).select("-content").sort({ createdAt: -1 });
 		res.status(200).json({
 			success: true,
 			data
@@ -55,7 +55,7 @@ module.exports.getExperiences = async (req, res) => {
 // upgrade all getExperiences using single function with parameters
 module.exports.getUserExperiences = async (req, res) => {
 	try {
-		const data = await Experience.find({userId:req.user.userId}).select("-content").sort({createdAt:-1}).lean();
+		const data = await Experience.find({ userId: req.user.userId }).select("-content").sort({ createdAt: -1 });
 		res.status(200).json({
 			success: true,
 			data
@@ -71,7 +71,7 @@ module.exports.getUserExperiences = async (req, res) => {
 
 module.exports.getExperiencesAdmin = async (req, res) => {
 	try {
-		const data = await Experience.find().select("-content").sort({ createdAt: -1 }).lean();
+		const data = await Experience.find().select("-content").sort({ createdAt: -1 });
 		res.status(200).json({
 			success: true,
 			data
@@ -96,8 +96,8 @@ module.exports.addExperience = async (req, res) => {
 		}
 		if (content.length > process.env.MAX_CONTENT_LENGTH) {
 			return res.status(413).json({
-				success: false, 
-				message:"Experience Too Long!"
+				success: false,
+				message: "Experience Too Long!"
 			})
 		}
 
@@ -109,15 +109,15 @@ module.exports.addExperience = async (req, res) => {
 				img: ['src']
 			}
 		});
-		
+
 		const plainText = striptags(cleanContent)
-		.replace(/\s+/g, ' ')
-		.trim()
-		
+			.replace(/\s+/g, ' ')
+			.trim()
+
 		if (!plainText) {
 			return res.status(400).json({
-				success: false, 
-				message:"Experience cannot be empty!"
+				success: false,
+				message: "Experience cannot be empty!"
 			})
 		}
 		const preview =
@@ -136,12 +136,12 @@ module.exports.addExperience = async (req, res) => {
 		});
 		await exp.save();
 		res.status(201).json({ success: true, message: 'Experience Added Successfully.' });
-		
+
 	} catch (err) {
 		console.error('Insert error, ', err);
 		res.status(500).json({
 			succes: false,
-			message: 'error occured while inserting data', 
+			message: 'error occured while inserting data',
 		});
 	}
 };
@@ -167,14 +167,14 @@ module.exports.deleteExperience = async (req, res) => {
 	}
 };
 
-module.exports.updateExperienceStatus = async(req, res) => {
+module.exports.updateExperienceStatus = async (req, res) => {
 	try {
-		const {id} = req.params;
-		const { status } = req.body;
+		const { id } = req.params;
+		const { status, reason, remark } = req.body;
 		if (!['approved', 'rejected'].includes(status)) {
 			return res.status(400).json({
-				success: false, 
-				message:'Invalid status!'
+				success: false,
+				message: 'Invalid status!'
 			});
 		}
 		// console.log(id, status);
@@ -189,13 +189,17 @@ module.exports.updateExperienceStatus = async(req, res) => {
 		}
 
 		experience.status = status;
+		if (status === 'rejected') {
+			experience.reason = reason;
+			experience.remark = remark;
+		}
 		experience.save();
 
 		res.status(200).json({
-			success: true, 
-			message:`Experience ${status}`
+			success: true,
+			message: `Experience ${status}`
 		});
-		
+
 	} catch (err) {
 		// console.log(err);
 		res.status(500).json({

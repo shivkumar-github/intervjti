@@ -10,6 +10,7 @@ export default function NavBar() {
 		{ to: "/signup", label: "Sign Up", show: !isLoggedIn },
 		{ to: "/myexperiencespage", label: "My Experiences", show: isLoggedIn && role=== 'student' },
 		{ to: "/uploadpage", label: "Upload Experience", show: isLoggedIn },
+		{ to: "/contactUs", label:"Contact Us", show:true}
 	]
 
 	return (

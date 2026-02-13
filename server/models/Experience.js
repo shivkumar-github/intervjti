@@ -2,13 +2,13 @@ const mongoose = require('mongoose');
 const experienceSchema = new mongoose.Schema({
 	userId: {
 		type: mongoose.Schema.Types.ObjectId,
-		ref:'User',
+		ref: 'User',
 		required: true,
-		index:true
+		index: true
 	},
 	studentName: {
 		type: String,
-		required:true
+		required: true
 	},
 	companyName: {
 		type: String,
@@ -31,8 +31,24 @@ const experienceSchema = new mongoose.Schema({
 	status: {
 		type: String,
 		enum: ['pending', 'approved', 'rejected'],
-		default:'pending'
-	}
+		default: 'pending'
+	},
+	reason: {
+		type: String,
+		enum: ['SPAM', 'DUPLICATE', 'INCOMPLETE DETAILS', 'OTHER'],
+	},
+	remark: {
+		type: String
+	},
 }, { timestamps: true });
+
+experienceSchema.set('toJSON', {
+	versionKey: false,
+	transform(doc, ret) {
+		ret.id = ret._id;
+		delete ret._id.toString();
+		delete ret.__v;
+	}
+});
 
 module.exports = mongoose.model('Experience', experienceSchema);
