@@ -2,6 +2,7 @@ import { createContext, useState, useContext } from "react";
 import axios from 'axios'
 import { useEffect } from "react";
 import { jwtDecode } from "jwt-decode";
+import api from "../api/axios";
 
 const AuthContext = createContext();
 
@@ -11,8 +12,8 @@ export const AuthProvider = ({ children }) => {
 	const [role, setRole] = useState(null);
 	const refreshAccessToken = async() => {
 		try {
-			const response = await axios.post(
-				'http://localhost:1000/api/auth/refresh',
+			const response = await api.post(
+				'/api/auth/refresh',
 				{},
 				{withCredentials:true}
 			);

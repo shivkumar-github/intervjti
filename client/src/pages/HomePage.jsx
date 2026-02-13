@@ -3,13 +3,14 @@ import { useState } from "react"
 import axios, { all } from 'axios'
 import { useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
+import api from "../api/axios";
 
 export default function HomePage() {
   const [allExps, setAllExps] = useState([]);
   const { accessToken } = useAuth();
   useEffect(() => {
     const getAllExps = async () => {
-      const response = await axios.get('http://localhost:1000/api/experiences',
+      const response = await api.get('/api/experiences',
       );
       if (!response.data.success) {
         return;

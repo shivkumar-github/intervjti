@@ -2,6 +2,7 @@ import ExperienceCard from "../components/ExperienceCard";
 import { useState, useEffect } from "react"
 import axios, { all } from 'axios'
 import { useAuth } from "../context/AuthContext";
+import api from "../api/axios";
 
 export default function MyExperiencesPage() {
 
@@ -13,7 +14,7 @@ export default function MyExperiencesPage() {
 		const getAllUserExps = async () => {
 			try {
 
-				const response = await axios.get('http://localhost:1000/api/experiences/users/me/experiences',
+				const response = await api.get('/api/experiences/users/me/experiences',
 					{
 						headers: {
 							Authorization: `Bearer ${accessToken}`

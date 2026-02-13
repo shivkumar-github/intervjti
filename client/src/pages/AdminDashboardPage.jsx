@@ -3,6 +3,7 @@ import { useState } from "react"
 import axios, { all } from 'axios'
 import { useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
+import api from "../api/axios";
 
 export default function AdminDashboardPage() {	
 	const { accessToken } = useAuth();
@@ -12,7 +13,7 @@ export default function AdminDashboardPage() {
 		if (!accessToken) return;
 		const getAllExps = async () => {
 			try {
-				const response = await axios.get('http://localhost:1000/api/experiences/adminExperiences',
+				const response = await api.get('/api/experiences/adminExperiences',
 					{
 						headers: {
 							Authorization: `Bearer ${accessToken}`

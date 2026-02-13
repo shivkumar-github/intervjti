@@ -1,6 +1,8 @@
 import axios from "axios";
+import api from "./axios";
+
 export const onApprove = (id, accessToken) => {
-	return axios.patch(`http://localhost:1000/api/experiences/${id}/status`, { status: 'approved'}, {
+	return api.patch(`/api/experiences/${id}/status`, { status: 'approved'}, {
 		headers: {
 			Authorization: `Bearer ${accessToken}`
 		}
@@ -8,7 +10,7 @@ export const onApprove = (id, accessToken) => {
 }
 
 export const onReject = (id, accessToken, reason, remark) => {
-	return axios.patch(`http://localhost:1000/api/experiences/${id}/status`, { status: 'rejected', reason, remark }, {
+	return api.patch(`/api/experiences/${id}/status`, { status: 'rejected', reason, remark }, {
 		headers: {
 			Authorization: `Bearer ${accessToken}`
 		}

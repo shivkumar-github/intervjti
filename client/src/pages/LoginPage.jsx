@@ -3,6 +3,7 @@ import axios from 'axios';
 import {useNavigate} from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'; 
 import { jwtDecode } from 'jwt-decode';
+import api from '../api/axios';
 
 
 export default function LoginPage() {
@@ -18,7 +19,7 @@ export default function LoginPage() {
     e.preventDefault();
     setLoading(true);
     const data = { email, password };
-    const response = await axios.post('http://localhost:1000/api/auth/login', data, { withCredentials: true });
+    const response = await api.post('/api/auth/login', data, { withCredentials: true });
     if (response.data.success) {
       setAccessToken(response.data.accessToken);
       setIsLoggedIn(true);

@@ -2,6 +2,7 @@ import { useState } from "react"
 import axios, { all } from 'axios'
 import RichTextEditor from "../components/RichTextEditor";
 import { useAuth } from '../context/AuthContext';
+import api from "../api/axios";
 
 export default function UploadPage() {
   const { accessToken } = useAuth();
@@ -26,7 +27,7 @@ export default function UploadPage() {
       const data = { studentName, companyName, batch, content };
       const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
 
-      await axios.post('http://localhost:1000/api/experiences', data,
+      await api.post('/api/experiences', data,
         { headers }
       );
 

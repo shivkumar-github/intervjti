@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { onApprove, onReject } from '../api/experienceApi';
+import api from '../api/axios';
 
 
 export default function ExperienceDetailsPage() {
@@ -50,7 +51,7 @@ export default function ExperienceDetailsPage() {
       try {
         const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
 
-        const res = await axios.get(`http://localhost:1000/api/experiences/${id}`,
+        const res = await api.get(`/api/experiences/${id}`,
           { headers }
         );
         setExperience(res.data.experience);

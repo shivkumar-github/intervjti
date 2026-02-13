@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import api from '../api/axios';
 
 
 export default function SignUpPage() {
@@ -23,14 +24,14 @@ export default function SignUpPage() {
   const sendOtp = async (e) => {
     e.preventDefault();
     const data = { email, otp };
-    const response = await axios.post('http://localhost:1000/api/auth/send-otp', data);
+    const response = await api.post('/api/auth/send-otp', data);
     setOtpSent(true);
   }
 
   const verifyOtp = async (e) => {
     e.preventDefault();
     const data = { email, otp };
-    const response = await axios.post('http://localhost:1000/api/auth/verify-otp', data);
+    const response = await api.post('/api/auth/verify-otp', data);
 
     if (response.data.success) setVerified(true);
   }
@@ -38,7 +39,7 @@ export default function SignUpPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = { email, password };
-    const response = await axios.post('http://localhost:1000/api/auth/set-password', data);
+    const response = await api.post('/api/auth/set-password', data);
     if (response.data.success) {
       navigate('/loginpage');
     }
