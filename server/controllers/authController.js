@@ -133,7 +133,7 @@ module.exports.Login = async (req, res) => {
 
 		res.cookie('refreshToken', refreshToken, {
 			httpOnly: true,
-			secure: false,
+			secure: true,
 			sameSite: 'strict'
 		});
 
