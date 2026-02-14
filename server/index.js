@@ -12,7 +12,7 @@ const port = 1000;
 app.use(cors({
 	origin: [
 		"http://localhost:5173",
-		"https://intervjti.vercel.app/"
+		"https://intervjti.vercel.app"
 	],
 	
 	credentials: true
