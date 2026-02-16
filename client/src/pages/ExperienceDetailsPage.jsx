@@ -1,7 +1,6 @@
 import React from 'react'
 import { useAuth } from '../context/AuthContext';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { onApprove, onReject } from '../api/experienceApi';
 import api from '../api/axios';

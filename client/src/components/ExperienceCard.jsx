@@ -1,31 +1,36 @@
 import React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { onApprove } from '../api/experienceApi';
 
-function ExperienceCard({ id, companyName, studentName, status, batch, preview, showAdminActions = false }) {
+function ExperienceCard({ id, companyName, studentName, status, batch, preview, showAdminActions = false,refreshExps }) {
 	const { accessToken, role } = useAuth();
-	// console.log(accessToken, role);
-	// console.log('hello')
+	const [ approveLoading, setApproveLoading ] = useState(false);
+	const [error, setError] = useState('');
+	
 	const statusStyles = {
 		approved: "bg-green-100 text-green-700",
 		pending: "bg-yellow-100 text-yellow-700",
 		rejected: "bg-red-100 text-red-700"
 	};
 	const handleApprove = async (id) => {
+		setApproveLoading(true);
 		try {
 			await onApprove(id, accessToken);
-			console.log('approved experience successfully.');
+			setError('');
 		} catch (err) {
-			console.log('An error occured while approving the experience', err);
+			setError('An Error Occured while approving experience!');
+		} finally {
+			setApproveLoading(false);
 		}
 	};
 
 	const navigate = useNavigate();
 
 	return (
-		<div className="bg-white rounded-xl border border-gray-200 p-5 hover:shadow-lg hover:-translate-y-1 transition cursor pointer ">
+		<div className="bg-white rounded-xl border border-gray-200 p-5 hover:shadow-lg hover:-translate-y-1 transition cursor-pointer ">
 			<Link to={`/experience/${id}`}>
 				<div className='flex justify-between items-center mb-2'>
 					<h2 className='font-semibold text-gray-800'>
@@ -46,9 +51,10 @@ function ExperienceCard({ id, companyName, studentName, status, batch, preview, 
 					{status !== 'approved' && (
 						<button
 							onClick={() => handleApprove(id)}
-							className='flex-1 bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition cursor-pointer'
+							disabled={approveLoading}
+							className='flex-1 bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition cursor-pointer disabled:cursor-not-allowed'
 						>
-							Approve
+							{approveLoading?"Approving...":"Approve"}
 						</button>
 					)}
 					{status !== 'rejected' && (
@@ -60,6 +66,12 @@ function ExperienceCard({ id, companyName, studentName, status, batch, preview, 
 						</button>
 					)}
 				</div>
+			)}
+
+			{error && (
+				<p className='text-sm text-red-500'>
+					{error}
+				</p>
 			)}
 		</div>
 	)

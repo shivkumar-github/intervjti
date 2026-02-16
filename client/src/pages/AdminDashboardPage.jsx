@@ -1,32 +1,33 @@
 import ExperienceCard from "../components/ExperienceCard";
 import { useState } from "react"
-import axios, { all } from 'axios'
 import { useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
 import api from "../api/axios";
 
-export default function AdminDashboardPage() {	
+export default function AdminDashboardPage() {
 	const { accessToken } = useAuth();
 	const [allExps, setAllExps] = useState([]);
 	const [loading, setLoading] = useState(true);
+
+	const getAllExps = async () => {
+		try {
+			const response = await api.get('/api/experiences/adminExperiences',
+				{
+					headers: {
+						Authorization: `Bearer ${accessToken}`
+					}
+				}
+			);
+			setAllExps(response.data.data);
+		} catch (err) {
+			console.log('An Error occured while fetching all exeperiences!')
+		} finally {
+			setLoading(false);
+		}
+	}
+
 	useEffect(() => {
 		if (!accessToken) return;
-		const getAllExps = async () => {
-			try {
-				const response = await api.get('/api/experiences/adminExperiences',
-					{
-						headers: {
-							Authorization: `Bearer ${accessToken}`
-						}
-					}
-				);
-				setAllExps(response.data.data);
-			} catch (err) {
-				console.log('An Error occured while fetching all exeperiences!')
-			} finally {
-				setLoading(false);
-			}
-		}
 		getAllExps();
 	}, [accessToken]);
 
@@ -38,7 +39,7 @@ export default function AdminDashboardPage() {
 		);
 	}
 
-	
+
 
 	return (
 		<div className="min-h-screen bg-gray-50 py-12">
@@ -74,7 +75,7 @@ export default function AdminDashboardPage() {
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 					{
 						allExps.map((exp) => {
-							return (<ExperienceCard key={exp.id} {...exp} showAdminActions ={true} />);
+							return (<ExperienceCard key={exp.id} {...exp} showAdminActions={true} refreshExps={ getAllExps} />);
 						})
 					}
 				</div>

@@ -1,4 +1,3 @@
-import axios from "axios";
 import api from "./axios";
 
 export const onApprove = (id, accessToken) => {

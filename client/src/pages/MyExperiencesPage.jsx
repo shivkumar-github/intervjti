@@ -1,6 +1,5 @@
 import ExperienceCard from "../components/ExperienceCard";
 import { useState, useEffect } from "react"
-import axios, { all } from 'axios'
 import { useAuth } from "../context/AuthContext";
 import api from "../api/axios";
 

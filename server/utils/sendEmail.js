@@ -5,7 +5,7 @@ module.exports.sendOtpEmail = async(email, otp) => {
 		service: 'gmail',
 		auth: {
 			user: 'shivkumarrajmane164@gmail.com',
-			pass:'wkni mxhd exes fxyd' // 16 character app password from google
+			pass: process.env.GOOGLE_APP_PASSWORD // 16 character app password from google
 		}
 	});
 

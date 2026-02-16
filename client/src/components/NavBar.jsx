@@ -8,9 +8,9 @@ export default function NavBar() {
 		{ to: "/admindashboard", label: "Admin Dashboard", show: role === 'admin' },
 		{ to: "/loginpage", label: "Login", show: !isLoggedIn },
 		{ to: "/signup", label: "Sign Up", show: !isLoggedIn },
-		{ to: "/myexperiencespage", label: "My Experiences", show: isLoggedIn && role=== 'student' },
+		{ to: "/myexperiencespage", label: "My Experiences", show: isLoggedIn && role === 'student' },
 		{ to: "/uploadpage", label: "Upload Experience", show: isLoggedIn },
-		{ to: "/contactUs", label:"Contact Us", show:true}
+		{ to: "/contactuspage", label: "Contact Us", show: role === 'admin' }
 	]
 
 	return (
@@ -28,7 +28,7 @@ export default function NavBar() {
 									<NavLink
 										to={link.to}
 										className='hover:text-blue-600 transition-colors'
-									>{ link.label}</NavLink>
+									>{link.label}</NavLink>
 								</li>
 							))
 						}

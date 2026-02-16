@@ -7,6 +7,7 @@ import ExperienceDetailsPage from './pages/ExperienceDetailsPage'
 import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import MyExperiencesPage from './pages/MyExperiencesPage'
+import ContactUsPage from './pages/ContactUsPage'
 
 function App() {
   
@@ -21,7 +22,8 @@ function App() {
         <Route path="/uploadpage" element={<UploadPage />} />
         <Route path="/experiencedetailspage" element={<ExperienceDetailsPage />} />
         <Route path="/myexperiencespage" element={<MyExperiencesPage />} />
-        <Route path="/experience/:id" element={ <ExperienceDetailsPage/>} />
+        <Route path="/experience/:id" element={<ExperienceDetailsPage />} />
+        <Route path="/contactuspage" element={<ContactUsPage/>} />
       </Routes>
     </>
   );

@@ -141,7 +141,7 @@ module.exports.addExperience = async (req, res) => {
 		console.error('Insert error, ', err);
 		res.status(500).json({
 			succes: false,
-			message: 'error occured while inserting data',
+			message: 'Server failed to insert data!',
 		});
 	}
 };
