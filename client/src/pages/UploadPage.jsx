@@ -17,6 +17,7 @@ export default function UploadPage() {
 
   const handleSubmitExperience = async (e) => {
     e.preventDefault();
+    setMessage('');
     setError('');
     setLoading(true);
     if (content.replace(/<[^>]*>/g, '').length < 50) {
@@ -38,8 +39,6 @@ export default function UploadPage() {
       setCompanyName('');
       setBatch('');
       setContent('');
-      // setTimeout(() => setMessage(''), 0);
-      setMessage('');
     } catch (err) {
       setError("Failed to upload your experience!");
     } finally {

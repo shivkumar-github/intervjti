@@ -4,6 +4,7 @@ const cookieParser = require('cookie-parser');
 const experienceRoutes = require('./routes/experienceRoutes');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes');
+const contactRoutes = require('./routes/contactRoutes');
 require('dotenv').config();
 
 const app = express();
@@ -24,5 +25,6 @@ connectDB();
 
 app.use('/api/auth', authRoutes);
 app.use('/api/experiences', experienceRoutes);
+app.use('/api/contact', contactRoutes);
 
 app.listen(port, () => console.log('Server running on port : ', port));

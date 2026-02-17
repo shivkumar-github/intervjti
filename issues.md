@@ -11,3 +11,7 @@
 context is used for global state not for global behaviour.
 context = shared data
 api layer = server communication
+
+
+1. Implement contact us page and complete feature
+2. complete the logic of what will happen after a experience is rejected and logic of reapplication.
