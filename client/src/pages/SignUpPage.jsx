@@ -38,7 +38,7 @@ export default function SignUpPage() {
     e.preventDefault();
     setError('');
     setSendingOtpLoading(true);
-
+    setOtpSent(false);
     try {
       const data = { email };
       await api.post('/api/auth/send-otp', data);
