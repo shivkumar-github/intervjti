@@ -76,8 +76,6 @@ export default function SignUpPage() {
       const data = { email, password };
       await api.post('/api/auth/set-password', data);
       setSuccess(true);
-      // setTimeout(() => {
-      // }, 4000);
       navigate('/loginpage');
     } catch {
       setError('Failed to create Account!');

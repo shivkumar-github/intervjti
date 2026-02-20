@@ -32,14 +32,14 @@ module.exports.sendOtp = async (req, res) => {
 		await user.save();
 		await sendOtpEmail(email, otp);
 
-		res.status(200).json({
+		return res.status(200).json({
 			success: true,
 			message: 'OTP sent successfully.'
 		})
 	}
 	catch (err) {
 		// console.log(err);
-		res.status(500).json({
+		return res.status(500).json({
 			success: false,
 			message: 'Error sending OTP'
 		});
