@@ -28,10 +28,9 @@ module.exports.sendOtp = async (req, res) => {
 			user = new User({ email });
 		}
 
+		await sendOtpEmail(email, otp);
 		user.otp = otp;
 		await user.save();
-		await sendOtpEmail(email, otp);
-
 		return res.status(200).json({
 			success: true,
 			message: 'OTP sent successfully.'
@@ -69,14 +68,14 @@ module.exports.verifyOtp = async (req, res) => {
 		user.otp = undefined;
 		await user.save();
 
-		res.status(200).json({
+		return res.status(200).json({
 			success: true,
 			message: 'OTP verified successfully.'
 		})
 
 	} catch (err) {
 		// console.log(err);
-		res.status(500).json({
+		 return res.status(500).json({
 			success: false,
 			message: 'Server failed while verifying otp!'
 		});
