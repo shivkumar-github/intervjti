@@ -37,3 +37,33 @@ module.exports.getAllContactMessages = async(req, res) => {
 		});
 	} 
 };
+
+module.exports.markContactRead = async (req, res) => {
+	try {
+		const { id } = req.params;
+		const contact = await Contact.findById(id);
+		if (!contact) {
+			return res.status(400).json({
+				success: false,
+				message: "No contact exists with given details!"
+			});
+		}
+		if (contact.isRead) {
+			return res.status(400).json({
+				success: false, 
+				message:'Message already marked as read!'
+			});
+		}
+		contact.isRead = true;
+		await contact.save();
+		return res.status(200).json({
+			success:true,
+			message:'Message marked as read!'
+		});
+	} catch (err) {
+		return res.status(500).json({
+			success: false,
+			message:'Server error occured!'
+		});
+	}
+};

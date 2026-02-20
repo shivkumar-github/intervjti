@@ -22,4 +22,14 @@ const ContactSchema = new mongoose.Schema({
 	}
 }, { timestamps: true });
 
+ContactSchema.set('toJSON', {
+	versionKey: false,
+	transform(doc, ret) {
+		ret.id = ret._id;
+		delete ret._id.toString();
+		delete ret.__v;
+	}
+});
+
+
 module.exports = mongoose.model('Contact', ContactSchema);

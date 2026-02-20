@@ -9,6 +9,8 @@ export default function AdminDashboardPage() {
 	const [allExps, setAllExps] = useState([]);
 	const [loading, setLoading] = useState(true);
 
+	const [contactMessages, setContactMessages] = useState([]);
+
 	const getAllExps = async () => {
 		try {
 			const response = await api.get('/api/experiences/adminExperiences',
@@ -26,6 +28,16 @@ export default function AdminDashboardPage() {
 		}
 	}
 
+	const getContactMessages = () => {
+		try {
+			const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
+			const response = api.get('/api/contact', { headers })
+			setContactMessages(response.data.data);
+		} catch (err) {
+			
+		}
+	}
+
 	useEffect(() => {
 		if (!accessToken) return;
 		getAllExps();
@@ -34,7 +46,7 @@ export default function AdminDashboardPage() {
 	if (loading) {
 		return (
 			<div className="min-h-screen flex items-center justify-center text-gray-500">
-				Loading all experiences...
+				Loading...
 			</div>
 		);
 	}
@@ -79,6 +91,11 @@ export default function AdminDashboardPage() {
 						})
 					}
 				</div>
+			</div>
+			<div>
+				{
+
+				}
 			</div>
 		</div>
 	)

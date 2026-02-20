@@ -17,7 +17,7 @@ module.exports.sendOtp = async (req, res) => {
 
 		const otp = generateOtp();
 
-		if (user) {
+		if (user && user.password) {
 			return res.status(500).json({
 				success: false,
 				message: 'User already exists!'
