@@ -6,7 +6,7 @@ module.exports.sendOtpEmail = async (email, otp) => {
   try {
     const response = await resend.emails.send({
       from: "onboarding@resend.dev",  
-      to: email,
+      to: "shivkumarrajmane164@gmail.com",
       subject: "OTP Verification",
       html: `
         <div style="font-family: Arial, sans-serif; text-align:center;">
