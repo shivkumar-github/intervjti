@@ -1,30 +1,29 @@
-const nodemailer = require('nodemailer');
+const { Resend } = require("resend");
+
+console.log(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 module.exports.sendOtpEmail = async (email, otp) => {
-	try {
-		
-		const transporter = nodemailer.createTransport({
-			host: "smtp.gmail.com",
-			port: 465,
-			secure:true,
-			auth: {
-				user: 'shivkumarrajmane164@gmail.com',
-				pass: process.env.GOOGLE_APP_PASSWORD // 16 character app password from google
-			}
-		});
-		
-		const mailOptions = {
-			from: 'shivkumarrajmane164@gmail.com',
-			to: email,
-			subject: 'Your OTP verification code for inter-vjti.',
-			text: `Your OTP is ${otp}`
-		};
-		
-		await transporter.sendMail(mailOptions);
-		console.log("OTP email sent.");
-	} catch (err) {
-		console.log("Email sending failed!");
-		throw err;
-	}
-};
+  try {
+    const response = await resend.emails.send({
+      from: "onboarding@resend.dev",  
+      to: email,
+      subject: "OTP Verification",
+      html: `
+        <div style="font-family: Arial, sans-serif; text-align:center;">
+          <h2>Email Verification</h2>
+          <p>Your OTP code is:</p>
+          <h1 style="letter-spacing:4px;">${otp}</h1>
+          <p>This OTP is valid for 5 minutes.</p>
+        </div>
+      `
+    });
 
+    console.log("OTP email sent:", response.id);
+    return true;
+
+  } catch (error) {
+    console.error("Email sending failed:", error);
+    throw new Error("Unable to send OTP email");
+  }
+};
