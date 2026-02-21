@@ -58,11 +58,11 @@ async function sendOtpEmail(email, otp) {
       `,
     });
 
-    // console.log("✅ Email sent:", info.messageId);
+    console.log("✅ Email sent:", info.messageId);
     return true;
 
   } catch (error) {
-    // console.error("\n❌ EMAIL SEND FAILURE");
+    console.error("\n❌ EMAIL SEND FAILURE");
     // console.error("Reason →", error.response?.data || error.message || error);
 
     // common Gmail security block hint
@@ -71,7 +71,7 @@ async function sendOtpEmail(email, otp) {
     //   console.log("https://accounts.google.com/DisplayUnlockCaptcha\n");
     // }
 
-    // throw error;
+    throw error;
     console.log('error occured in sendOtpEmail');
   }
 }
