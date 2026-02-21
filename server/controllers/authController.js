@@ -1,6 +1,6 @@
 const User = require('../models/User');
 const { randomInt } = require('crypto');
-const { sendOtpEmail } = require('../utils/sendEmail');
+const sendOtpEmail  = require('../utils/sendEmail');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
@@ -27,7 +27,6 @@ module.exports.sendOtp = async (req, res) => {
 		if (!user) {
 			user = new User({ email });
 		}
-
 		await sendOtpEmail(email, otp);
 		user.otp = otp;
 		await user.save();
@@ -37,7 +36,7 @@ module.exports.sendOtp = async (req, res) => {
 		})
 	}
 	catch (err) {
-		// console.log(err);
+		console.log(err);
 		return res.status(500).json({
 			success: false,
 			message: 'Error sending OTP'

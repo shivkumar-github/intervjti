@@ -1,7 +1,7 @@
 import React from 'react'
 import { useAuth } from '../context/AuthContext';
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { onApprove, onReject } from '../api/experienceApi';
 import api from '../api/axios';
 
@@ -24,22 +24,37 @@ export default function ExperienceDetailsPage() {
   const [rejecting, setRejecting] = useState(false);
   const [reason, setReason] = useState('');
   const [remark, setRemark] = useState('');
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleApprove = async (id) => {
+
+  const navigate = useNavigate();
+
+  const handleApprove = async () => {
     try {
       await onApprove(id, accessToken);
+      setExperience(prev => ({ ...prev, status: "approved", remark: null, reason: null }));
       console.log('successfully updated the status');
+      navigate('/admindashboard');
     } catch (err) {
       console.log('An error occured while approving the experience', err);
     }
   };
 
-  const handleReject = async (id) => {
+  const handleReject = async () => {
+    if (!reason) {
+      setError('Please Enter a valid reason');
+      return;
+    }
     try {
+      setSubmitting(true);
       await onReject(id, accessToken, reason, remark);
+      setExperience(prev => ({ ...prev, status: "rejected" , reason, remark}));
       console.log('successfully rejected the experience');
+      navigate('/admindashboard');
     } catch (err) {
       console.log('An error occured while rejecting the experience', err);
+    } finally {
+      setSubmitting(false);
     }
   }
 
@@ -47,6 +62,7 @@ export default function ExperienceDetailsPage() {
 
   useEffect(() => {
     const getExperience = async () => {
+      if (!accessToken) return;
       try {
         const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
 
@@ -114,12 +130,23 @@ export default function ExperienceDetailsPage() {
             }}
           >
           </article>
+          {experience?.status === 'rejected' && (
+            <div className='mt-6 p-4 bg-red-50 border border-red-200 rounded'>
+              <p className='font-medium text-red-700'>
+                Reason:{experience?.reason}
+              </p>
+              <p className='text-red-600'>
+                Remark : {experience?.remark}
+              </p>
+            </div>
+          )}
+
           {role === 'admin' && (
             <div>
               <div className='flex gap-3 mt-4'>
                 {experience.status !== 'approved' && (
                   <button
-                    onClick={() => handleApprove(id)}
+                    onClick={handleApprove}
                     className='flex-1 bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition cursor-pointer'
                   >
                     Approve
@@ -138,7 +165,7 @@ export default function ExperienceDetailsPage() {
                 <div className='flex flex-col gap-3 mt-4'>
                   <select
                     value={reason}
-                    onChange={(e)=>setReason(e.target.value)}
+                    onChange={(e) => setReason(e.target.value)}
                     className='border rounded-md p-2' required
                   >
                     <option value="">Select reason for rejection</option>
@@ -149,14 +176,15 @@ export default function ExperienceDetailsPage() {
                     }
                   </select>
                   <label>Enter Remark</label>
-                  <input type="text" value={remark} onChange={(e)=>setRemark(e.target.value)} placeholder='Enter remark' className='border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition'/>
+                  <input type="text" value={remark} onChange={(e) => setRemark(e.target.value)} placeholder='Enter remark' className='border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition' />
                   <button
-                    onClick={() => handleReject(id, accessToken)}
-                    className='flex-1 bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition cursor-pointer'
+                    onClick={handleReject}
+                    disabled={submitting}
+                    className='flex-1 bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition cursor-pointer disabled:cursor-not-allowed'
                   >
                     Submit
                   </button>
-                </div>
+                </div>  
               )}
             </div>
           )}
