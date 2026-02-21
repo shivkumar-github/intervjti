@@ -3,6 +3,8 @@ require("dotenv").config();
 const nodemailer = require("nodemailer");
 const { google } = require("googleapis");
 
+console.log(process.env.GOOGLE_CLIENT_ID, process.env.GOOGLE_CLIENT_SECRET, process.env.GOOGLE_REFRESH_TOKEN);
+
 // OAuth2 client
 const oauth2Client = new google.auth.OAuth2(
   process.env.GOOGLE_CLIENT_ID,
@@ -56,7 +58,7 @@ async function sendOtpEmail(email, otp) {
       `,
     });
 
-    console.log("✅ Email sent:", info.messageId);
+    // console.log("✅ Email sent:", info.messageId);
     return true;
 
   } catch (error) {
@@ -64,12 +66,13 @@ async function sendOtpEmail(email, otp) {
     // console.error("Reason →", error.response?.data || error.message || error);
 
     // common Gmail security block hint
-    if (String(error).includes("Invalid login")) {
-      console.log("\n👉 Try unlocking Gmail:");
-      console.log("https://accounts.google.com/DisplayUnlockCaptcha\n");
-    }
+    // if (String(error).includes("Invalid login")) {
+    //   console.log("\n👉 Try unlocking Gmail:");
+    //   console.log("https://accounts.google.com/DisplayUnlockCaptcha\n");
+    // }
 
-    throw error;
+    // throw error;
+    console.log('error occured in sendOtpEmail');
   }
 }
 
