@@ -62,7 +62,7 @@ export default function ExperienceDetailsPage() {
 
   useEffect(() => {
     const getExperience = async () => {
-      if (!accessToken) return;
+      // if (!accessToken) return;
       try {
         const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
 

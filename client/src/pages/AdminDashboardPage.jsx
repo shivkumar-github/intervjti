@@ -34,7 +34,7 @@ export default function AdminDashboardPage() {
 			const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
 			const response = await api.get('/api/contact', { headers });
 			setContactMessages(response.data.data);
-			console.log(response);
+			
 		} catch (err) {
 			console.log("An error occured while fetching Contacts!");
 		}

@@ -23,10 +23,20 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
-connectDB();
 
 app.use('/api/auth', authRoutes);
 app.use('/api/experiences', experienceRoutes);
 app.use('/api/contact', contactRoutes);
 
-app.listen(port, () => console.log('Server running on port:', port));
+
+const startServer = async () => {
+  try {
+    await connectDB();
+    app.listen(port, () => console.log('Server running on port:', port));
+  } catch (err) {
+    console.error("DB connection failed ", err);
+  }
+};
+
+startServer();
+

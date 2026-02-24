@@ -168,7 +168,7 @@ async function sendOtpEmail(email, otp) {
       <p>This OTP is valid for 5 minutes.</p>
       <p>Please do not share this code.</p>
       <br/>
-      <p>— JoinMe Team</p>
+      <p>— intervjti</p>
     </div>
   `;
 
