@@ -118,7 +118,7 @@ async function sendEmail(email, subject, htmlContent) {
 
     // build RFC 2822 email
     const messageParts = [
-      `From: JoinMe Support <${process.env.GOOGLE_EMAIL}>`,
+      `From: intervjti support <${process.env.GOOGLE_EMAIL}>`,
       `To: ${email}`,
       "Content-Type: text/html; charset=utf-8",
       "MIME-Version: 1.0",
@@ -158,14 +158,13 @@ async function sendEmail(email, subject, htmlContent) {
  * 🔹 OTP Email Sender
  */
 async function sendOtpEmail(email, otp) {
-  const subject = "Your OTP Verification Code";
+  const subject = "Your OTP Verification Code for intervjti";
 
   const html = `
     <div style="font-family: Arial; text-align:center;">
       <h2>Verify Your Email</h2>
       <p>Your OTP code is:</p>
       <h1 style="letter-spacing:4px;">${otp}</h1>
-      <p>This OTP is valid for 5 minutes.</p>
       <p>Please do not share this code.</p>
       <br/>
       <p>— intervjti</p>
