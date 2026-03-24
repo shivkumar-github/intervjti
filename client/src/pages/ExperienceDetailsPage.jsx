@@ -97,7 +97,7 @@ export default function ExperienceDetailsPage() {
           const res = await api.get(`/api/messages/${id}`);
           setMessages(res.data.data);
         } catch (err) {
-          console.log("Error fetching messages", err);
+          // console.log("Error fetching messages", err);
         }
       };
       fetchMessages();
@@ -121,7 +121,7 @@ export default function ExperienceDetailsPage() {
     });
 
     socket.on("connect_error", (err) => {
-      console.log("Socket error:", err.message);
+      // console.log("Socket error:", err.message);
     });
 
     return () => {
@@ -133,7 +133,6 @@ export default function ExperienceDetailsPage() {
   useEffect(() => {
     if (!socket) return;
     const handler = (data) => {
-      console.log("Received:", data);
       setMessages((prev) => [data, ...prev]);
     };
 
