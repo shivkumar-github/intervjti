@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { onApprove, onReject } from '../api/experienceApi';
 import api from '../api/axios';
-
+import { createSocket } from "../socket";
+import { formatDistanceToNow } from 'date-fns';
 
 export default function ExperienceDetailsPage() {
   const statusStyles = {
@@ -13,7 +14,7 @@ export default function ExperienceDetailsPage() {
     rejected: "bg-red-100 text-red-700"
   };
 
-  const rejectionReasons = ['SPAM', 'DUPLICATE', 'INCOMPLETE DETAILS', 'OTHER'];
+  const rejectionReasons = ['SPA', 'DUPLICATE', 'INCOMPLETE DETAILS', 'OTHER'];
 
   const { id } = useParams();
   const { accessToken, role } = useAuth();
@@ -25,6 +26,9 @@ export default function ExperienceDetailsPage() {
   const [reason, setReason] = useState('');
   const [remark, setRemark] = useState('');
   const [submitting, setSubmitting] = useState(false);
+  const [messages, setMessages] = useState([]);
+  const [message, setMessage] = useState("");
+  const [socket, setSocket] = useState(null);
 
 
   const navigate = useNavigate();
@@ -48,7 +52,7 @@ export default function ExperienceDetailsPage() {
     try {
       setSubmitting(true);
       await onReject(id, accessToken, reason, remark);
-      setExperience(prev => ({ ...prev, status: "rejected" , reason, remark}));
+      setExperience(prev => ({ ...prev, status: "rejected", reason, remark }));
       console.log('successfully rejected the experience');
       navigate('/admindashboard');
     } catch (err) {
@@ -62,15 +66,15 @@ export default function ExperienceDetailsPage() {
 
   useEffect(() => {
     const getExperience = async () => {
-      // if (!accessToken) return;
+      if (!accessToken) return;
       try {
         const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
-
+        
         const res = await api.get(`/api/experiences/${id}`,
           { headers }
         );
         setExperience(res.data.experience);
-
+        
       } catch (err) {
         if (err.response?.status === 403) {
           setError("You are not allowed to view this experience!");
@@ -83,9 +87,75 @@ export default function ExperienceDetailsPage() {
         setLoading(false);
       }
     }
-
+    
     getExperience();
   }, [id, accessToken]);
+  
+    useEffect(() => {
+      const fetchMessages = async () => {
+        try {
+          const res = await api.get(`/api/messages/${id}`);
+          setMessages(res.data.data);
+        } catch (err) {
+          console.log("Error fetching messages", err);
+        }
+      };
+      fetchMessages();
+    }, [id])
+  
+  useEffect(() => {
+    if (!accessToken) return;
+    const newSocket = createSocket(accessToken);
+    setSocket(newSocket);
+    return () => {
+      newSocket.disconnect();
+    }
+
+  }, [accessToken]);
+
+  useEffect(() => {
+    if (!socket) return;
+    socket.on("connect", () => {
+      socket.emit("joinRoom", id);
+      // console.log("Socket connected:", socket.id);
+    });
+
+    socket.on("connect_error", (err) => {
+      console.log("Socket error:", err.message);
+    });
+
+    return () => {
+      socket.off("connect");
+      socket.off("connect_error");
+    };
+  }, [id, socket]);
+
+  useEffect(() => {
+    if (!socket) return;
+    const handler = (data) => {
+      console.log("Received:", data);
+      setMessages((prev) => [data, ...prev]);
+    };
+
+    socket.on("receiveMessage", handler);
+
+    return () => {
+      socket.off("receiveMessage", handler);
+    };
+
+
+  }, [socket]);
+
+  const sendMessage = () => {
+
+    if (!message.trim()) return;
+    socket.emit("sendMessage", {
+      experienceId: id,
+      text: message,
+    });
+
+    setMessage("");
+  };
 
   if (loading) {
     return (
@@ -184,10 +254,43 @@ export default function ExperienceDetailsPage() {
                   >
                     Submit
                   </button>
-                </div>  
+                </div>
               )}
             </div>
           )}
+
+
+
+          <div className='mt-10 border-t pt-6'>
+            <h2 className='text-lg font-semibold mb-4'>
+              Discussion
+            </h2>
+
+            <div className='flex gap-2'>
+              <input type="text" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Write a comment or query...' className='flex-1 border rounded-md px-3 py-2 focus:outline-none' />
+              <button onClick={sendMessage} className='bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer'>
+                Add
+              </button>
+            </div>
+            {/* Messages */}
+            <div className='space-y-3 max-h-64 overflow-auto mb-4 mt-4'>
+              {
+                messages.map((msg, index) => (
+                  <div key={index} className='bg-gray-100 p-3 rounded-md shadow-sm'>
+                    <div className='flex justify-between items-center mb-1'>
+                      <p className='text-sm font-semibold text-gray-900'>
+                        {msg.userId?.name}
+                      </p> 
+                      <p className='text-xs text-gray-500'>
+                        {formatDistanceToNow(new Date(msg.createdAt), { addSuffix: true })}
+                      </p>
+                    </div>
+                    <p className='text-gray-700 text-sm leading-relaxed wrap-break-word whitespace-pre-wrap'>{msg.text}</p>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
         </div>
       </div>
     </div>

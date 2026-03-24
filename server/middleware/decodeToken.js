@@ -11,7 +11,6 @@ module.exports.decodeToken = (req, res, next) => {
 
 	const token = header.split(' ')[1];
 	jwt.verify(token, process.env.ACCESS_SECRET, (err, decoded) => {
-		// console.log(decoded);
 		if (err) return res.status(403).json({
 			success: false, 
 			message: 'token not verified!'

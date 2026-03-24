@@ -25,8 +25,6 @@ export default function LoginPage() {
       setIsLoggedIn(true);
       const decoded = jwtDecode(response.data.accessToken);
       setRole(decoded.role);
-      // setTimeout(() => {
-      // }, 2000);
       navigate('/');
     } catch (err) {
       setError(err.response?.data?.message || "Login failed");

@@ -7,7 +7,11 @@ const userSchema = mongoose.Schema({
 		required: true,
 		unique: true,
 		trim: true,
-		lowercase:true
+		lowercase: true
+	},
+	name: {
+		type: String,
+		required: true
 	},
 	role: {
 		type: String,
@@ -18,11 +22,16 @@ const userSchema = mongoose.Schema({
 		type: String,
 	},
 	otpExpiresAt: {
-		type:Date
+		type: Date
 	},
 	password: {
-		type:String,
+		type: String,
 	}
 }, { timestamps: true });
+
+userSchema.pre('save', function(next) {
+	this.name = this.email.split("@")[0];
+	next();
+});
 
 module.exports = mongoose.model('User', userSchema);

@@ -11,7 +11,6 @@ const {
 	addExperience,
 	deleteExperience,
 	updateExperienceStatus
-	
 } = require('../controllers/experienceController');
 const { decodeTokenIfExists } = require('../middleware/decodeTokenIfExists');
 

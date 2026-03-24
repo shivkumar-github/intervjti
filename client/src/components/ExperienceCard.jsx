@@ -43,7 +43,7 @@ function ExperienceCard({ id, companyName, studentName, status, batch, preview, 
 				</div>
 				<p className='text-sm text-gray-500 mb-3'>Student Name : {studentName}</p>
 				<p className='text-sm text-gray-500 mb-3'>batch : {batch}</p>
-				<p className='text-gray-600 text-sm leading-relaxed'>{preview}</p>
+				<p className='text-gray-600 text-sm leading-relaxed wrap-break-word'>{preview}</p>
 			</Link>
 
 			{role === 'admin' && showAdminActions && (
