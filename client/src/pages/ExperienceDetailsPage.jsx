@@ -37,10 +37,10 @@ export default function ExperienceDetailsPage() {
     try {
       await onApprove(id, accessToken);
       setExperience(prev => ({ ...prev, status: "approved", remark: null, reason: null }));
-      console.log('successfully updated the status');
+      // console.log('successfully updated the status');
       navigate('/admindashboard');
     } catch (err) {
-      console.log('An error occured while approving the experience', err);
+      // console.log('An error occured while approving the experience', err);
     }
   };
 
@@ -53,10 +53,10 @@ export default function ExperienceDetailsPage() {
       setSubmitting(true);
       await onReject(id, accessToken, reason, remark);
       setExperience(prev => ({ ...prev, status: "rejected", reason, remark }));
-      console.log('successfully rejected the experience');
+      // console.log('successfully rejected the experience');
       navigate('/admindashboard');
     } catch (err) {
-      console.log('An error occured while rejecting the experience', err);
+      // console.log('An error occured while rejecting the experience', err);
     } finally {
       setSubmitting(false);
     }
@@ -66,7 +66,7 @@ export default function ExperienceDetailsPage() {
 
   useEffect(() => {
     const getExperience = async () => {
-      if (!accessToken) return;
+      // if (!accessToken) return;
       try {
         const headers = accessToken ? { Authorization: `Bearer ${accessToken}` } : {};
         
