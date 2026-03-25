@@ -62,11 +62,11 @@ io.on("connection", (socket) => {
   });
 
   // send message
-  socket.on("sendMessage", async(data) => {
+  socket.on("sendMessage", async (data) => {
     try {
       const { experienceId, text } = data;
       // console.log(socket.user);
-      const userId = socket.user.userId;
+      const { userId, } = socket.user;
 
       if (!experienceId || !text) {
         socket.emit("messageStatus", {
@@ -78,13 +78,14 @@ io.on("connection", (socket) => {
 
       // save to DB
       const newMessage = await Message.create({
-        experienceId, 
-        text, 
+        experienceId,
+        text,
         userId
       });
-      
 
-      io.to(experienceId).emit("receiveMessage", newMessage);
+      const populatedMessage = await newMessage.populate("userId", "name");
+
+      io.to(experienceId).emit("receiveMessage", populatedMessage);
     } catch (err) {
       console.error("Error occured while sending message:", err);
     }
