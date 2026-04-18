@@ -14,6 +14,14 @@ const statusConfig = {
   rejected: { label: 'Rejected', dot: '#c0392b', bg: 'rgba(192,57,43,0.09)', color: '#c0392b', border: 'rgba(192,57,43,0.2)' },
 };
 
+// ✅ FIX: Decodes HTML entities (e.g. &lt;p&gt; → <p>) before injecting as HTML
+function decodeHTMLEntities(str) {
+  if (!str) return '';
+  const txt = document.createElement('textarea');
+  txt.innerHTML = str;
+  return txt.value;
+}
+
 export default function ExperienceDetailsPage() {
   const { id } = useParams();
   const { accessToken, role } = useAuth();
@@ -140,6 +148,9 @@ export default function ExperienceDetailsPage() {
 
   const initials = experience?.companyName?.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase() || '??';
 
+  // ✅ FIX: Decode HTML entities from the stored content before rendering
+  const decodedContent = decodeHTMLEntities(experience?.content);
+
   return (
     <>
       <style>{`
@@ -245,7 +256,7 @@ export default function ExperienceDetailsPage() {
           box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
 
-        /* Prose styles */
+        /* ✅ Prose styles — these apply to the rendered HTML content */
         .edp-prose { font-size: 15px; line-height: 1.75; color: #2a2a36; }
         .edp-prose h1,.edp-prose h2,.edp-prose h3 { font-family: var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin: 20px 0 8px; }
         .edp-prose h1 { font-size: 22px; font-weight: 800; }
@@ -332,6 +343,7 @@ export default function ExperienceDetailsPage() {
           font-family: var(--font-body); font-size: 14px; color: var(--ink);
           background: var(--surface); outline: none;
           transition: border-color 0.2s ease, box-shadow 0.2s ease;
+          box-sizing: border-box;
         }
         .edp-select:focus, .edp-remark-input:focus {
           border-color: var(--accent);
@@ -507,9 +519,10 @@ export default function ExperienceDetailsPage() {
 
           {/* Content card */}
           <div className="edp-card">
+            {/* ✅ FIX: Using decodedContent instead of experience?.content directly */}
             <div
               className="edp-prose"
-              dangerouslySetInnerHTML={{ __html: experience?.content }}
+              dangerouslySetInnerHTML={{ __html: decodedContent }}
             />
 
             {experience?.status === 'rejected' && (
