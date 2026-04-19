@@ -20,6 +20,14 @@ function useCountUp(target, duration = 1200) {
   return count;
 }
 
+// Strip HTML tags for searching inside content
+function stripHTML(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.innerHTML = str;
+  return div.textContent || div.innerText || '';
+}
+
 // Skeleton card component
 function SkeletonCard() {
   return (
@@ -70,14 +78,37 @@ export default function HomePage() {
   // Derive tags from data
   const tags = ["All", ...Array.from(new Set(allExps.map((e) => e.category || e.tag || e.type).filter(Boolean)))];
 
+  // ✅ FIX: Search now works on companyName, studentName, batch, and content
   const filtered = allExps.filter((exp) => {
-    const matchSearch =
-      !search ||
-      (exp.title && exp.title.toLowerCase().includes(search.toLowerCase())) ||
-      (exp.description && exp.description.toLowerCase().includes(search.toLowerCase()));
-    const matchTag = activeTag === "All" || (exp.category || exp.tag || exp.type) === activeTag;
-    return matchSearch && matchTag;
+    if (activeTag !== "All" && (exp.category || exp.tag || exp.type) !== activeTag) return false;
+    if (!search.trim()) return true;
+
+    const q = search.toLowerCase();
+    const plainContent = stripHTML(exp.content || exp.preview || '');
+
+    return (
+      (exp.companyName  && exp.companyName.toLowerCase().includes(q))  ||
+      (exp.studentName  && exp.studentName.toLowerCase().includes(q))  ||
+      (exp.batch        && String(exp.batch).toLowerCase().includes(q)) ||
+      plainContent.toLowerCase().includes(q)
+    );
   });
+
+  // Highlight matched text helper
+  function highlight(text, query) {
+    if (!query.trim() || !text) return text;
+    const idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return (
+      <>
+        {text.slice(0, idx)}
+        <mark style={{ background: 'rgba(232,82,26,0.18)', color: 'inherit', borderRadius: 3, padding: '0 1px' }}>
+          {text.slice(idx, idx + query.length)}
+        </mark>
+        {text.slice(idx + query.length)}
+      </>
+    );
+  }
 
   return (
     <>
@@ -197,9 +228,7 @@ export default function HomePage() {
           align-items: flex-end;
           flex-wrap: wrap;
         }
-        .hp-stat {
-          text-align: right;
-        }
+        .hp-stat { text-align: right; }
         .hp-stat-num {
           font-family: var(--font-display);
           font-size: 48px;
@@ -250,7 +279,7 @@ export default function HomePage() {
         }
         .hp-search {
           width: 100%;
-          padding: 10px 14px 10px 40px;
+          padding: 10px 36px 10px 40px;
           border: 1.5px solid var(--border);
           border-radius: 10px;
           font-family: var(--font-body);
@@ -266,6 +295,25 @@ export default function HomePage() {
           background: #fff;
         }
         .hp-search::placeholder { color: var(--muted); }
+
+        /* Clear button */
+        .hp-search-clear {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: var(--muted);
+          display: flex;
+          align-items: center;
+          padding: 2px;
+          border-radius: 4px;
+          transition: color 0.2s;
+        }
+        .hp-search-clear:hover { color: var(--ink); }
+
         .hp-divider { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
         .hp-tags {
           display: flex;
@@ -291,6 +339,31 @@ export default function HomePage() {
           background: var(--ink);
           border-color: var(--ink);
           color: #fff;
+        }
+
+        /* ── SEARCH HINT ── */
+        .hp-search-hint {
+          max-width: 1100px;
+          margin: 12px auto 0;
+          padding: 0 24px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 12.5px;
+          color: var(--muted);
+        }
+        .hp-search-hint strong { color: var(--ink); font-weight: 600; }
+        .hp-hint-tag {
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          background: var(--surface2);
+          border-radius: 6px;
+          padding: 2px 8px;
+          font-size: 11.5px;
+          font-weight: 500;
+          color: #5a5a66;
+          border: 1px solid var(--border);
         }
 
         /* ── GRID SECTION ── */
@@ -397,6 +470,20 @@ export default function HomePage() {
           color: var(--ink);
         }
         .hp-empty p { font-size: 14px; color: var(--muted); max-width: 320px; line-height: 1.6; }
+        .hp-empty-clear {
+          margin-top: 8px;
+          padding: 8px 20px;
+          background: var(--ink);
+          color: #fff;
+          border: none;
+          border-radius: 9px;
+          font-family: var(--font-body);
+          font-size: 13px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.2s ease;
+        }
+        .hp-empty-clear:hover { background: var(--accent); }
 
         /* ── PAGE-LEVEL FADE ── */
         .hp-root { opacity: 0; transition: opacity 0.4s ease; }
@@ -455,10 +542,17 @@ export default function HomePage() {
               <input
                 className="hp-search"
                 type="text"
-                placeholder="Search experiences…"
+                placeholder="Search by company, student, batch…"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
+              {search && (
+                <button className="hp-search-clear" onClick={() => setSearch('')} title="Clear search">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </button>
+              )}
             </div>
             {tags.length > 1 && (
               <>
@@ -479,10 +573,29 @@ export default function HomePage() {
           </div>
         </div>
 
+        {/* ── SEARCH HINT ── */}
+        {!search && (
+          <div className="hp-search-hint">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            Search by
+            <span className="hp-hint-tag">🏢 Company</span>
+            <span className="hp-hint-tag">👤 Student</span>
+            <span className="hp-hint-tag">📅 Batch</span>
+            <span className="hp-hint-tag">📝 Content</span>
+          </div>
+        )}
+
         {/* ── GRID ── */}
         <section className="hp-section">
           <div className="hp-section-header">
-            <h2 className="hp-section-title">Latest Experiences</h2>
+            <h2 className="hp-section-title">
+              {search
+                ? <>Results for "<em style={{ fontStyle: 'normal', color: 'var(--accent)' }}>{search}</em>"</>
+                : 'Latest Experiences'
+              }
+            </h2>
             {!loading && (
               <span className="hp-result-count">
                 Showing <strong>{filtered.length}</strong> of <strong>{allExps.length}</strong>
@@ -498,12 +611,15 @@ export default function HomePage() {
                 <div className="hp-empty">
                   <div className="hp-empty-icon">🔍</div>
                   <h3>No experiences found</h3>
-                  <p>Try adjusting your search or filter to find what you're looking for.</p>
+                  <p>No results for "<strong>{search}</strong>". Try searching by company name, student name, or batch number.</p>
+                  <button className="hp-empty-clear" onClick={() => { setSearch(''); setActiveTag('All'); }}>
+                    Clear filters
+                  </button>
                 </div>
               )
               : filtered.map((exp, i) => (
                 <div
-                  key={exp.id}
+                  key={exp.id || exp._id}
                   className="hp-card-wrap"
                   style={{ animationDelay: `${Math.min(i * 60, 400)}ms` }}
                 >

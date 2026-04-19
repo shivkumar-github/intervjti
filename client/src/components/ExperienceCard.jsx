@@ -3,6 +3,23 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { onApprove } from '../api/experienceApi';
 
+// ✅ FIX: Decodes HTML entities (e.g. &lt;p&gt; → <p>) before rendering
+function decodeHTMLEntities(str) {
+  if (!str) return '';
+  const txt = document.createElement('textarea');
+  txt.innerHTML = str;
+  return txt.value;
+}
+
+// ✅ FIX: Strips all HTML tags and returns plain text (safe for preview snippets)
+function stripHTML(str) {
+  if (!str) return '';
+  const decoded = decodeHTMLEntities(str);
+  const div = document.createElement('div');
+  div.innerHTML = decoded;
+  return div.textContent || div.innerText || '';
+}
+
 export default function ExperienceCard({ id, companyName, studentName, status: initialStatus, batch, preview, showAdminActions = false, refreshExps }) {
   const { accessToken, role } = useAuth();
   const [approveLoading, setApproveLoading] = useState(false);
@@ -34,6 +51,9 @@ export default function ExperienceCard({ id, companyName, studentName, status: i
   const initials = companyName
     ? companyName.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()
     : '??';
+
+  // ✅ FIX: Strip HTML tags from preview so card shows clean plain text
+  const cleanPreview = stripHTML(preview);
 
   return (
     <>
@@ -275,7 +295,8 @@ export default function ExperienceCard({ id, companyName, studentName, status: i
 
           <div className="ec-divider" />
 
-          <p className="ec-preview">{preview}</p>
+          {/* ✅ FIX: Use cleanPreview (plain text, no HTML tags or entities) */}
+          <p className="ec-preview">{cleanPreview}</p>
 
           <span className="ec-readmore">
             Read more
