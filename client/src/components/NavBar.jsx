@@ -14,7 +14,8 @@ export default function NavBar() {
     { to: "/signup", label: "Sign Up", show: !isLoggedIn, cta: true },
     { to: "/myexperiencespage", label: "My Experiences", show: isLoggedIn && role === "student" },
     { to: "/uploadpage", label: "Upload", show: isLoggedIn, cta: true },
-    { to: "/contactuspage", label: "Contact Us", show:role !== true },
+    { to: "/contactuspage", label: "Contact Us", show: role !== true },
+    { to: "/aisearchtest", label: "AI Search", show: true },
   ];
 
   useEffect(() => {

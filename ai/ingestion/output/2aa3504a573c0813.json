@@ -1,0 +1,17 @@
+{
+  "fileId": "2aa3504a573c0813",
+  "fileName": "Interview_Exp.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Placements\\Morgan Stanley\\Interview_Exp.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Morgan Stanley"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "PPO INTERVIEW\nMORGAN STANLEY\nARCHEEL PAREKH, B.Tech. CE 2018-22\nThere was only 1 round for PPO interviews\n60 mins\n1. Introduction and discussion on internship project (10 mins)\nAsked me to explain my project, how it will be useful for the\nfirm, and what were my learnings.\n2. Resume based questions (10 mins)\nProjects on my resume had flutter and AgoraRTC used so\ninterviewer asked about those projects (Interviewer had used\nthose technologies and was familiar with them)\n○How would you implement a navigation bar in flutter?\n○Questions on AgoraRTC and webRTC\n3. Non Coding Questions (5 mins)\n○Questions on multithreading and its use, how threads\ncommunicate in java? Thread vs Process? What will happen\nto child threads when the parent process is killed?\n4. Coding Questions (30 mins)\n○Write a C++ generic class/function to add two strings or two\nintegers.\n○Error handling code in C++\n○What if you return from the catch block? Does the finally\nblock execute? What will happen to the return statement in\nthe finally block?\n○Coin Change\n○Longest common prefix\n5. Coding Questions (5 mins)"
+    }
+  ]
+}

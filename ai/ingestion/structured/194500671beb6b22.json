@@ -1,0 +1,15 @@
+{
+  "studentName": "Sailie Ghole",
+  "companyName": "Goldman Sachs",
+  "batch": "2025",
+  "preview": "Interview experience of Sailie Ghole for the Summer Analyst role at Goldman Sachs, detailing the online assessment and technical interview rounds.",
+  "content": "GOLDMAN SACHS SUMMER ANALYST INTERVIEW EXPERIENCE 2023 SAILIE GHOLE INFORMATION TECHNOLOGY Batch 2025. PRE-PLACEMENT TALK (PPT) [DATE : 7th August, 2023] Platform: Zoom Webinar About: Goldman Sachs is a global investment banking and financial services firm. ONLINE TEST [DATE : 8th August, 2023] Participants: All 200+ third-year students who applied for Goldman Sachs were shortlisted for the online test. Test Platform: Hackerrank - video, and screen proctored. Test duration: 60 mins No. of sections: 2 Total no. of questions: 14. Section 1: Aptitude, CS Fundamentals and DSA questions section. First 10 mcq questions were a mix of aptitude and cs fundamentals mostly from data structures, oops, os ,dbms and few debugging/output-related questions. Question 1-10: +5 - 2 marking scheme. The topics of questions which I remember from the MCQs section are as follows: i) Huffman coding ii) Permutation and combination iii) AVL trees iv) Preorder traversal of binary search tree of the given order of numbers. v) Stack based implementation of Infix to postfix conversion vi) Debugging some python code vii) A Resource Allocation Graph. Next two were coding questions. Question 11: Sum of magic parent nodes in a tree. Question 12: Count X and Y in a grid. Section 2: Tell us about yourself section (Subjective questions). INTERVIEW ROUND 1 [DATE : 23rd August, 2023] Participants: From the online test, 13 students (4 girls and 9 boys) were shortlisted for the Interview. Platform: Zoom and Hackerrank CodePair. ROUND 1: Technical Interview (30 mins): Discussion on MongoDB, Firebase, Data structures, favourite data structure (Stack), operations, deque implementation using array and linked list, Java, Operating Systems (Linux vs Windows), and coding question on finding closest timings from an array of strings in 24-Hour format. INTERVIEW ROUND 2 [DATE : 23rd August, 2023] Participants: From the 1st round, 7 students (2 girls and 5 boys) were shortlisted for the 2nd round. Platform: Zoom. ROUND 2: Technical Interview (35-40 mins): Discussion on Object-Oriented Programming (interfaces, abstract classes, method declarations, compilation process, bytecode, JVM, compiler), APIs, JSON, hashing, hashmap implementation, system design for unique order IDs, snake and ladder implementation using graphs, Firebase, key-value databases, and RDBMS vs NoSQL. CONCLUSION: Results were mailed at around 2:30 p.m and 3 students were selected, including Sailie Ghole.",
+  "source": {
+    "fileId": "194500671beb6b22",
+    "fileName": "Sailie_Interview_Experience.pdf",
+    "originalPath": "2023 Experiences\\Internships\\Goldman Sachs\\Sailie_Interview_Experience.pdf",
+    "year": "2023",
+    "experienceType": "Internships",
+    "companyFolder": "Goldman Sachs"
+  }
+}

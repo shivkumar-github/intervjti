@@ -1,0 +1,45 @@
+{
+  "fileId": "5aed5f04399e097a",
+  "fileName": "Interview Experience Tejashree.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Deustche Bank\\Interview Experience Tejashree.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Deustche Bank"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1 \n \n \n \n \n \n \nINTERVIEW EXPERIENCE \n \nTejashree Shinde, \nB.Tech in Computer Engineering \nDeutsche Bank \n2024 Batch"
+    },
+    {
+      "pageNumber": 2,
+      "text": "2 \n \nAbout Deutsche Bank \n \nRole: Graduate Analyst \n \nBusiness Division:  Technology Data & Innovation \n \nLocation: Pune \n \nPackage- CTC 19.63 lpa \n  \nApplicable Courses: \n• B.Tech - Computer Engineering \n• B.Tech - Information Technology \n• B.Tech - Electronics & Telecommunication Engineering \n \n \nEligibility: \n• B.Tech Undergraduate - 7 CGPA \n• No backlogs \n \nHiring Workflow: \n1. Coding Round   \n2. Technical Interview 1  \n3. Technical Interview 2 \n4. Professional fitness round \n5. HR round"
+    },
+    {
+      "pageNumber": 3,
+      "text": "3 \n \nCoding Round \n− ONLINE ON HACKEREARTH  \n− 4TH AUGUST 2023 \n \nQuestions: \nIt was consisting of 3 questions having total 1.5 hrs duration. \n \n1. Power Limit  \n \n \n \n \n \n \n \n \n( Score-20) \nA and B are 2 resources were given. At each round, we have to select 1 resource  \nThe power of the resource at the time of selection should be greater than 1. Every \nsecond, the power of the selected resource gets reduced by 2 and the power of \nunselected resource gets charged by 1. The software stops when at least one \nresource has O power. \nWe have to print the maximum number of seconds software can run if you select \nthe resources optimally. \n \nSample input:  \n3  5 \n \nSample output: \n6 \n \nExplanation: \nAt second 1,  select resource B, then powers will be A=4,B=3 \nAt second 2,  select resource B, then powers will be A=5,B=1 \nAt second 3,  select resource A, then powers will be A=3,B=2 \nAt second 4,  select resource A, then powers will be A=1,B=3 \nAt second 5,  select resource B, then powers will be A=2,B=1 \nAt second 6,  select resource A, then powers will be A=0,B=2 \n \nIt was done by simply using a while loop until A or B!=0"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4 \n \n2. Auto Suggest  \n \n \n \n \n \n \n \n \n(Score-50) \nGiven a dictionary consisting of N words and a query word & we needed to auto-\nsuggest the best word from the dictionary that is closest to S using Levenshtein \ndistance. If two words have the same Levenshtein distance, then the \nlexicographically smaller word is given priority. \n \nRefer this to understand how to calculate Levenshtein distance \nhttps://www.scaler.com/topics/levenshtein-distance-python/ \n \nCalculated distance for each word given in dictionary with respect to query word \nand selected the minimum one. \n \n3. Backlink Sorting   \n \n \n \n \n \n \n \n(Scroe-50) \nYou are given N web page titles and corresponding arrays that contain the \nnumber of backlinks for each web page. The objective is to rank the web pages \nin descending order based on the number of backlinks they have. If having same \nno. of backlinks maintain original order. \n2 arrays where given 1 for titles and 1 for corresponding no of backlinks. \n \nWe just had to return titles in decreasing order of no. of backlinks. \n \nSample input: \n5 \nA  B  C  D  E \n110  20  70  50  70 \n \nSample Output: \nA  C  E  D  B \n \n----------------------------------------------------------------------------------------------------------- \nIn one hour, I was able to complete all 3 questions while passing every test \ncases. Total 40 students where shortlisted for interview."
+    },
+    {
+      "pageNumber": 5,
+      "text": "5 \n \nInterviews Round \n− 9TH AUG 2023 \n− VENUE- TPO \n \nTechnical Round 1  (45 min): \n1. Introduce Yourself \n2. Asked about projects, why db over morgan stanley. \n3. Preferred language \n4. Favorite data structure, I answered Array so she asked questions like what is \narray, array vs linked list, array vs tree, what are advantages of array over them. \n5. DSA questions: \na. Array having duplicates value find 1st and last occurrence of target \nelement ( My answer-  using 2 pointers 1 start from 0th element another \nfrom end) \nhttps://www.geeksforgeeks.org/find-first-and-last-positions-of-an-\nelement-in-a-sorted-array/ \nb. Find loop in linked list (My answer- 1st I gave approach using another \nstructure to store next pointers and see if it reoccurred , then she asked \nlike which data structure will you use , what are advantages of those and \nall (I suggested hashmap or trie), then she asked what if we don’t want to \nuse another data structure then I couldn’t answer that) \nhttps://www.geeksforgeeks.org/detect-loop-in-a-linked-list/ \nc. Given a sorted arrays having some 0’s , rearrange the array to store all 0’s \nat the right side i.e at the end \nhttps://www.geeksforgeeks.org/move-zeroes-end-array/ \n6.  Then she asked some dbms questions about indexing, why use it, \nadvantages,types , sql format to create index \n7.  In OS,  what is context switching why use that, what are page replacement \nalgorithms, etc. \n8. Explain exception handling, how it is used in C++, what are different exceptions \n9. Then she asked me a puzzle  \nhttps://www.mathsisfun.com/puzzles/weighing-9-balls-solution.html"
+    },
+    {
+      "pageNumber": 6,
+      "text": "6 \n \n10. Based on my positions of responsibilities she asked questions, asked if I’m a \nteam leader or team player \n11. Given a situation, where a person working under me do some mistake, how I’ll \nhandle it, will I punish him or not. \n \nTechnical Round 2  (45 min): \n1. Introduce Yourself \n2. Discussion about diploma as I’m a dsy student. \n3. Explain Internship project, as it was about splunk, asked some splunk queries. \n4. Questions about other projects. \n5. Asked CN questions, What happens when you search for google.com, what are \ncookies, http request \n6. Asked to write basic html page code to display my name. \n7. Write code to reverse a linked list \n8. Questions about achievement \n9. Hobbies \n10. What are your strengths and weaknesses? \n11. If we asked you to work on weekend, what will you do. \n \nProfessional Fitness Round (20 min): \n1. Introduce Yourself \n2. I have done internship at Morgan Stanley but the PPO results were still pending. \nSo they asked why I’m choosing DB over it.  \n3. Asked about my internship experience, project I have done, asked to draw \narchitectural diagram to demonstrate the project, challenges faced during \nproject \n4. Asked questions about my personal project  \n5. Asked to explain functionalities of projects with architectural diagram  \n6. Asked 2 puzzles \na. https://www.geeksforgeeks.org/puzzle-3-cuts-cut-round-cake-8-equal-\npieces/ \nb. You have a glass of full of water, make it half without any measurement \ntape."
+    },
+    {
+      "pageNumber": 7,
+      "text": "7 \n \nHR Round (20 min): \n1. Introduce Yourself \n2. Asked questions about my personal project like  \na. why you selected this project,  \nb. what is innovative in this,  \nc. how this is helpful,  \nd. why used this tech stack,  \ne. what was your role in this project \n3. Asked about hobbies \n4. Asked about Family Background \n \nAfter each round, 6-7 people were eliminated, but there were only 26 people left for \nthe HR round, and all 26 were chosen. After the 15-minute HR rounds were completed, \nthey announced the results the same day. \n \nKey Insights: \nIt was medium level interviews. Everyone’s experience was different based on the \ninterviewer they had. Some were quite tough while some were very chill. I feel having \ngood knowledge of DSA, OOPS, DBMS, OS and CN was sufficient for this interview. \nThey didn’t go into advance concepts like dynamic programming and all. \n \nReference: \n(As I couldn’t get much time for preparation, I mainly focused on commonly asked \ninterview questions) \nCoding- \nhttps://leetcode.com/studyplan/top-interview-150/ \n \nDsa- \nhttps://www.interviewbit.com/data-structure-interview-questions/ \nhttps://www.tutorialspoint.com/data_structures_algorithms/data_struct\nures_algorithms_interview_questions.htm"
+    },
+    {
+      "pageNumber": 8,
+      "text": "8 \n \n \nOS- \nhttps://www.interviewbit.com/operating-system-interview-questions/ \nhttps://www.geeksforgeeks.org/last-minute-notes-operating-systems/ \n \nCN- \nhttps://www.interviewbit.com/networking-interview-questions/ \nhttps://www.geeksforgeeks.org/last-minute-notes-computer-network/ \n \nDBMS- \nhttps://www.interviewbit.com/dbms-interview-questions/ \nhttps://www.edureka.co/blog/interview-questions/dbms-interview-\nquestions \n \nSQL: \nhttps://leetcode.com/studyplan/top-sql-50/"
+    }
+  ]
+}

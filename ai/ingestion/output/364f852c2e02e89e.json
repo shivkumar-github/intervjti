@@ -1,0 +1,45 @@
+{
+  "fileId": "364f852c2e02e89e",
+  "fileName": "Yash_Shroff_Fractal.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Fractal\\Yash_Shroff_Fractal.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Fractal"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Location:Mumbai\n    Stipend: 30k\nInterview Experience\nYash Shroff"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Fractal Conducted 3 rounds :\n\n   \nFollowed by HR round.\nFirst one Being the online test round.\nSecond was the interview round."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Online Round:\n The first round was composed of 4 sections:\n Time was a major constraint here, 70 questions were to be\nsolved in 75 minutes.\n4 sections :\nData Analysis\nLogical Reasoning\nQuantitative Reasoning\nEnglish\nWhere Data Analysis being the toughest and English\nbeing the easiest .As there was a lot of time\nconstraint, I saw my time ticking away and decided\nto solve the English section first as it had only 10\nquestions and seemed easy to me. Followed by\nquantative reasoning and Logical reasoning , both\nthe sections demanded good aptitude skills , I\nstarted solving whichever I felt took the least time ,  \naround 4 - 5 questions I had left for review."
+    },
+    {
+      "pageNumber": 4,
+      "text": "I rushed to them as soon as I realized there was little to no\ntime left , but I ended up missing them.\nIt was a big mistake as I should atleast not left them\nunanswered.\nFinally results came out and out of 200 students 23 were\nselected for the interview round.\nYou now Know I was one of them as Ill tell you about the\nInterview Round now.\nThe Data Analysis was the tricky part, It demanded\npatience and calmness as the questions took time to\nanalyze , understand and then solve . Some of them\nwere tough and most of them had moderate\ndifficulty. Included various Pie charts , Graphs ,\nTabular data ,etc. And Questions were asked on the\nbasis of these data models.\nSince it took time I had forgotten that I had 4\nquestions remaining to be answered in the Logical\nsections."
+    },
+    {
+      "pageNumber": 5,
+      "text": "The round started with I giving her a brief Introduction\nabout myself.\nShe seemed like she had a lot to ask about my CV but\nended up asking a different question.\nThe first question was- Lets suppose a user has to Login\ninto a page , So for that he/she will be entering a\npassword. How will you check if the password entered by\nthe user is correct or incorrect? I hadnt come across a\nquestion like this so I started thinking out loud. Told her\nabout my approaches that the password input would be a\nstring , I will be basically comparing the password’s string\nwith user’s input , but that was not all. We had quite a long\ndiscussion on this ,it included data structures used , maps\netc. Even Though I felt my answer was not 100% correct ,\nshe seemed to like the way I was approaching her counter\nquestions , without getting stuck and figuring out them\none by one.\nThe second question was regarding my project , where I\ngave her a gist of Socket-IO.\nShe had some counter questions here too and I answered\neach of them thoroughly.\nInterview Round:"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Followed by a SQL query which I was not confident at the beginning\nthat I would be be able to solve but I did not show her this, instead I\nstarted explaining to her how I would solve , I took my time and I\nsuccessfully solved the Query.(Question used concept of inner join,\naggregate functions and other clauses like ‘ GROUP BY’,etc)\nShe then asked me a puzzle which was not that tricky , I solved that\npuzzle piece by piece and reached the optimal answer. I told her that I\ncan optimize this even more and asked her for some more time . So she\nsmiled at me and told me that it cannot be done.\nAfter that she asked me if she selects me in her team and had to decide\non which team would she allocate me and gave some options.To that I\nreplied about how I believe \"learning\" is valuable and it should never\nstop, I told her I look forward to learning new technologies , finally\nconcluded that hence I am flexible to all the requirements at hand.\nI had written ‘Blockchain’ on my CV so she asked me to explain her\neverything about Blockchain but in such a way that  a person not\nknowing a thing about Blockchain  would understand.\nI was happy to talk about this and she saw it on my face. I explained her\neverything from scratch and she seemed satisfied , I explained her\neverything like I would have explained to my friend.The discussion\nwent long and we were 15 minutes above the deadline.\nSo other candidates after their first round, if selected were told to wait\nfor to know if they were selected for the HR round , but since my round\nwent overtime , she told me that , Yash Check your mail, you will now\nhave your HR round in few minutes.\nNot being in suspense about the selection felt nice."
+    },
+    {
+      "pageNumber": 7,
+      "text": "HR Round:\n\nThis Round  also started with me giving a brief intro\nabout myself to the HR\nHe asked me questions related to my projects, then I\nended up sharing my screen and gave him a tour of the\nproject. \nHe was completely satisfied and was happy with the\nexplanation.\nHe asked me if I am a person who prefers to work in a\nteam or individually (he told me he personally is more\nproductive individually) but I gave my reasons and\nexplained how i would rather work with a team.\nFurther he asked me on how would my best friend\ndescribe me?\nAsked me about my weakness,\nDo I get angry easily?\nThen he went on to ask me about the courses I have\ndone other than academics,\nI told him about DSA and also about trading\n(technical analysis) I told him about how charts\nfascinate me.\nI ended up asking him a question about how projects\nare in Fractal and emerging  importance of data.\nHe explained me in brief and that was all, as far as I\nremember this round ended quite smoothly."
+    },
+    {
+      "pageNumber": 8,
+      "text": "Preparation and Tips:\nYou can read other interviews for tips and\nprep source as everyone has written them \n to the point.\nDSA>>\nConfidence>>\nEnglish>>\nThree suggestions from my side:\n\nFod ke aao , bhot chances deta hai VJTI\nPS:"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "fileId": "35e6d86594917708",
+  "fileName": "JoyPurohit_WELLS_FARGO_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Wells Fargo\\JoyPurohit_WELLS_FARGO_Experience.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Wells Fargo"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Wells Fargo Interview Experience \nJoy Purohit \n \n \nOnline Test: \n \nThere were 3 sections in the online exam. \n \nSection 1 was basically general vocabulary questions and reading passages. \nThe questions are basic , just try to do it fast. \n \nSection 2 consisted of some questions related to stocks,airline tickets,finance etc based \non a passage. Basically some information was given and steps to analyze that data, \nand the questions were based on interpreting and analyzing the data. Just make sure to \nread the question properly and don’t spend a lot of time on any question. \n \nSection 3 was the coding round. It had 2 questions: \n \n1. In the first question we had to arrange an array into groups of 3 like (a,b,c) wherein \nb/a==c/b.We had to print all such groups. With the brute force approach I was able to \npass 6/20 test cases , and after optimizing it I was able to pass 15/20 test cases. \n \n2. https://www.geeksforgeeks.org/generate-all-binary-strings-from-given-pattern/ \n \nI was able to pass1 14/14 test cases. \n \n31 students were shortlisted for ROUND 2. \nRound 2: \nTECHNICAL \n \nQuestions asked: \n• Introduce yourself \n• What is cache? State its benefits. \n• What is LRU algorithm \n• What is LRU cache \n• To code the get and set function of LRU cache , \nhttps://www.geeksforgeeks.org/design-a-data-structure-for-lru-cache/"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Here first I gave a O(n) solution and coded it, and then I was asked to \noptimize it further to O(1) and I was able to do it using linked lists( I \nwasn’t asked to code it) \n \n16 students were selected for Round 3. \n \nRound 3: \n \nTECHNICAL + HR \n• Introduce yourself. \n• Why are you applying for a intern at Wells Fargo. \nI was then asked 5 puzzles , I had to give the logic to solve them and also had to \ncode it up \nThe puzzles were: \n• https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/ \n• There are 2 burning ropes and you have a timer , measure 45 minutes. \n• Design a function which takes parameters (start time,current time,end time), \nThe time is from the 24’hour clock and the time may or may not be of the \nsame day, check if the current time is valid \nCurrent time is valid if: \n1. Curr>start && curr<end \n       There were more 2 puzzles but I don’t remember them , 1 was of easy difficulty and \n1 was of hard difficulty. \n \nNOTE: \n• I wasn’t asked any questions on DBMS, Projects but others were asked, so \nquestions asked highly depends on the interviewer , so be prepared for the \nworst. \n \n6 Students were selected for the internship. \n \nNOTE: \nThere was a HR round the next day which was just a formality but also be prepared \nwith the HR questions , it might happen for you. \nTips: \n• For DSA, I followed \n1. Top interview questions on leetcode."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2. Blind 75 curated list. \n3. Must do coding questions on gfg. \n4. https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-\nc5bb3357f6ed \nGood resources you can try out: \n1. https://www.interviewbit.com/practice/ \n2. Strivers List \n3. 450 DSA \n4. https://github.com/yash0530/InterviewPrepResources \n \nFor OS: \n• Gate Smashers (Youtube) \n \nFor DBMS: \n• https://www.interviewbit.com/sql-interview-questions/ \n• Go through B tress , B+ trees on gate smashers and indexing on knowledge gate \n(Youtube) \n \nPuzzles: \n• https://www.geeksforgeeks.org/puzzles/ \n \n \nJust be honest  , confident and keep smiling in the interview.  \nWhile approaching a DSA questions keep explaining your thought \nprocess to the interviewer, always start with brute force and then \noptimize it."
+    }
+  ]
+}

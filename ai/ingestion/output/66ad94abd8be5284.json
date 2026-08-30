@@ -1,0 +1,53 @@
+{
+  "fileId": "66ad94abd8be5284",
+  "fileName": "BNY_Interview_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\BNY Mellon\\BNY_Interview_Experience.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "BNY Mellon"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "BNY INTERVIEW \nEXPERIENCE\nAmisha Gunderia\nB-Tech, Computer Engineering"
+    },
+    {
+      "pageNumber": 2,
+      "text": "TABLE OF \nCONTENTS\n➢\nPREFACE \n➢\nPREP\n➢\nTEST\n➢\nTECHNICAL INTERVIEW\n➢\nHR INTERVIEW\n➢\nRESULT"
+    },
+    {
+      "pageNumber": 3,
+      "text": "PREFACE\nBNY (BNY Mellon Technology) was scheduled to visit the campus for internship \ndrive on 8th, August 2022 . The hackathon was already conducted. I’ll talk \nabout the hackathon test in the furter slides.The PPT took place in VJTI itself at \n3:30 pm for almost 90 minutes.At the end of the PPT it was declared that the \ninterview will be taken on the same day after the PPT at 5:00 pm."
+    },
+    {
+      "pageNumber": 4,
+      "text": "PREP\n➢\nDSA: https://450dsa.com/\n➢\nCN:  https://www.interviewbit.com/networking- interview-questions/\n➢\nDBMS:  https://www.interviewbit.com/dbms-mcq/ SQL --> \nhttps://www.sql-practice.com/\n➢\nOS: \nhttps://www.geeksforgeeks.org/operating-systems-interview-question\ns/\n➢\nOS: Gate Smashers playlist\n➢\nDBMS: https://www.interviewbit.com/dbms-mcq/"
+    },
+    {
+      "pageNumber": 5,
+      "text": "TEST\nRound 1: This was an online coding round conducted on the Hackerrank platform and \nconsisted of  4 questions.\n➢\nEasy (50 Marks): Length of the longest subarray with a sum less than or equal to k.\n➢\nMedium (75 Marks): I don’t remember this one, but it was easy.\n➢\nHard(100 Marks): We were given a total number of nodes and edges connecting \neach node, we had to ﬁnd the sum of ceil(sqrt(no. of nodes )) in each graph.\nI was able to do the easy one completely and for the other two medium questions and I \nwas able to get 13/15 and 14/15 test cases for them with just brute force and didn’t try \nto optimize it.\nI wasn’t able to do the 100 Marks one as I was not familiar with graphs coding.\nA lot of students had applied and 18 were selected after this round, I was one of them."
+    },
+    {
+      "pageNumber": 6,
+      "text": "TECHNICAL INTERVIEW\nRound 2: Began with a general introduction and then the interviewer asked \nthis questions:\n➢\nWhat data structure can be used to display all the cities in a  country \nand all the countries in a continent?\nTrees\n➢\nOne DSA question on sets was asked\n➢\nIs HTTP stateless or stateful protocol?\n➢\nWhat is the use of pointers in C++?\n➢\nWhat is caching?\n➢\nWhat is encapsulation?\n➢\nHow to calculate the height and total number of leaf nodes in a tree \nusing recursion?"
+    },
+    {
+      "pageNumber": 7,
+      "text": "TECHNICAL INTERVIEW\n➢\nThere was also a question on graphs but I hadn’t practised graphs so \nhe moved on to further questions.\n➢\nPiece of advice- Always be honest during interviews\n➢\nSo basically OOPS, DSA and OS was asked in this round\n➢\nPiece of advice- For a dsa question, if you have forgotten the syntax or \ndid not know the code, just share your approach with the \ninterviewer.(What you were thinking about doing and how is your \napproach going to work)\nOut of the 18 people, 11 people were shortlisted and the ﬁnal round was \nconducted the next day"
+    },
+    {
+      "pageNumber": 8,
+      "text": "HR INTERVIEW\n➢\nSo this interview was taken by a person of seniority, he started with \nintroduction and asked about strengths and weaknesses. \n➢\nHe also asked to elaborate and explain my projects, BNY main tech stack is \nweb dev and i had two projects on web dev so that was deﬁnitely a plus \npoint.\n➢\nHe then asked the following questions:\n  \n  1.There are 20 ppl in a room , how many total handshakes will be there?\n  2. How do you test your website?\nIn this, I told him that I haven’t come across that part in the life cycle so I don’t \nknow a lot about it. Just named the various test, black box, white box etc.\n   3. One DSA question was asked on hackerrank about implementing a class using \nconstructors and destructors, this was a tough questions and I did not get it."
+    },
+    {
+      "pageNumber": 9,
+      "text": "HR INTERVIEW\n  4. Then he asked if there are any questions I have for him and if I \nknew what the company exactly does?\n➢\nHere my ﬁrst question was he has any feedback for me and then I \nasked about the company. \n➢\nWhat would be my role in the company?\n➢\nOne question which had an impact on him was that I asked him \nwhy is the tech sector of such a big bank not in it headquarters \ncity itself. \n➢\nHe answered my questions and explained what the company does \nvery passionately and after a while ended my interview."
+    },
+    {
+      "pageNumber": 10,
+      "text": "RESULT\n➢\nThe results came at around 8:00 pm in the evening and out of 11 \npeople only 5 were selected and I was one of them.As I told you \nearlier,BNY takes an extremely strict HR round from a person of \nhigh seniority so please be prepared accordingly.\n➢\nAnd also always research about the company before you sit for \nthe interview and ask questions about the company in the HR \nround."
+    }
+  ]
+}

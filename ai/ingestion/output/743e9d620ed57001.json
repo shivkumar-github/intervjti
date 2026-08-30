@@ -1,0 +1,29 @@
+{
+  "fileId": "743e9d620ed57001",
+  "fileName": "Tanish Sawant_Fiserv_Interview_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Fiserv\\Tanish Sawant_Fiserv_Interview_Experience.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Fiserv"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Interview Experience\n11.10.2021\n─\nTanish Sawant\nCE BTech 2019-2023"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1\nRound 1: Group Discussion (25 mins)\n6 people were present in each group (4 in my case) and we were given a topic to talk about.\nThe topic was “Will cryptocurrencies fail?”. I was very happy at this moment because it is my\nfavourite topic :)\nEach one of us had to share our opinions and views on the topic. Everyone got time to talk\nSome tips to win the group discussion:\n-\nClarify the topic beforehand with the panel.\n-\nAdd only those points to your discussion that are directly related to the topic as you\nwill only get 5 minutes to talk.\n-\nListen carefully\n44 people were shortlisted for the technical round.\nRound 2: Technical Round (25 mins)\nFirst came the cliché question: Introduce yourself.\nThen he started the interview with questions on OOPS:\n-\nWhat is OOPS? (Explain this with a real-world example)\n-\nWhat is the difference between Encapsulation and Abstraction?\nThis was the only direct question he asked on the CS fundamentals. Next, he asked me\nabout my projects. He told me to demonstrate my DBMS skills that I had applied in my\nprojects. I presented my screen and showed him the project’s GitHub repository and\nexplained the schema and all.\nAs most of my projects were based on Machine Learning, he asked few questions on the\nsame, what all ML algorithms do you know? What is Logistic regression?\nFinally, He asked my about SDLC and few project management related questions."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2\n32 people were shortlisted for the managerial round.\nRound 3: Managerial Round (15 mins)\nAgain, Introduce yourself………….\nAgain, tell me about your projects…………\nI was asked to tell a good example of my team-work.\nThis was a Managerial round, but the panellist asked one programming question, which\nwas actually very simple. He first asked me my language of preference, I said Java. Then he\npresented the question. Write a program which will continuously take integer inputs(Two at\na time) and print the result of AND operation on those two inputs. If the inputs are not\nintegers, then throw an error. I had practice coding questions on LeetCode, hence had not\nidea about Java IO. Python’s IO is relatively simple, so I asked the interviewer if I could use\nPython instead. Luckily, he allowed me.\nAgain he asked me ML based questions.\nFinally, he said that still he was not able to know more about me. Hence, I explained my\nwork, my skills and all. At this point, he said “Good… Now I came to know about you.”\nWith this, the interview ended.\n21 students were shortlisted for the internship."
+    },
+    {
+      "pageNumber": 4,
+      "text": "3\nResources:\n-\nLeetcode: https://leetcode.com/\n-\nGFG Archives: https://www.geeksforgeeks.org/category/interview-experiences/\n-\nDSA 450 cracker: https://450dsa.com/\n-\nShort notes for CS subjects: https://www.geeksforgeeks.org/lmns-gq/"
+    }
+  ]
+}

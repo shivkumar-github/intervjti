@@ -40,6 +40,51 @@ const experienceSchema = new mongoose.Schema({
 	remark: {
 		type: String
 	},
+	embedding: {
+		type: [Number],
+		select: false,
+		default: undefined
+	},
+	importSourcePath: {
+		type: String,
+		select: false,
+		index: true,
+		sparse: true
+	},
+	importSourceId: {
+		type: String,
+		index: true,
+		sparse: true
+	},
+	source: {
+		fileId: {
+			type: String,
+			index: true
+		},
+
+		fileName: {
+			type: String
+		},
+
+		originalPath: {
+			type: String
+		},
+
+		year: {
+			type: String,
+			index: true
+		},
+
+		experienceType: {
+			type: String,
+			index: true
+		},
+
+		companyFolder: {
+			type: String,
+			index: true
+		}
+	},
 }, { timestamps: true });
 
 experienceSchema.set('toJSON', {

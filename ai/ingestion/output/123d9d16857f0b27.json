@@ -1,0 +1,21 @@
+{
+  "fileId": "123d9d16857f0b27",
+  "fileName": "Mahesh_Gadekar_IE.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\UBS\\Mahesh_Gadekar_IE.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "UBS"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Name:-Mahesh Hanmant Gadekar \nBranch :-IT \n \nEligibility criteria :- \n70% in 10th ,12th ; 7cpi and above  \n \nUBS Internship Interview Experience (On-Campus) \nI applied to UBS through my college placement drive. \n \nRound 1(Online Coding Round):  \n \nIt was conducted on Hacker rank. There was one coding question and 60MCQs. \nThe coding question was- There are N cities and two newly build cities X and Y among them there \nexists a road between cities .The task is to find shortest path between cities. \nThere were 40MCQs which were mainly from OOPs, DBMS, Java, find output of code etc \nAfter this round 8 students were shortlisted. \nTechnical Round 1:  \nThis round was started with my introduction.  \nQuestions:- \n1)Which language are you comfortable with.. \n2)why java? \n3)Features of java. \n4)what is collection in java \n5)what is Hashmap and  write a code for implementation  \n6)what is insertion sort and write code for insertion sort \n7)how bubble sort and heap sort works (only explanation not code) \n8)Then he draw 2 table and based on that table he give  sql query to write(using join as well as \nsubquery)"
+    },
+    {
+      "pageNumber": 2,
+      "text": "After this, the interviewer asked me to explain my project in detail and all the key features of my \nproject.  \nThen he asked me to write a code for connection.php file code (Based on project)  \nDifference between SQL and NoSQL Database (project based ) \nWhat is API \nI have mentioned android studio  in my Resume so some questions on that. \nSome project related questions. \n \nThere were some basic HR questions. \nwhy you choose IT branch \nTell me about your family background. \nAnd Some more I don’t remember but all were basic HR questions. \n \n \nFinally, the result was declared after one week and I got the offer."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fileId": "29ba9cd2d8a371cf",
+  "fileName": "Nishit_Exp_TI.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2024 Experiences\\Internship\\Texas Instruments\\Nishit_Exp_TI.pdf",
+    "year": "2024",
+    "experienceType": "Internship",
+    "companyFolder": "Texas Instruments"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Internship Interview Experience - Texas Instruments \n \nName: Nishit Kekane \nBranch: Information Technology  \nBatch: 2022-2026 \n \nDetails of Company: \nName: Texas Instruments \nLocation: Bangalore \nStipend: 60,000 + Additional Relocation \nRoles offered : Software Development Engineer & Data Engineer \nEligibility criteria : 6.0 +GPA & CS/IT Branch \n \n \n \nFlow of Selection Process: \n \n1)​Online Test: 6th Aug \n-​ Online exam was conducted in TPO under supervision \n-​ Lasted for 90 mins \n-​ Consisted of MCQ questions from Object Oriented \nProgramming, Database Management System, \nOperating Systems and Computer Networks. \n-​ Generally questions were of easy to moderate level \ndifficulty, based on the college syllabus of these subjects. \n-​ 2 DSA questions based on arrays and strings. \n-​ DSA questions were quite easy, doable with basic \nknowledge and practise."
+    },
+    {
+      "pageNumber": 2,
+      "text": "-​ Shortlisting was mainly based on time taken so make \nsure you not only solve correctly but in minimum time. \n-​ MCQs had a greater weightage than DSA questions. \n-​ Make sure to have a stable WIFI connection before the \ntest as it requires a minimum bandwidth requirement to \nbegin the test which is not satisfied by the college WIFI. \n2)​Interview: 8th Aug \n-​ I was glad to have got shortlisted for the interview \n-​ Shortlisting is announced 1 day prior to interview , thus  \nbe prepared beforehand. \n-​ Interview was held in online mode on webex platform. \n-​ My interview was scheduled 2nd somewhere around \n10:00 am. (getting scheduled in first few interviews is \nalways better) \n-​ Universal Question: Introduce yourself. \n-​ Be prepared with this answer.  \n-​ Make sure your introduction does not exceed more than \n1 minute. \n-​ Include your name, education(CGPA if  8+), areas of \ninterest and expertise, mention previous projects, \nmention participation in competitions such as \nhackathons or competitive programming, extra curricular \nactivities in college & leadership positions held. \n-​ Speak about those things in which you are comfortable \nas the interviewer is likely to ask those things. \n-​ For eg: I spoke about solving 500+ DSA questions, \nproblem solving skills , logical & algorithmic thinking as \nmy strengths in the interview. Following which I was \nasked a DSA question in the interview which I was able \nto solve. \n-​ Again DSA questions asked were easy to medium level \nnot so tough. \n-​ You are supposed to write, compile and run the code \nwhile you share the screen."
+    },
+    {
+      "pageNumber": 3,
+      "text": "-​ Then I was asked about polymorphism & its types. Then \nI was asked to code and demonstrate Runtime and \nCompile Polymorphism. \n-​ I was asked to explain APIs , Rest APIs so be prepared \nwith basics of Web development Principles as they are \nlikely to be asked for the role of software developer. \n-​ I was given a scenario of the database and asked to \nwrite a complex SQL query. (It was slightly tough so I \ntook some time). \n-​ We also discussed about the projects I had done \n-​ Along with technical questions I was also asked HR \nrelated questions. \n1)​Do you prefer to work in a team or alone and why? \n2)​After describing how I am a team player, they \nasked, describe a problem in communication faced \nwhile working on a team project. \n    -   At last they ask you if you have any questions for them?  \n    -   Always remember to ask them questions as it shows             \nthat you are interested in working in their company. I had \nasked , on what projects interns are given to work at TI and \nwhat do you expect from an intern while joining them, in terms \nof technical skills.     \n \n-​ By evening 8pm results were announced. 4 interns were \nselected out of which 3 interns were offered the role of \nData Engineer and I was offered a Software \nDevelopment Engineer position. \n \nResources \n \n1)​https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-d\nsa-course-sheet-2/ - For solving problems \n2)​https://whimsical.com/operating-system-cheatsheet-by-love-ba\nbbar-S9tuWBCSQfzoBRF5EDNinQ - OS"
+    },
+    {
+      "pageNumber": 4,
+      "text": "3)​https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ff\nVop33t3MmpVxPCo - DBMS  \n4)​https://whimsical.com/object-oriented-programming-cheatshee\nt-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw - OOPS \n5)​https://algo.monster/flowchart - flowchart is useful \n6)​https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSj\nVkgxV-VH6EPyvoX - System Design if u have time only \nbasics \n7)​For DBMS and OS gates smasher’s videos are also very \ngood. \n \nTips \n \n1)Be confident \n2) While writing code during the interview make sure you write a clean \ncode, within functions, with proper comments and spacing. Do not code \nas if you are giving a CP contest. \n3) Take the interview as a conversion dont feel overwhelmed by the \npressure of the interview. \n4) Even if you are unable to answer a DSA question, give it a try and \nexplain your approach.  \n5) If you are asked a theory question which is out of your syllabus feel \nfree to let them know but at same time try to answer with something you \nfeel it is related to and assure them of learning about it post the \ninterview. This shows that you're willing to learn things. \n6)Research basic stuff about the company before the interview like CEO, \nwhat is their primary business, Head Office, Offices in India etc."
+    }
+  ]
+}

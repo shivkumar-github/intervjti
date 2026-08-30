@@ -1,0 +1,29 @@
+{
+  "fileId": "0a2bf52b23d80ebe",
+  "fileName": "Mayuri_Pawar_CITI.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Citi\\Mayuri_Pawar_CITI.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Citi"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "CITI CORP\nMAYURI PAWAR  - BTECH CS\nINTERVIEW + INTERNSHIP EXPERIENCE\nCGPA : 6+\nSTIPEND : 75000/MONTH       LOCATION : PUNE\nPPO-CTC: 18 (Same for placement)\nTimeline\nPPT : 6th September 2022\nOnline Test: 11th September 2022\nTechnical Interview: 14th September 2022\nHR interview: 14th September 2022\nONLINE TEST\nThe test was conducted on an AMCAT platform. The test\nhas a total of 5 sections. You cannot navigate back to\nprevious questions and also are unable to switch between\nsections.\n1. CS subjects’ based MCQs (25 Questions in 35 minutes)\nMCQs based on stacks, queues, trees, searching, sorting\ntechniques, PTOs, basic programming questions, OOPS, etc\n2. Aptitude (16 Questions in 16 minutes)\nMCQs on topics like work and time, probability,"
+    },
+    {
+      "pageNumber": 2,
+      "text": "permutations and combinations, percentages, ages, profit,\nloss, etc. The only thing is you need to be fast.\n3. Logical Reasoning (14 Questions in 14 minutes)\nI don’t clearly remember the questions in this section.\n4. Verbal Reasoning (22 Questions in 18 minutes)\nAntonyms, synonyms, prepositions, passages, etc. The\nquestions were easy. It is better to read the passages\nthoroughly.\n5. Coding section (2 questions in 1 hour)\nThe first question was to find the GCD of an array of\nintegers. I was able to code this and all test cases were\npassed.\nhttps://www.geeksforgeeks.org/gcd-two-array-numbers/\nThe second question but it was related to\nthe incremental matrix and matrix multiplication. I was able\nto pass most of the test cases for that question\n76 t d\nt\nh\ntli t d f\nth i t\ni\nTECHNICAL INTERVIEW\nROUND 1\nMy interview was scheduled at 9:30 am and I was the first one to give the interview 🙂 in my \nbatch. The interviewer was friendly enough. He asked me to introduce myself, then he asked me"
+    },
+    {
+      "pageNumber": 3,
+      "text": "some basic Q’s like given a key how will you find it in a text in Linux, I answered we can use grep \ncommand and stated it with an example. Then I was asked Q’s on DBMS normalization and its \ntypes and was given a Query to be solved, I gave an answer on which we discussed and luckily it \nwas correct. He also asked me to explain various data structures like stack, queue and array. \nThen asked me if I knew about trie data structure I said I had no idea about that. The interview \nfinished but I was sure that it was not that great to move to the 2nd round so losing hopes I had \nmy breakfast. Within 20 mins I was informed that I was moved to the second round, again I was \nfirst to move to the second round 🙂 among all 76 students.\nROUND 2 (HR round)\nTIP : Just smile and have a good nice talk. Don’t take it as a interview.\nInterview was scheduled at 10:30 am and the HR was so sweet and most friendly till date. I \nintroduced myself and same did the HR. He was going through my resume and asked me about \nmy projects. I then explained my projects one by one stating whether it was a group project or \nindividual. The one in group, I faced many questions. Firstly, I was asked about my role in the \nproject, at that time I had participated only in the frontend part which I answered honestly. He \nthen asked why I didn’t  do the backend and deployment part on which I said I had less time to \nexplore them but I assured him to learn them in near future. Then he asked about my future \nplans, on which I replied after doing my internship I will decide as firstly we must look at the \ndepth of the water and then jump into it. \nHearing this and looking on my honesty throughout the interview the interviewer was pretty \nimpressed. He then asked me if I had some questions for him. I asked about the the work-life \nbalance at Citi.\nThe interview was done and I was pretty sure about my selection .The results were announced at \n10 pm and I was one of the 15 students to be picked for the internship🤩\nINTERNSHIP EXPERIENCE\nDate : 29/05/23 - 21/07/23\nFirst project was given on validating 67 UAT & PROD  reports using CITI’s recon tool and then we \nwere given another project based on python which takes the steps from the feature file and \nexports it to a particular Jira having a Jira Id. Also worked on JAR files to run them in python.\nApart from the technical experience I feel the other things matters the most, they look at your \nactiveness and the hunger for learning new things. Along with that your communication skills \nare on focus. Have a good communication with your teammates, managers and mentors, it will \ngive you good insights and boost your confidence for sure."
+    },
+    {
+      "pageNumber": 4,
+      "text": "PPO results came out on 29/07/23 and 13/15 students received the PPOs and I was one of \nthem 🤗\nPREPARATIONS\nHave a good practice of DSA and always keep going through the concepts of DBMS, OOPs and \nOS.\nChoose a particular coding platform and try to solve questions on it on a targetive basis. I used \nleetcode and hackerrank.\n1) For DSA:\nStrivers SDE sheet, 450DSA\n2) For Computer Concepts (OOPs):\nLove Babar Cheat Sheet, GFG\n3) For DBMS:\nLove Babar DBMS, GFG , Gate Smashers Playlist, Last Minute notes of GFG\n4) For OS:\nGate Smashers, Last minute Notes on GFG\n5) For Interview Questioning:\nInterviewBit and GFG Archives (Must view this section)\n6) For Aptitude:\nTry to solve certain aptitude questions for fun to keep yourself brushed up with your concepts.\nYou can try these with your friends too.\nALL THE BEST !!!!!!!!!!!!!! TRUST YOURSELF SAB HOGA cuz if I can then even you can😉"
+    }
+  ]
+}

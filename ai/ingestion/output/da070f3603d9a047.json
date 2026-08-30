@@ -1,0 +1,21 @@
+{
+  "fileId": "da070f3603d9a047",
+  "fileName": "Amazon interview experience -1.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "Pre 2018 Experiences\\Amazon interview experience -1.pdf",
+    "year": "pre-2018",
+    "experienceType": null,
+    "companyFolder": "Pre 2018 Experiences"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Amazon interview experience \n \nRound 1 : Coding + Technical Mcqs \n \nThe Test was hosted on Hackerearth platform. It consisted of 20 Mcqs consisting of Ds, Algo,  \nOs, Dbms and Networking. They were of 1 mark each. \nThere were 2 coding questions which were pretty simple and can be solved by Brute force \napproach. They were of 40 marks each. \nQuestion links: \nhttps://www.geeksforgeeks.org/count-total-number-digits-1-n​/ \nhttps://www.codechef.com/SNCKPB17/problems/SNELECT \n \nRound 2 : Technical Round 1 (21 were shortlisted) \n \nThe interview started with discussion on resume projects. Then he started with a question on \ntree. \n \na) Given two binary trees. We need to merge them into a new binary tree. The merge rule is that \nif two nodes overlap, then sum node values up as the new value of the merged node. \nOtherwise, the non-null node will be used as the node of new tree (structure may and may not \nbe same of both binary trees). \nhttps://www.geeksforgeeks.org/merge-two-binary-trees-node-sum​/ \n \nb) Given two numbers represented by two linked lists, write a function that returns sum list. The \nsum list is linked list representation of addition of two input numbers. It is not allowed to modify \nthe lists. Also, not allowed to use explicit extra space (Hint: Use Recursion). \nhttps://www.geeksforgeeks.org/sum-of-two-linked-lists​/ \nThe interviewer had asked me to write whole code on paper with proper syntax and he would \nalso test it thoroughly. \n \nRound 3 : Technical Round 2 (Then there were 7) \nThis round started with discussion of what all questions asked in previous interview round. And \nthen he started with coding questions. \n \na) Given an array and a number k where k is smaller than size of array, we need to find the k’th \nsmallest element in the given array. He told me to write the entire code on paper. \nhttps://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array​/ \n \nb) You have an input stream of numbers and asked to make groups of consecutive numbers \nand output how may groups of numbers can be formed. He asked me to give a approach of how \nwould I solve it. I gave a solution using a list of set. \nEg \nInput stream 2 6 1 4 5 \nSo after 2 \n[{2}]                  o/p = 1 \nAfter 6 \n[{2},{6}]            o/p = 2 \nAfter 1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "[{1-2},{6}]        o/p = 2 \nAfter 4 \n[{1-2},{4},{6}]  o/p = 3 \nAfter 5 \n[{1-2},{4-6}]    o/p = 2 \n \nLater he asked me about my resume and what I do in free time. \n \n5 were selected for summer internship \n \nTips for preparation : \nAmazon mostly focuses on DS and algo so i would advice to go through all the interview \nexperience on geeks for geeks and find the patterns of what amazon usually ask in interviews. \nBasic knowledge about OS,  networking and dbms should be known as they could also ask it."
+    }
+  ]
+}

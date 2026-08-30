@@ -1,0 +1,17 @@
+{
+  "fileId": "fc9c6e0d1a9c048e",
+  "fileName": "Morgan Stanley.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2018 Experiences\\Morgan Stanley.pdf",
+    "year": "2018",
+    "experienceType": null,
+    "companyFolder": "2018 Experiences"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Interview Experience  \nMorgan Stanley  \n \n86 contestants  \nThe first round contained 3 modules. One was debugging, one quantitative aptitude, and one \ncoding round. We had a total of 100 minutes, split into 20, 20 and 60 for each module \nrespectively. Debugging and aptitude were not very tough but quite hectic, as we had 7 \nquestions for debugging and 10 for aptitude. Coding had 3 problems, of which I solved 1 \ncompletely.  \n \n19 contestants \n5 days after the coding round we had the pre placement talk, where we were given the list of \nthose selected for interviews. We first had a technical interview round. I was asked to solve \nsome problems,and explain the solution.  \n1.\nGiven an array where one element is unique and all others are repeated any number of \ntimes, find the unique element. Use one traversal of the array only.  \n2.\nA set of 5 friends go out for some days. Few of them see movies, go to dinner etc. The \ndetails of which friend paid for which outing is given. At the end of all the outings, the \nfriends have to split the bill. How should they each pay (or receive money) so that 5 \ntransactions among them are sufficient on the final day?  \n3.\nYou are given an n dimensional array. How would you represent it in a single database \ntable, so that given the indices you can retrieve the value (hint: check how \nmultidimensional arrays are stored in memory in C).  \n4.\nGiven a singly linked list, how would you modify it so that if given a pointer to the current \nelement and a pointer to the next element, you can get the address of the previous \nelement? The list must remain singly linked.  \nApart from this he asked me about virtual functions, and questions related to diamond problem \nin C++ (I had listed C++ in my resume).  \n \n5 contestants \nWe had a professional fitness interview round. In my round, the interview asked me to tell him \nabout myself, and then asked me about one of my projects. He asked some deeper questions, \nlike how would I ensure security, authenticity of some parts, etc. Then he asked me to design a \ngeneral matching engine. I asked him a few questions related to what he wanted from the \ndesign, which he explained. Later he asked me to limit myself to only a specific case.  \n \n \n3 selected​."
+    }
+  ]
+}

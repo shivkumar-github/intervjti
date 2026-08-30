@@ -1,0 +1,15 @@
+{
+  "studentName": "Mahesh Hanmant Gadekar",
+  "companyName": "UBS",
+  "batch": "Not specified",
+  "preview": "Mahesh Hanmant Gadekar shares his on-campus interview experience for a UBS internship, detailing the online coding and MCQ round, technical questions on Java, DSA, SQL, and project-based discussions.",
+  "content": "Name:-Mahesh Hanmant Gadekar Branch :-IT Eligibility criteria :- 70% in 10th ,12th ; 7cpi and above UBS Internship Interview Experience (On-Campus) I applied to UBS through my college placement drive. Round 1(Online Coding Round): It was conducted on Hacker rank. There was one coding question and 60MCQs. The coding question was- There are N cities and two newly build cities X and Y among them there exists a road between cities .The task is to find shortest path between cities. There were 40MCQs which were mainly from OOPs, DBMS, Java, find output of code etc After this round 8 students were shortlisted. Technical Round 1: This round was started with my introduction. Questions:- 1)Which language are you comfortable with.. 2)why java? 3)Features of java. 4)what is collection in java 5)what is Hashmap and write a code for implementation 6)what is insertion sort and write code for insertion sort 7)how bubble sort and heap sort works (only explanation not code) 8)Then he draw 2 table and based on that table he give sql query to write(using join as well as subquery) After this, the interviewer asked me to explain my project in detail and all the key features of my project. Then he asked me to write a code for connection.php file code (Based on project) Difference between SQL and NoSQL Database (project based ) What is API I have mentioned android studio in my Resume so some questions on that. Some project related questions. There were some basic HR questions. why you choose IT branch Tell me about your family background. And Some more I don’t remember but all were basic HR questions. Finally, the result was declared after one week and I got the offer.",
+  "source": {
+    "fileId": "123d9d16857f0b27",
+    "fileName": "Mahesh_Gadekar_IE.pdf",
+    "originalPath": "2022 Experiences\\Internships\\UBS\\Mahesh_Gadekar_IE.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "UBS"
+  }
+}

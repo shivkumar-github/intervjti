@@ -1,0 +1,57 @@
+{
+  "fileId": "d7aa247db9fddd1f",
+  "fileName": "Shaunak_TracelinkExperience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\Internships\\Tracelink\\Shaunak_TracelinkExperience.pdf",
+    "year": "2023",
+    "experienceType": "Internships",
+    "companyFolder": "Tracelink"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Tracelink Interview Experience\nName: Shaunak Raiker\nBranch:Computer Engineering\nCompany:Tracelink\nRole: Software Engineering Intern\nDetails:\nCPI criteria:8\nStipend:₹35,000 per month.\nLocation:Mumbai/Pune\nAbout the Company:"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Tracelink is a USA based company which manages pharmaceutical\nsupply chains. Every medicine has a unique number which is generated\non the basis of some rules and there are a lot of strict regulations\nrelated to handling medicines. After the medicines are manufactured\nand number is given they travel from manufacturer to different\nwarehouses\nand\ndifferent\ncountries\nwhere\nit\nfurther\ngoes\nto\nwholesalers and finally to customers. In this process it is necessary to\ntrack and trace each medicine as some of them can expire/get\ndamaged/spoiled etc. So Tracelink helps managing its clients’ supply\nchains by maintaining the registry of whole process and creating serial\nnumbers and helping in the tracking and tracing. Also there are a set of\nrules to be followed which vary from country to country so Tracelink\nalso helps in abiding the rules and regulations. Apart from these major\nfunctions tracelink also helps to connect manufacturers to distributors\nand wholesalers so that all the medicines are tracked and necessary\nmedicines can be sent to places where they are needed.\nOnline assessment:\nThe online assessment took place on 26th November,2023\nOnline assessment was divided into two sections:\n1.Web development MCQs: Total(10-15 mcqs)\nTotal time allocated:1hr\nThese sections consisted of mcqs on a wide variety of topics based on\nNode Js, Javascript,React,Angular which were asked in the form of\nsome real life scenarios."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2.Coding Questions: Total(3qs)\nDifficulty level: Medium to hard\na)This question was based on the Graph Topic.\nWe were given a bunch of cities and a bunch of roads connecting all the\ncities.We had to find a no of starting points such that we are able to\nvisit all the cities\nIt was kind of similar to this:\nhttps://www.geeksforgeeks.org/hamiltonian-cycle/\nb)This was based on the LinkedList topic\nWe were a bunch of k linked lists and each of these k linked list\ncontained some nodes.\nThe idea here was mainly to sort all the k linked lists by using the\nbrute force way.\nc)It was based on the Binary Search on ans topic\nIt was kind of similar to this problem:\nhttps://codeforces.com/problemset/problem/1301/B\nOut of all the students who gave the online assessment,\n14 students were selected for the interviews\nThe interview was conducted offline at their andheri branch\nInterview:\nThe interviews were scheduled on 1st December,2023"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Entire interview consisted of three rnds:\n1.Technical Interview 1\n2.Technical Interview 2\n3.HR Round\n1.Technical Interview 1:\nQuestions which were asked to me are as follows:\n1)Introduce yourself\n2)Explain about your project in short\n3)Explain about the real life usage of the graph data structure\n4)Explain about the internal working of a map data structure\n5)Coding questions:\nGiven an array of elements find the first element which occurs at least\nk times\nThe question was similar to this:\nhttps://www.geeksforgeeks.org/first-element-occurring-k-times-array\n/\n6)Puzzle:\nWe have a mouse and a pig.\nMouse speaks lies on Monday,Tuesday and Wednesday and on the other\ndays he speaks the truth.\nPig speaks lies on Thursday,Friday and Saturday and on the other days\nhe speaks the truth.\nBoth mouse and pig say that they lied yesterday.\nThen what day is today?"
+    },
+    {
+      "pageNumber": 5,
+      "text": "The question was similar to this:\nhttps://www.geeksforgeeks.org/puzzle-the-lion-and-the-unicorn/\nStudents were selected for the further rounds on a rolling basis\nApproximately 7 students were selected for the second rnd\n2.Technical Rnd-2:\nThis round was completely focused on projects and some hr questions\nQuestions asked to me were:\n1)Give an introduction about yourself\n2)Explain in depth about your projects\n3)Draw the database model of one of your projects\n4)Some hr questions were asked:\na)What was the biggest challenge u faced during your project?\nb)What are some of your strengths?\nc)What are some of your weaknesses?\nThis is one of the toughest hr qs.Prepare it properly :)\nd)How would u resolve a conflict between team members?\ne)If one of your team member is not contributing to the project,how\nwould u handle such a situation?\nOut of this 7 students,4 students were selected for the hr round\n3.HR Round:\nQuestions which were asked to me in this round are as follows:"
+    },
+    {
+      "pageNumber": 6,
+      "text": "1)Give a brief introduction about yourself\n2)Why should we hire you?\n3)Who is your role model?\n4)What are your strengths and weaknesses?\nThe results were declared the same day and I was one of the 3\nstudents who was selected for this internship.\nPreparation:\n1.Data Structures & Algorithms:\na)I practiced A-Z DSA Sheet sheet by Striver. It’s a wonderful sheet\nif you are a beginner and it has a variety of questions based from easy,\nmedium to difficult level.\nb)In case, you don’t have much time for preparation, you can definitely\ntry SDE Sheet by Striver. It consists around 180-190 question\nc)Try to solve Leetcode daily without fail everyday\nd)For\ntopics\nlike Recursion ,Binary Trees, Binary Search Trees,\nDynamicProgramming, Graphs, I watched TakeUForward channel taught\nby Striver (Raja Vikramaditya)\nFor topics like monotonic stack,priority queue,dp i would suggest Aditya\nVermas channel as well\ne)LeetCode organizes a Weekly Contest every Sunday at 8:00 AM and a\nBiWeekly Contest once in two weeks(Saturday) at 8:00 PM. Try giving\nthese contests as you will gain interview experience while solving the"
+    },
+    {
+      "pageNumber": 7,
+      "text": "problems because the timer on the screen does create extra pressure\nduring interviews.You will learn time management as well by practicing\nthese contests.\n2)Object Oriented Programming\na)For c++ oops i would strongly recommend watching the entire playlist\nof Code With Harry on OOPS.\nb)Also, learn how to implement OOPs in your coding language. You may\nbe asked to demonstrate it in your interview.\nc)I would also strongly recommend to study java oops as well\nIt may be asked in some interviews irrespective of whether u know java\nor not and was one of the main reasons for my rejection in one of my\nearlier interview :(\n3)Operating Systems:\na)I had watched the entire playlist of Unacademy on OS and had made\nnotes of the same for the same.The notes made during the semester\nexams would be more than sufficient for OS\nb)Also prepare OS interview questions of gfg:\nhttps://www.geeksforgeeks.org/operating-systems-interview-questi\nons/\n4)DBMS:\na)I had watched the entire playlist of Unacademy on DBMS and had\nmade notes of the same for the same .\nThe notes made during the semester exams would be more than\nsufficient for DBMS.\nb)Also prepare DBMS interview questions on gfg or interview bit:"
+    },
+    {
+      "pageNumber": 8,
+      "text": "https://www.interviewbit.com/dbms-interview-questions/\n5)JAVA\na)Irrespective of whether u know C++ or not,I would highly recommend\nlearning java as well.\nb)I had watched the playlist of CodeWithHarry for java\nc)Also prepare Java interview questions on gfg or interview bit:\nhttps://www.interviewbit.com/java-interview-questions/\n6)System Design:\na)If u have additional time left during your preparation,I would\nrecommend learning system design as well.\nb)This topic is asked by a very few companies and mostly depends on\nyour luck whether u will be asked a qs on it or not.\nc)However in one of my earlier interviews i was asked a qs on system\ndesign and i wasn't able to ans it which become one of the reasons for\nmy rejection in that interview :(\nd)U can learn system design concepts from below site:\nhttps://takeuforward.org/system-design/complete-system-design-roa\ndmap-with-videos-for-sdes/\n7)Competitive Programming:\na)It is not compulsory but doing it gives you an edge over the other\ncandidates in an online assessment.(At Least most of the time :) )"
+    },
+    {
+      "pageNumber": 9,
+      "text": "b)For this u can regularly give contests on codechef and codeforces\nhttps://www.codechef.com/practice\nhttps://codeforces.com/problemset\n8)Puzzles:\na)I was asked a puzzle during my first round and luckily i was able\nto solve it without any prior practice ;)\nb)I would suggest to solve some of the most frequently asked\npuzzles\nto\nboost\nconfidence\nand\nhave an edge over other\ncandidates\nc)U can practice them on\nhttps://www.geeksforgeeks.org/puzzles/\n9)Aptitude:\na)This is one of the most frequently asked topic in any online\nassessment.\nb)I would suggest practicing aptitude questions from here:\nhttps://www.indiabix.com/\nc)Also u can refer to this CareerRide Youtube channel:\n10)Company Research:"
+    },
+    {
+      "pageNumber": 10,
+      "text": "a)Before any interview,make sure u research about the company in\ndepth and try to find out everything about the purpose,culture etc.\nb)Try to connect each of the ans to your hr questions with the\nresearch u have done about the company.\nc)Make an impression on them such that u know everything about the\ncompany.\nd)Make sure u ask questions to the interviewer after each round this\nputs a positive impression on the interviewer.\ne)This mostly becomes the differentiating factor between u and the\nother candidates so prepare it thoroughly.\nf)U can prepare the hr questions from here:\nhttps://www.interviewbit.com/hr-interview-questions/\nSome additional tips:\n1)Always try to stay calm during the interview\n2)If u dont know the answer to the question, just let the interviewer\nknow that u dont know rather than giving some dumb responses xD.\n3)Try to speak out loud and clearly during the interview and try to have\na smile on your face during the interview\n4)Don't get depressed\nif you are not selected and try to learn from\nyour mistakes.I myself got rejected in three other interviews before\ncracking this one.\n5)Keep your resume up to date with all the projects.\n6)Last but not least:"
+    },
+    {
+      "pageNumber": 11,
+      "text": "Have faith in your preparation and most importantly have faith in\nyourself.\nGood Luck!!\nIn case of any further doubts u can connect with me on\nLinkedIn"
+    }
+  ]
+}

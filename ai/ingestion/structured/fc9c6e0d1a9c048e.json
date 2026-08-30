@@ -1,0 +1,15 @@
+{
+  "studentName": "Not specified",
+  "companyName": "Morgan Stanley",
+  "batch": "Not specified",
+  "preview": "An interview experience at Morgan Stanley involving an online assessment with debugging, aptitude, and coding, followed by a technical round and a professional fitness round.",
+  "content": "Interview Experience Morgan Stanley 86 contestants The first round contained 3 modules. One was debugging, one quantitative aptitude, and one coding round. We had a total of 100 minutes, split into 20, 20 and 60 for each module respectively. Debugging and aptitude were not very tough but quite hectic, as we had 7 questions for debugging and 10 for aptitude. Coding had 3 problems, of which I solved 1 completely. 19 contestants 5 days after the coding round we had the pre placement talk, where we were given the list of those selected for interviews. We first had a technical interview round. I was asked to solve some problems,and explain the solution. 1. Given an array where one element is unique and all others are repeated any number of times, find the unique element. Use one traversal of the array only. 2. A set of 5 friends go out for some days. Few of them see movies, go to dinner etc. The details of which friend paid for which outing is given. At the end of all the outings, the friends have to split the bill. How should they each pay (or receive money) so that 5 transactions among them are sufficient on the final day? 3. You are given an n dimensional array. How would you represent it in a single database table, so that given the indices you can retrieve the value (hint: check how multidimensional arrays are stored in memory in C). 4. Given a singly linked list, how would you modify it so that if given a pointer to the current element and a pointer to the next element, you can get the address of the previous element? The list must remain singly linked. Apart from this he asked me about virtual functions, and questions related to diamond problem in C++ (I had listed C++ in my resume). 5 contestants We had a professional fitness interview round. In my round, the interview asked me to tell him about myself, and then asked me about one of my projects. He asked some deeper questions, like how would I ensure security, authenticity of some parts, etc. Then he asked me to design a general matching engine. I asked him a few questions related to what he wanted from the design, which he explained. Later he asked me to limit myself to only a specific case. 3 selected.",
+  "source": {
+    "fileId": "fc9c6e0d1a9c048e",
+    "fileName": "Morgan Stanley.pdf",
+    "originalPath": "2018 Experiences\\Morgan Stanley.pdf",
+    "year": "2018",
+    "experienceType": null,
+    "companyFolder": "2018 Experiences"
+  }
+}

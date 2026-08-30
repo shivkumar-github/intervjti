@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import MyExperiencesPage from './pages/MyExperiencesPage'
 import ContactUsPage from './pages/ContactUsPage'
+import AiSearchTestPage from './pages/AiSearchTestPage'
 
 function App() {
   
@@ -23,7 +24,8 @@ function App() {
         <Route path="/experiencedetailspage" element={<ExperienceDetailsPage />} />
         <Route path="/myexperiencespage" element={<MyExperiencesPage />} />
         <Route path="/experience/:id" element={<ExperienceDetailsPage />} />
-        <Route path="/contactuspage" element={<ContactUsPage/>} />
+        <Route path="/contactuspage" element={<ContactUsPage />} />
+        <Route path="/aisearchtest" element={<AiSearchTestPage />} />
       </Routes>
     </>
   );

@@ -1,0 +1,25 @@
+{
+  "fileId": "3e92b0590d9c4676",
+  "fileName": "Nirbhay_Hanjura_Interview Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Oracle\\Nirbhay_Hanjura_Interview Experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Ofss Interview Experience\nNirbhay Hanjura\nInformation Technology\nOracle was the one of the first companies to come on campus for fte.\nThe process contained three rounds :\nRound 1 (Online test) :\n●Contained one coding question (medium) (Good Substrings)\n●20 mcqs (10 english + 10 aptitude)\n●Code the API (Code the rest api)\nRound 2 (Technical interview) (35 - 45 minutes) :"
+    },
+    {
+      "pageNumber": 2,
+      "text": "It was a purely technical interview . Was first asked to explain what I did\nin my 2 months internship at kotak-life .Then he asked me about react ,\nvirtual - dom ,regular expressions in python (as I had mentioned it in my\ninternship ) . Then came the basic dsa questions on binary trees :\n●Preorder traversal\n●Postorder traversal\n●Inorder traversal\n●Level order traversal\n●Zig-Zag traversal\n●Boundary traversal\nWas asked to write the pseudocode for the above traversals . Then he\nmoved on to oops . Asked me about types of inheritance. Inheritance\nthat is not possible in java. As I had mentioned that I am proficient in\njava he asked me core java concepts such as static keyword , garbage\ncollection , abstract class , interfaces . At the end of the first round I\ncouldn't answer 1-2 oops questions .\nRound 3 (Tech+HR) (30 - 40 minutes) :\nLuckily was greeted by the VP who was a vjti passout . He was\na cool guy . First he asked me basic oops and then asked hr\nquestions like where do you see yourself in coming 10 years .\nThen another interviewer joined him and asked me some dsa\nquestions . As far as I remember one of the question was to\nfind the middle of the linked list and other was a basic array\nquestion . Then he asked about my projects and asked me to\nwrite a query in js to connect to a database . Fortunately I got\nthat query . Second round ended here.\nWaited 3-4 hrs for the result as my interviews were completed\nvery soon . Ofss offered 19 full time offers out of which I was\nglad that I was one of them ."
+    },
+    {
+      "pageNumber": 3,
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fileId": "0b30c9aa6b024604",
+  "fileName": "Barclays_YashTailor.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2020 Experiences\\Internships\\Interview Experiences\\Barclays\\Barclays_YashTailor.pdf",
+    "year": "2020",
+    "experienceType": "Internships",
+    "companyFolder": "Barclays"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "BARCLAYS - YASH TAILOR \n \nBarclays visited our campus for the internship hiring process. The \ncriteria kept by Barclays was CPI>6.5 and no active backlogs. Only \nCS and IT branches were allowed to sit for the interview process. \nEven DSYs were not allowed. \n \nStage 1: The Online Test \nAround 60+ students sat for the online test. The test was conducted \non Hackerearth platform and had 30 MCQs and 2 programming \nquestions. The test was of 2.5 hrs.  \n \nType of the 30 MCQs are as follows: \n1) Programming languages: C,C++,Java, JavaScript and Python \n(A lot of regex questions) \n2) OOPS: C++ and Java \n3) Cloud (Azure) \n4) Servlets \nMCQs had no negative marking so that's the bonus point. Unlike \nGoldman Sachs :/ \n \nVIMP​ : For MCQ type questions make sure your fundamentals of \nOOP are strong and the concepts used in both C++ and Java, \npractise python questions, read a few points about cloud \nplatforms(what all they offer, limits of all the features they provide, \nnaming conventions, etc), Servlets are always asked, so make sure \nyou know how to make requests and specify parameters in the \nsame.  \n \nProgramming questions: \n \n1) Problem Statement​ : Given, a function f : C -> C, here C is \na complex number, we have been given an array A[] such that \nfor every A[i], f​A[i]​(x) = x. So, say an array contains 1,2 and 4, \nthen f(x)=x, f²(x)=x and f⁴(x)=x. Now, consider a set G of \nwhich every element of satisfies the property that f​G(i)​(x) = x. \nFurther, after determining G, we need to tell whether the \ncomplement of G, i.e. G’ is FINITE or INFINITE."
+    },
+    {
+      "pageNumber": 2,
+      "text": "Type​: Number Theory \nLink​:​https://www.hackerearth.com/practice/math/number-the\nory/basic-number-theory-2/practice-problems/algorithm/is-it-f\ninite-36fe70d5/ \n \nThis was a pretty interesting question, I struggled till the end \nto figure this out but was happy to make it through.  \n \n2) Problem Statement ​: Given two arrays we need to find the \nnumber of triplets whose relative order is the same in both the \narrays. \nType​: DP \nLink​:​https://www.hackerrank.com/challenges/count-triplets-1\n/problem \n \nThis was a fairly difficult question if we ignore the brute force \napproach. \n \nIf you have solved ​at least one programming question​, your \nchances of getting selected increases. \n \nAfter the online test, 23 people were shortlisted for the interview \nround. \n \nRound 2: Interview Round (Technical + HR) \n \nThe interview started with a typical “tell me about yourself, \nbackground and description of the projects” . I explained every \nproject​ in the following way: \n1) Motivation behind the project \n2) Tech stack used \n3) Few important points if any. (For example, I have a project \nwhich was done under Mumbai Vikas Samiti, an NGO and told \nthe entire backstory of it too) \nIt went for around 15–20 mins."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Then he started asking me ​questions on OOPS \n \n1) What is inheritance? \n2) What is the difference between multiple and multilevel \ninheritance? \n3) What are the restrictions of Inheritance? \n4) Difference between private and protected access specifier \n(explained in both C++ and Java) \n5) What are the characteristics of OOP? \n6) Explain polymorphism \n7) What is superclass and subclass? \n \nThen he started asking me a bunch of ​HR questions​:  \n1) Whether I like to work in a team or individually? \nTeam. Talked about all the managerial work I did till that \nday, My Internship experience, group projects. \n2) What were the Challenges faced while working in a team and \nhow did I mitigate them? \nMy response: Talked about patience, taking appropriate \ndecisions, mentioned about the problems which I faced \nduring my Internship and how I managed them. \n3) Why Barclays?  \nMy response: To which I asked if I can answer why banks \nand then why Barclays. I did thorough research on \nBarclays, hence told them everything I knew about them, \nall their firsts in the UK, be it their sponsorship for people \nwho were the first to reach Mount Everest summit in UK, \nconnect, Barclaycard, first ATM machine, etc. I \nspecifically added their values (RISES) \n4) He then asked me how can I contribute to the Stewardship? \nGo through their website, it has enough points :”) \n5) Any questions for him?  \nI asked him three questions. Always prepare a set of \nquestions to be asked out of which one should be related \nto their current affairs. It shows your interest towards \nthem."
+    },
+    {
+      "pageNumber": 4,
+      "text": "Finally out of 23 students, 4 were selected and I was one of them. \nPS. After a month or so, they sent a list of 6 more people kept in \nthe waiting list. Miracles happen any time :) \n \nGeneral Note:  \n1) Stay super confident. \n2) Make sure know enough about the company(history + \nbranches + products + domain) \n3) Barclays tip: Make sure you know DBMS and OOP well.  \n4) Never give up :)"
+    }
+  ]
+}

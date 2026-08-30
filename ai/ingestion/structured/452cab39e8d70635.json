@@ -1,0 +1,15 @@
+{
+  "studentName": "Priyanshi Gupta",
+  "companyName": "Morgan Stanley",
+  "batch": "2018-2022",
+  "preview": "An interview experience for a Morgan Stanley PPO featuring discussions on internship projects, Linked List coding questions, and a system design problem.",
+  "content": "Morgan Stanley PPO Interview Experience Priyanshi Gupta, BTech IT (2018-2022) At Morgan Stanley, the PPO interview + Manager Review + ED Review is considered for the conversion process. And in the PPO interview, you can be asked about the internship project, DSA questions, OOP principles, System Design, OS, CN depending on your interviewer. Following is my interview experience The duration of my interview was approximately 1hr 15mins. To begin with, I was asked about my internship project. I explained both - the business aspect and technical aspect of my project. I was asked a few questions related to the project on the lines of scalability and reliability of the system and why I chose a particular tech stack to implement it. This discussion was about 15-20mins long. Next, I was asked to code the following two questions on Linked Lists 1. https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/ I kept discussing the approach with the interviewer (Highly Recommended). Initially I suggested an approach which used Stack for reversing the lists and then adding the numbers. He asked me to code the same (in Notepad). Then he wanted me to optimize the space used i.e he wanted me to recursively solve the problem. I wrote the code for the same. 2. https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/ Here too I discussed the approach, I didn’t get this immediately but after some discussion I gave a solution which used a HashMap. He didn’t ask for further optimization due to paucity of time left. After the two DSA questions, I was asked a system design question. I had to design a Tournament System. There was a 15-20 minutes long discussion on the same. Basically, I was expected to list the classes that will be required and the data members and methods for the same. (Notepad was used for this as well) While discussing he would often introduce a new functionality and ask how you would implement that using the system that you have designed and if any additional classes would be required. When I was listing classes, he would ask if this class is really necessary or if a particular method in the class is required or we could do without it. In such cases, it is expected that you will be able to justify your thinking and provide a reasonable approach for implementing any functionality. Towards the end, the interviewer allowed me to ask any questions that I had. (Always ask something here!)",
+  "source": {
+    "fileId": "452cab39e8d70635",
+    "fileName": "PPO_Interview_Experience_Morgan Stanley.pdf",
+    "originalPath": "2021 Experiences\\Placements\\Morgan Stanley\\PPO_Interview_Experience_Morgan Stanley.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Morgan Stanley"
+  }
+}

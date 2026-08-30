@@ -1,0 +1,21 @@
+{
+  "fileId": "517ab2f86ae1ee0f",
+  "fileName": "Bank Of America-Interview Experience Rishabh.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Bank of America\\Bank Of America-Interview Experience Rishabh.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Bank of America"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Round 1 (30 mins)\n●Asked me about my internships and the international\ncompetition I had participated in.\n●Asked me to explain binary search and compare it to\nlinear search\n●Asked me my language of preference\n●Asked me about difference between call by value and call\nby reference\n●Asked me about run-time polymorphism\n●Asked me about abstraction in OOPs\n●Asked me how to implement abstraction in a database\nAns : Views\n●What are aggregate functions ?\n●What is the necessary condition for aggregate functions.\n●What are triggers ? Syntax for creating one\n●What is indexing. Explain the types of indexing\n●Asked me a simple puzzle.\n●What will you do if you misunderstood instructions from\nyour manager.\n●Biggest achievement till date.\n●Any questions ?"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 2 (30 mins)\n●Asked me about binary Search again ):\n●Asked about master slave architecture in DBMS.\n●Asked me to implement stack, queue, binary tree from\nscratch.\n●Find the duplicate in database records.\n●Indexing\n●The bulb puzzle (very common)\n●Which languages do you know ?\n●Difference between list and tuple.\n●Asked me about the paper presented and the\ninternational competition\n●How would you solve a conflict between teammates.\n●How would you rate your presentation skills ?\n●Do you know what Bank of America does ?\n●Any questions"
+    }
+  ]
+}

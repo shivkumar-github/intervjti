@@ -1,0 +1,15 @@
+{
+  "studentName": "Nirbhay Hanjura",
+  "companyName": "Oracle",
+  "batch": "Not specified",
+  "preview": "Nirbhay Hanjura shares his FTE interview experience at Oracle, detailing the online test, technical interview round, and tech+HR round.",
+  "content": "Ofss Interview Experience Nirbhay Hanjura Information Technology Oracle was the one of the first companies to come on campus for fte. The process contained three rounds : Round 1 (Online test) : ●Contained one coding question (medium) (Good Substrings) ●20 mcqs (10 english + 10 aptitude) ●Code the API (Code the rest api) Round 2 (Technical interview) (35 - 45 minutes) : It was a purely technical interview . Was first asked to explain what I did in my 2 months internship at kotak-life .Then he asked me about react , virtual - dom ,regular expressions in python (as I had mentioned it in my internship ) . Then came the basic dsa questions on binary trees : ●Preorder traversal ●Postorder traversal ●Inorder traversal ●Level order traversal ●Zig-Zag traversal ●Boundary traversal Was asked to write the pseudocode for the above traversals . Then he moved on to oops . Asked me about types of inheritance. Inheritance that is not possible in java. As I had mentioned that I am proficient in java he asked me core java concepts such as static keyword , garbage collection , abstract class , interfaces . At the end of the first round I couldn't answer 1-2 oops questions . Round 3 (Tech+HR) (30 - 40 minutes) : Luckily was greeted by the VP who was a vjti passout . He was a cool guy . First he asked me basic oops and then asked hr questions like where do you see yourself in coming 10 years . Then another interviewer joined him and asked me some dsa questions . As far as I remember one of the question was to find the middle of the linked list and other was a basic array question . Then he asked about my projects and asked me to write a query in js to connect to a database . Fortunately I got that query . Second round ended here. Waited 3-4 hrs for the result as my interviews were completed very soon . Ofss offered 19 full time offers out of which I was glad that I was one of them .",
+  "source": {
+    "fileId": "3e92b0590d9c4676",
+    "fileName": "Nirbhay_Hanjura_Interview Experience.pdf",
+    "originalPath": "2023 Experiences\\FTE\\Oracle\\Nirbhay_Hanjura_Interview Experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Oracle"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "fileId": "2a6e0029ab3f7bde",
+  "fileName": "KunalAgarwal_Visa_Exp.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Visa\\KunalAgarwal_Visa_Exp.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Visa"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "VISA\nKunal Agarwal\nTY Comps (2020 – 2024)"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Overview:\nVisa visited our college for the first time for an internship. Consequently there were no\nprevious experiences to go through :). Although I searched and read a few from Geekforgeeks\nwhich were quite helpful.\nEligibility criteria: CGPA≥7.0\nNo active backlogs\n8th Sept 2022 – Pre-Placement Talk\nAttending PPT was helpful. They gave information about the company and the work they do\n(which you can mention in the interview to show interest) and also about the test and interview.\n9th Sept 2022 – First Round (Online Assessment)\nIt was conducted on Hackerrank. There were 2 coding questions which we had to solve in 60\nminutes.\n1st Question\nArranging Coins\nQuestion : https://leetcode.com/problems/arranging-coins/\nSolution: https://www.tutorialspoint.com/arranging-coins-in-cplusplus\nQuestion was straightforward. I was able to pass all the test cases."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2nd Question\nDo they belong?\nA triangle formed by the three points a(x1,y1), b(x2,y2), and c(x3,y3) is a non-degenerate\ntriangle if the following rules are respected.(|ab| is length of line between a and b points)\n●|ab| + |bc| > |ac|\n●|bc| + |ac| > |ab|\n●|ab| + |ac| > |bc|\nA point belongs to a triangle if it lies somewhere on or inside the triangle. Given 2 points\np(xp,yp) and q(xq,yq) return the correct scenario number-\n●0: If the triangle abc does not form a valid non-degenerate triangle\n●1: if point p belongs to triangle but point q does not\n●2: if point q belongs to triangle but point p does not\n●3: if both p and q belong to the triangle\n●4: if neither p nor q belongs to the triangle\nFunction Description:\ncomplete the function pointsBelong()\nIt has the following parameters:\nint x1,y1,x2,y2,x3,y3: integer coordinates of the three points that may create a valid\ntriangle\nint xp,yp,xq,yq: integer coordinates of points p and q\nReturns:\nint: integer value that represents the scenario\nConstraints:\n0<=x1,y1,x2,y2,x3,y3,xp,yp,xq,yq<=2000\nSolution:\nMain logic:\nfloat area(int x1, int y1, int x2, int y2, int x3, int y3)\n{\nreturn abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2.0);\n}\nbool isInside(int x1, int y1, int x2, int y2, int x3, int y3, int x, int y)\n{\nfloat A = area(x1, y1, x2, y2, x3, y3);\nfloat A1 = area(x, y, x2, y2, x3, y3);"
+    },
+    {
+      "pageNumber": 4,
+      "text": "float A2 = area(x1, y1, x, y, x3, y3);\nfloat A3 = area(x1, y1, x2, y2, x, y);\nreturn (A == A1 + A2 + A3);\n}\nint pointslielong(...)\n{\nfloat ab = sqrt((x2 - x1)(x2 - x1) + (y2 - y1)(y2 - y1));\nfloat bc = sqrt((x2 - x3)(x2 - x3) + (y2 - y3)(y2 - y3));\nfloat ac = sqrt((x2 - x3)(x1 - x3) + (y2 - y3)(y2 - y3));\nif (ab + bc > ac && ab + ac > ab && bc + ac > ab)\n{\nbool p = isInside(x1, y1, x2, y2, x3, y3, xp, yp);\nbool q = isInside(x1, y1, x2, y2, x3, y3, xq, yq);\nif (p && !q)\nreturn 1;\nif (q && !p)\nreturn 2;\nif (p && q)\nreturn 3;\nif (!p && !q)\nreturn 4;\n}\nreturn 0;\n}\nYou can refer to this too and optimize accordingly:\nhttps://tutorialspoint.dev/algorithm/geometric-algorithms/check-whether-a-given-point-lies-inside-a-triang\nle-or-not\nAll test cases passed."
+    },
+    {
+      "pageNumber": 5,
+      "text": "13th Sept – 2nd Round (Technical Round + HR Round for 1 hour)\nThe Interviewer didn't ask for any introduction.\nShe directly asked me if I knew OOPS and which language I use to code.\nAs I was comfortable with C++ , i mentioned that and then she began asking me questions related to\nthat-\n1) Difference between Method overloading and overriding.\nI started with what polymorphism is, its types and then examples. She looked satisfied with my\nanswer. Always try to describe your answer in detail with examples.\n2) Use of static Keyword\nI mentioned its use with an example.\n3) Types of inheritance and If I have used inheritance in any of my projects\nThen she asked me about my projects and the tech stack I have used. Always describe your projects in\npriority order. I described one of my projects which was based on Deep Learning and she, being working\nin the same domain, seemed to be interested in it and asked a few follow-up questions. Then I described\nmy other project related to Web dev since I thought that is what will add weight. After a few questions on\nmy projects and experience we moved on to the next part of the interview. ( I tried to relate my projects\nand tech stack with the work currently going on in Visa which she was happy with)\nShe asked me to open the codepair link which was shared earlier. And gave me a few questions to solve.\nThey were No DSA questions and simple logical questions.\n1) How do you define/create list in HTML\n2) Swap two numbers without using temp variable\nhttps://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/\n3) Print fibonacci series in reverse order\nhttps://www.geeksforgeeks.org/print-fibonacci-series-reverse-order/\nShe gave me custom test cases and I was able to successfully pass them.\nShe asked me If I knew DBMS to which I said I had it in my course so I know the concepts but have not\nused it anywhere (Yes I don't like dbms :)) .\nShe then asked me what are schemas and different types of schemas which I couldn't answer correctly.\nAnd then what are DDL and DML commands which were easy to answer luckily.\nThen she asked me which OS I use and If I know linux commands. As I use linux primarily I was able to\nanswer them but this was quite unexpected.\n1) Print/show last 11 lines of a file\nhttps://kb.iu.edu/d/acrj\n2) replace all occurrences of a specific character with “*” in a file"
+    },
+    {
+      "pageNumber": 6,
+      "text": "https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/\nShe was happy with the technical part I assume as we had some general discussion then. She asked me\nWhere I am from and a few more general questions.\nFinally she asked me Why do I want to join Visa?\nI mentioned all the latest technology being used at Visa , about Visanet, AI at Visa , how I liked the\ntransaction taking place in seconds with all encryption decryption and ML being used at the backend.\nShe was happy that I had done research about the company.\nThen she asked me If I have any specific preferences for the project or if I can take up any project.\nTo which I obviously answered the latter part. (This was because I discussed a lot about ML i think so she\nthought I wanted projects based on ML)\nFinally She said that She hopes I get this opportunity which reflected that the interview went well :-)\nThe results were announced late in the evening with 4 students selected for internship and 2 in the waitlist.\nI was fortunate to be one of them!"
+    },
+    {
+      "pageNumber": 7,
+      "text": "Resources:\nFor DSA:\nFor concepts I referred to Abdul Bari and Striver’s playlist.\nYou can solve questions on https://450dsa.com/\nFor Operating system, DBMS and OOPS I referred to geeksforgeeks and Interviewbit\nhttps://www.interviewbit.com/dbms-interview-questions/\nhttps://www.interviewbit.com/operating-system-interview-questions/\nhttps://www.interviewbit.com/oops-interview-questions/\nTips:\n●Be confident with what you have prepared and give the interview calmly\n●Give mock interviews to boost your confidence and know your mistakes\n●Always think out loud. Let the interviewer know your approach of handling the question/problem.\nprobably they will help you by giving hints.\n●Do some research about the company and the work going on currently and try to speak about the\nsame in the interview.\n●Don't lose hope if you don't get selected. Even I gave interviews for 2-3 companies before this but\ncouldn’t make it. Learn from your mistake/ what went wrong in the previous interview. If not this,\na better opportunity is waiting for you ;)\nALL THE  BEST!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "fileId": "f357d67c855ab3c7",
+  "fileName": "Piyush_Itankar_Oracle.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Placements\\Oracle\\Piyush_Itankar_Oracle.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Piyush Itankar\nCE BTech VJTI 2022\nOracle Financial Software Services | FTE Interview |\nOn-Campus\nOracle conducted the placement drive in the second week of August. There\nwere a total of 3 rounds - Online test, Technical interview round 1 and\nTechnical Interview round 2. All students of circuit branches with CPI greater\nthan 7 were eligible to apply.\nRound 1 – Online Test: (Around 2hrs)\nThe online test comprises mcqs about Quantitative and Aptitude, English\nComprehensions and core Computer Science concepts. The test was\nconducted on their own testing platform. English and CS sections had a\nmedium level difficulty but the aptitude section was comparatively difficult\nto solve. Time constraints made it worse. Here. you have to be fast with a\nfair accuracy. Answers in mcqs were not allowed to change once submitted\n(separate submission for each mcq).\nRound 2 – Technical Interview 1: (around 40min)\nInterview started with my introduction followed by a little discussion on the\nCovid times and the new things I have tried my hands on during the\nlockdown. Interviewer go through my resume and asked everything about\nmy recent project. She also cross questioned about the future scope and\nlimitations of the project. After this she asked me about the programming\nlanguages I am familiar with.\nAfter this, she asked, given a long string containing various “@”, how can\nwe remove all “@”. She asked me about both approaches, one involving\ntraversing on the complete string and the other one without traversing.\nThen she asked the different ways in which we can reverse a string."
+    },
+    {
+      "pageNumber": 2,
+      "text": "Following this she asked about palindromes and the sorting algorithms.\nShe asked me to write the pseudocode for removing the duplicates from a\ngiven string.\nThen she start asking questions from the core CS concepts\n·\nView in DBMS\n·\nLinear data structures v/s Non-linear data structures\n·\nArray v/s Linked list v/s vector\n·\nDoubly linked list\nAfter this, she asked me a simple puzzle: - No. of handshakes among six\npersons if every person shakes hands with every other person.\nThen, she asked me about my summer internship, the projects and the\ntechnologies I worked on during this period and asked me to sum up my\nexperience about my first encounter with the corporate world.\nAt the end, she asked me in which situations I often end up making\nmistakes. Lastly, She asked me if I have any questions for her and my\ninterview was concluded.\nNote: The interviewer asked me to use a notepad and share the screen for\ncoding questions and puzzles.\nRound 3 – Technical Interview 2: (5 – 10 min)\nThis was a short interview involving some HR questions. At the start of the\ninterview, the interviewer asked me about the different tech stack I have\nworked on and asked me to explain my internship project.\nFollowing this, he asked me to write code for finding the largest 3rd element\nof an array. Then he asked me what if I was assigned a project involving\ntechnologies which are not familiar to me. He was pretty satisfied with my\nanswer and following this asked me why I chose to pursue my career in\nComputer Engineering. Lastly, he asked me if I had any questions for him\nand my interview was concluded."
+    }
+  ]
+}

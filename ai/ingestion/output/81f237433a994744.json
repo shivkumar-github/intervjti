@@ -1,0 +1,25 @@
+{
+  "fileId": "81f237433a994744",
+  "fileName": "Sanika_Interview_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Oracle\\Sanika_Interview_Experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERVIEW EXPERIENCE                                  \n \nORACLE                                                                \nSanika Chandode, B. Tech Computers (2020-24) \n \nOracle visited our campus in August 2023 to hire final year students. \nCriteria: \n1. CPI: 7 and above \n2. Class X: 70% and above \n3. Class XII: 70% and above \n4. Branches: CS, IT, Electrical, EXTC, Electronics. \nRounds: \n1. Online Coding Round \n2. Technical Round – 1 (offline) \n3. Technical Round – 2 + HR round (offline) \n \nRound 1: Online Coding round (100 mins) \nIt was an online test on Hackerrank Platform. It consisted of 4 sections \nSection 1: code for LIS (Longest Increasing Subsequence) \nSection 2: 10 MCQ questions on Aptitude \nSection 3: 10 MCQ questions on English Vocabulary and Grammar \nSection 4: one API question \n40 students for shortlisted for role 1(FCD), and 15 for role 2(OFSS) for \ninterviews. \n \nRound 2: Technical Round – 1 (approx. 45-50 mins)  \nFirst PPT was scheduled on 14th August and after that Offline interviews were \nscheduled.  \n1. Tell me about yourself."
+    },
+    {
+      "pageNumber": 2,
+      "text": "2. Asked me about my recent project, as it was in flutter and firebase, asked \nme questions about it and, also asked how I implemented some features. \n3. 2 sum problem: \nGave 3 approaches:  \n1) 2 for unsorted array: using brute force and using map \n2)1 for sorted array: using 2 pointers \n4. Asked some questions about map \n5. Asked to swap numbers: I did it using 3 variables then told me to use \nonly 2 variables \n6. Gave 2 SQL queries which can be solved using joins and order-by clause. \n7. Asked about set data structure in C++ and its properties \n8. Asked me to implement class set having insert function: it should not \ncontain duplicates \nI gave 3 approaches and both interviewers were quite satisfied. \n \nIn this way, the interview almost came to an end. At last, they asked if I \nhad some questions \n \nRound 3: Technical Round – 2 + HR (approx. 50-55 mins) \n1. Introduce yourself. \n2. Asked me to implement one flutter page and asked me questions over it. \nAnd, also compared java application development and flutter \ndevelopment \n3. Then he asked if I am familiar with compiler design, this is the subject \nwhich we had in 5th sem. I said I barely remember anything. Still, he \nstarted asking questions about it. I told him that I am not able to recall it \nand indirectly or directly told him to not ask questions about it. \n4. Then he asked me to solve expression and code it. Like what will be the \nvalue of a+ b+ c or a+ b*c or a+ (b + c * d) + f \nI took 2 to 3 cases and gave solution using 2 stacks. \n5. Asked me normalization and different types of normalization and asked \nto explain with tables \n6. Asked about prime and non-prime attributes. \n7. Difference between unique, primary and candidate key and, also super \nkey \n8. We had detailed discussion on linked lists and array"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Then I asked some questions about the tech stack. \n9. Then some basic HR questions, like about family and then one \nmandatory question: \nWhere do you see yourself in 5 years? \n \nThe Final results were announced at about 5:40 pm, 19 people were \nselected and I was fortunate to be one of them. \n \nTips: \nPersonal Note:  \nEven If you don’t get selected for internship. Do not worry, just keep studying \nbut this time study harder! Make sure you learn from your failures. At the end \nhardwork pays off. \nDSA:  \nDrive link: Abdul Bari \nYouTube: Aditya Verma, Striver, Love Babbar \nPractice: Strivers SDE sheet and leetcode problems based on tags. \nCore Subjects: \nOOPS: cheat sheet by Love Babbar \nOS: Playlist by Love Babbar \nDBMS: Playlist by Love Babbar, Knowledge gate. \nMake sure you have strong grasp of concepts!  \nYou can do it! Trust Yourself! All the best  \n \nIf you have any queries, feel free to drop an email at \n30sanikachandode@gmail.com"
+    }
+  ]
+}

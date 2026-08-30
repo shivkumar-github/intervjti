@@ -1,0 +1,33 @@
+{
+  "fileId": "3d4703b0a0adf625",
+  "fileName": "Abhishek_Kalshetti_MSCI_FTE_Interview_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Placements\\MSCI\\Abhishek_Kalshetti_MSCI_FTE_Interview_Experience.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "MSCI"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Abhishek Kalshetti B.Tech CE 2018-2022\nMorgan Stanley Capital International FTE\nEligibility: CGPA 6.75 and above\nBranches Allowed: CS, IT, EXTC\nTimeline and Events:\nAugust 4: Pre-Placement Talk\nIt was a 1hr presentation in which they talked about the firm, tech\nstacks, work culture, what values they are looking for, etc.\n(Do pay attention to important slides like tech stacks, core values, work\nculture, cause you can leverage your resume/experiences to be a good\nfit in the firm)\nOnline Assessment:\nThe test was conducted on Hacker-rank.\nTime: 60 Mins\nTotal Questions: 17\nMCQ’s: 16 (SQL Queries, OS, OOPS, DSA)\nCoding: A variation of Edit Distance (Dynamic Programming)\nhttps://www.geeksforgeeks.org/edit-distance-dp-5/\nSelected Candidates received Mails on the same day for Round 2\nInterviews, scheduled for the next day.\nA total of 39 students were shortlisted for Round 2\n1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 2 (Technical):\nMy Interview was Scheduled for 5 PM on 5th August.\nPlatform: Microsoft Teams\nIn this round, my DSA Skills were tested.\nQuestions:\n1.Introduce yourself.\nKeep this short and simple. Mention your internship in a line or two. Techstacks\nyou’ve worked on, similarly mention your projects in a line or two.\n(Tip: Your introduction should sound very confident i.e your first impression is what\nwill set the tone for further interview)\n2.How to find a loop in a linked list.\nExplain your approach first don’t jump into coding directly, run the question again\nwith the interviewer, give a test case and confirm that your answer is correct.\nAs it was a virtual interview, I had the option to share my screen and draw\ndiagrams/approaches on paint.\nExplain your approach then code on note pad/text editor.\n2.a Find the start point of the loop\n2.b Length of Loop\n2.c Difference between LinkedList and Array\n3.Find the first repeated character in a string\nhttps://www.geeksforgeeks.org/find-the-first-repeated-character-in-a-string/\nI used a unorder_map for this question, so the interviewer asked me how\nunorder_map is implemented in C++.\nSo, again I drew the implementation on paint and wrote Sudo code on notepad.\n4.Minimum swap required to convert binary tree to binary search tree.\nFirst, explained my approach.\nExplained how I am going to store the inorder traversal (i.e I’ll store the nodes in a\nvector)\n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Tip:\n(Always explain your code while writing it. Don’t wait to complete your code and\nthen explain because the interviewer won’t understand what you are doing and\nmost importantly there will be a huge pause which you need to avoid.\nKeep the interview engaging interviewer may even give you hints use them and\ncomplete your code.)\nI completed the code and did a dry run on a given test case. The interviewer was\nsatisfied with my approach.\n5.Given a sequence of words, print all anagrams together.\nhttps://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagram\ns-together/\nFirst, I gave a brute force solution.\nThe interviewer asked me for an optimized approach. Was able to do it with the\nimplementation of HashMap.\n6.Interviewer asked me if I had questions.\nI asked what tech stack they are working on, work culture in MSCI.\nThis round lasted for 1hr.\nRound 3 (Techincal + HR)\nThis round lasted for 1hr and all the questions I was asked were of DSA, Puzzles,\nLLD.\n1.Return the longest path from the root to a leaf node.\nUsed a recursive approach.Did a dry run to explain function calls.\nThe interviewer was satisfied with my approach.\n2.Design a movie ticket booking system like Bookmyshow\nhttps://www.geeksforgeeks.org/design-movie-ticket-booking-system-like-boo\nkmyshow/\n(A lot of discussions was done on this try to apply concepts like inheritance, abstract\nclasses, etc to increase code reusability)\n3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "3.Egg Dropping Question\nFirst, the interviewer asked me it in a puzzle form, for example, I have 100 eggs and\n100 floors and I have to minimize the attempts to get to know the floor at which\neggs start to break and what if now I have 2 eggs and 100 floors, how will my\napproach change.\nhttps://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/\nThen the interviewer asked me to code the solution.\nI first used a recursive approach, the interviewer asked if I can optimize the\nsolution.\nI did a dry run on recursive code and found overlapping sub-problems, applied\nmemoization on the recursive solution.\nThe interviewer was quite happy with my approach.\n4.Asked questions on my internship.\n5.Asked some questions on API’s, Flutter (since I mentioned mobile\napplication project in my resume)\n6.What is the domain in which you are most confident.\nI said that I am very confident about my mobile application development skills but at the\nsame time I don’t want to label myself that I want to work in a particular domain.\n7.Had a brief discussion on how financial markets are affected due to covid and\nhow can things change with time.\nMy round ended around 5 PM.\nResults were announced at 7.30 PM,6 out of 23 were selected and I am happy to share\nthat I was one of them.\nFollowed by HR discussions at 8 PM.\nTips:\n1.Be calm, interviewers are generally helpful, keep explaining your approach step by\nstep if you get stuck interviewer will give you hints use them, and complete your code.\n2.You have to present your ideas/approaches very clearly. The interviewer must know\nwhat are you trying to do at each point.\n3.You should know each and everything mentioned in your resume. That is you should\nbe able to defend everything asked about your internships and projects.\n4"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Resources:\n1.GFG Must do coding questions\nhttps://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-m\nicrosoft-adobe/\n2.Dynamic Programming\nhttps://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFoh\nncHwz8TY2Go\n3.Graphs\nhttps://www.youtube.com/watch?v=YTtpfjGlH2M&list=PLgUwDviBIf0rGEWe64KWas0Nr\nyn7SCRWw\n4.Puzzles\nhttps://www.geeksforgeeks.org/puzzles/\nAll the Best!!\n5"
+    }
+  ]
+}

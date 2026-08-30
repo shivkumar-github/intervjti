@@ -1,0 +1,37 @@
+{
+  "fileId": "7e642aeac96d5b6f",
+  "fileName": "Nikhil Soni Oracle Interview Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2024 Experiences\\Placement\\Nikhil Soni Oracle Interview Experience.pdf",
+    "year": "2024",
+    "experienceType": "Placement",
+    "companyFolder": "Placement"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Interview Experience  \nOracle 2024 \n  \nNikhil Soni \n02.08.2024  \nFinal Year IT (2021-25)  \nINTRODUCTION  \nRole - Associate Application Developer"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1  \n  \nOrganization - Oracle Financial Software Services Ltd.  \nEligibility: Circuit Branches(CS, IT, EXTC, Electronics, Electrical)  \nCGPA - 7+ | No Active Backlogs | 12th - 70% | 10th - 70%  \nLocation - Mumbai / Pune / Bangalore / Chennai  \nSalary - 19.1 CTC ( Base-14.5 + 20K USD Stocks(25% redemption every year) + PF )  \nHIRING WORKFLOW  \n1. Online Test  \n2. PPT ( TPO Seminar Hall )  \n3. Technical Round  \n4. Managerial Interview with VP \n5. Technical Round \n6. Technical Round \n7. HR Interview  \nONLINE TEST  \nHackerrank Platform (Online)| 5:00 PM 2/8/24 | 120 mins | 36 Questions  \n1. Coding (1):  \nI don’t remember the exact question ,but it was a variation of the Same tree question. We had to \nimplement the tree from scratch. \n \n2. Aptitude   \n3. Grammar   \n4. Core Subject question.  \nTip: \"Remember to avoid errors in Aptitude and Grammar, as they affect your overall score. I solved the \ncoding question successfully (all test cases passed), but the Aptitude and Grammar sections are also \nimportant.\"  \n50 students were shortlisted. They divided the students into two groups for two roles, and based on \nthat, the interviews were scheduled."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2  \n  \nTECHNICAL INTERVIEW  \nTPO (Offline)| ~ 50 Mins  \n1. The interviewer told me to introduce myself.  \n2. Then She asked some basic OOPS and core Java questions. \n3. I was asked to write the complete syntax to implement maps in Java on paper. The interviewer \nlooked satisfied with my work. \n4. Then she gave me 2 tables and told to write an sql join query for a given output. I made a \nmistake at start, but with the hints I was able to write the correct query. \n5. In my resume, all the projects were built using Flutter, and the interviewer did not have any \nexperience with it, so I explained why I had used Flutter. \n6. Then she asked some HTML and CSS questions. \n      Prepare these for the Interview:  \nIntroduction | DSA(striver 180) | SQL | HR Ques |DBMS | OS |  Oops  \nAt any point, the interviewer can ask you to write the code for anything. So don’t mention things that \nyou are not confident about.  \n \nMANAGERIAL INTERVIEW WITH VP \nTPO (Offline) | ~ 50 Mins  \n1. Firstly, the VP went through my resume and asked how was my internship experience.    \n2. Then he asked about my family background. He asked why am I not joining my family business , I \ntold him the reason and he seemed pretty impressed by it.  \n3. I had mentioned that I am also a trek leader. He asked how it started and why do I like it. He also \nasked which places I have visited. \n4. Then he asked how do you manage people during trips , I shared with him 2 different scenarios \nduring treks and explained how did I managed them. \n5. Then he gave a me 2-3 scenarios and asked how would I react to them."
+    },
+    {
+      "pageNumber": 4,
+      "text": "3  \nTECHNICAL ROUND \nTPO (Offline) | ~ 25 Mins  \n1. There were 2 interviewers , they went through my resume and asked some basic questions \nabout the projects like why this techstack, features, etc. \n \n2. One of them asked me to explain my internship project, I explained and he seemed impressed. \n3. Then they asked me to choose between 2 questions, they told me 1 would be hard and the \nother would easy, but also, I had to write the code of easy question without any help and the \nsyntax should be correct, while in hard, they would give hints and there can be some syntax \nerrors in the code. \n \n4. I had chosen the hard one. There was a long story related to 2 villages, but it was a simple, \nminimal platform required question. \nhttps://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1 \n \n5. But the twist was, arrival and departure were not given, I had to assume this as an input, the \ninterviewer told me you can take any data from the station master. \n \n6. I tried different things, but couldn’t think of taking the arrival and departure times of the trains. \n \n7. Then asked some basic Java questions related to OOPS. \n \n \nTECHNICAL ROUND \nTPO (Offline) | ~ 40 Mins  \n1. The interviewer went through my resume and also the rough sheets of my previous rounds; he \ntold me it's great that I know Java. \n \n2. Then he asked some questions on OOPS, like inheritance and polymorphism. he told me to write \nan example of polymorphism in Java. \n \n3. Then he asked some questions related to firebase , he gave an set collections in firebase and \ntold me to write the flutter code to get this data on frontend. \n \n4. He asked a question related to coin and probability. I don’t remember the exact question. \n \n5. He told me to write a code that included a hashset."
+    },
+    {
+      "pageNumber": 5,
+      "text": "4  \nHR ROUND \nTPO (Offline) | ~ 10 Mins  \n1. The HR called all 5 students selected for the OFSAA team. \n \n2. She asked our preferred location : Mumbai or Bangalore. \n \n3. Then she asked how the entire interview process was. \n \n4. At the end, she asked whether we had any questions or not. \n \n \nFinal results were out at 5 pm, 10 students were selected, and I was one of them. Two days after,  2 \nmore students were selected, so the total was 12. \nTips: \n1. Always use pen and paper (or a whiteboard) to explain concepts. This allows the interviewer to \neasily refer back to any point during the discussion. \n2. All of my interview rounds were conducted in Hindi. It's perfectly fine if you're more comfortable \nin Hindi, but let the interviewer initiate the language switch — don't change the language \nyourself. \n3. Use the STAR (Situation, Task, Action, Result) method to explain your projects. This helps in \npresenting your experience in a structured and impactful way.  \n \nResources: \nDSA: neetcode150 , strivers-a2z-dsa-course-sheet-2 \nDBMS : Gate smashers DBMS \nOS : OS Gate smashers \nOOPS : Javatpoint \nSystem Design  : Gaurav sen system design \n \nFor any help, Feel free to reach out to me here:"
+    },
+    {
+      "pageNumber": 6,
+      "text": "5  \nEmail: nikhilsoni2910@gmail.com \nLinkedIn: Nikhil Soni"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fileId": "f4d06ed580ec20ff",
+  "fileName": "Soumitra_Kand_Kotak_Life.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Kotak Life\\Soumitra_Kand_Kotak_Life.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Kotak Life"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "KOTAK LIFE \nInternship interview Experience \n \nSoumitra Kand \nBranch: Information Technology (TY) \n \nResume Shortlisting \nStudents were shortlisted on the basis of their Resumes for the Technical \nAssessment. Around 60 people (CS + IT) gave the online test. \nOnline Assessment \nThe online assessment consisted of 5 sections: \n1. Aptitude (10 questions) \n2. Logical Reasoning (10 questions) \n3. Verbal Aptitude (10 questions) \n4. Java (10 questions) : Questions related to the core concepts of Java were \nasked (OOPS concepts, Garbage Collector, etc.) \n5. Psql (10 questions) : Some SQL queries and theory questions based on \nPostgreSQL. It was a bit tougher section and couldn’t attempt all of the \nquestions as time was limited."
+    },
+    {
+      "pageNumber": 2,
+      "text": "2 \nThe overall test was on a medium level of difficulty. As there were a lot of questions, \ntime management was crucial. Results to test came out a few days later and around \n15 people were shortlisted for the interview process. \n \nInterview Process \nPPT and interviews were conducted on 21st December. It only had 1 round \n(Technical + HR) and lasted for around 15-20 minutes. Questions were as follows: \nIntroduction \nFirstly the interviewer asked me to introduce myself. Been preparing for this \nquestion for a long time, so I was confident in answering :)   It is better to prepare \nfor such questions beforehand. I gave my basic introduction, the tech stack that I \nused and the languages that I knew. (I use Java for coding and he was a bit \ninterested in that). The interviewer was pretty friendly and gave me his introduction \ntoo. \nProjects \nI was asked to explain some of the projects mentioned in my resume. I had made \nsome Flutter Projects and done 2 internships (Off-Campus) prior to this.  \nHe asked a lot of questions about my previous internship and the role that I had \nover there. It was a Backend developer role. So he asked about the technologies \nthat I used like Docker, AWS, Django, etc. \nWhat is docker and where is it used? \nDocker is a software platform that allows you to build, test, and deploy applications"
+    },
+    {
+      "pageNumber": 3,
+      "text": "3 \nquickly. It packages software into standardized units called containers that have \neverything the software needs to run including libraries, system tools, code, and \nruntime. It allow devs to package an application with all of its requirements and \nconfigurations \nWhat AWS services have you used and explain them? \nI have worked with AWS EC2, S3, Route 53, RDS. So I explained how and why I used \nthese services. He asked a few questions about S3 like its advantages and \ndisadvantages. Other than this, we talked about GCP and drew some comparisons \nbetween AWS and GCP. \nWhich would you choose between a SQL and NoSQL database? \nAs I had not worked a lot with NoSQL databases, I naturally answered with SQL \ndatabases. Also SQL databases have various features like: \n● Managing and handling all relational databases (Primary and Foreign Keys) \n● Ease of Use  \n● Language (SQL being a standard and familiar language.) \n● Performance \n● Scalability \nFor further reading: SQL and NoSQL databases \nSQL \nNow the interviewer asked some questions on DBMS and SQL.  \nWhere are and why are indexes used in SQL? \nA SQL index is a quick lookup table for finding records users need to search"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4 \nfrequently. An index is small, fast, and optimized for quick lookups. It is very useful \nfor connecting relational tables and searching large tables.  \nExplain the different Normal Forms in DBMS \nNormalization is the process of minimizing redundancy from a relation or set of \nrelations. Redundancy in relation may cause insertion, deletion, and update \nanomalies. So, it helps to minimize the redundancy in relations. Normal forms are \nused to eliminate or reduce redundancy in database tables. \nNormal Forms in DBMS - GeeksforGeeks \n \n \nConcluding \nLastly the interviewer asked if I had any questions for him. You must always ask 1 -2 \nquestions at the end of the interview. \nSo I asked what kind of tech stack do interns work upon at Kotak Life. He answered \naccordingly and my interview came to an end."
+    }
+  ]
+}

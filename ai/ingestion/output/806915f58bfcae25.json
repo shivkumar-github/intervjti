@@ -1,0 +1,25 @@
+{
+  "fileId": "806915f58bfcae25",
+  "fileName": "MORGAN STANLEY Interview experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2019 Experiences\\MORGAN STANLEY Interview experience.pdf",
+    "year": "2019",
+    "experienceType": null,
+    "companyFolder": "2019 Experiences"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Morgan Stanley Interview Experience \n \nRound 1: Online Test \n \nThe first round contained 3 modules. One was debugging, one \nquantitative aptitude, and one coding round. We had a total of 100 \nminutes, split into 20, 20 and 60 for each module respectively. \nDebugging and Aptitude had 7 and 10 questions respectively. Coding \nhad 3 problems, of which I solved 1 completely and 1 partially. \n \nRound 2: Technical Round \n \n6 people were shortlisted for this round based on the online test. \nThis was a technical round. It started with tell me about yourself. Then \nI was given certain problems based on data structures and asked to \nsolve them. \n \nQuestions: \n1. Suppose there is a table you want to store as follows: \nYear \nCity \nAvg Temperature \n2017 \nMumbai \n28 \n2017 \nChennai \n40 \n2018 \nMumbai \n32 \n2019 \nMumbai \n35 \n \nImplement a data structure that gives average temperate of a city \n(over all the years) \n \nEg. If city = Mumbai, return (28+32+35)/3 \n• I said a map would be good such that you map a pair of strings \nto a temperature. I was asked to implement code for getting \naverage temperature by city. \n• I was then asked many questions based on maps, multimaps, \ntheir advantages & disadvantages, why is a map better than a \nhash, what’s the difference and so on."
+    },
+    {
+      "pageNumber": 2,
+      "text": "• Then I was asked to implement a class map such that the lookup \ntime in that was O(1) (basically using hashing). Then I was asked \nhow would I solve the problem of collision in the map that I \nimplemented. I gave a linear probing solution. I was asked to \nimplement the code at each and every step. \n \n2. Given a sparse matrix give the best way to store it in memory (the \nsize of the matrix is not given to you) \nI gave list of lists solution. They were satisfied with it. \nhttps://www.geeksforgeeks.org/sparse-matrix-representation/ \n \nhttps://www.geeksforgeeks.org/sparse-matrix-representations-\nusing-list-lists-dictionary-keys/ \n \n3. Print boundary traversal of binary tree  \nhttps://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/ \n \nI first gave a recursive solution. \nI was then asked to implement a non-recursive solution. I gave one \nand they were satisfied. \n \nThey then asked me what’s the difference between a process and a \nthread and whether I knew any scheduling algorithms. I said I don’t \nknow as it has not been taught to us yet. They didn’t ask further \nquestions on that. (Be honest about anything you don’t know) \n \nLast part of this round was based on SQL joins, queries. \n \nRound 3: HR Round \n \nThis round was a profile fitness round. I was given many situations and \nasked how I would approach them. I was also asked a bit about my \nroles in the technical fest, how I was part of it and some situations too."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Round 4: \n \nThis round was with the Executive Director. He first asked me to \ndesign a coffee shop. And then he asked me 2 puzzles.  \n \nAlso, I was asked to give a brief description of the work I did during my \nprevious internship and about my projects in each round. (all of these \nwere mentioned in my resume) \n \nFinally, 3 of us were selected."
+    }
+  ]
+}

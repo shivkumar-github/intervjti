@@ -1,0 +1,25 @@
+{
+  "fileId": "47241bb3cf31e3d5",
+  "fileName": "Soham_Rane_Google SWE Intern - Interview experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2025 Experiences\\Internships\\Google\\Soham_Rane_Google SWE Intern - Interview experience.pdf",
+    "year": "2025",
+    "experienceType": "Internships",
+    "companyFolder": "Google"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Google SWE Intern | Interview experience \nMode: Off-Campus ​\n​\n​\n​\n​\nSoham Rane | TY IT 2023-27 \n \n \nApplication \nGoogle did not visit on-campus for internships in 2025 (unlike previous year), so I \napplied off-campus on careers.google.com in July when they posted the SWE \nSummer Intern 2026 opening. \nI also took a referral from a senior (LY, who interned at Google in Summer 2025). \nIt’s preferred to take referrals from full-time employees, as those generally carry \nmore weight. \n \nCall for Interview (Phone Screen) \nOn 17th September, an hour before my MST exam, I received the first call from \nGoogle. They asked if I was available to talk for ~10 minutes or if they should call \nlater. I said yes and continued with the call.  \n(Note: Only say yes if you are in the right environment to talk., they’re happy to \nreschedule otherwise. This quick call is called the “phone screen” round.) \nThey asked for my introduction, projects, tech stack, DSA experience, and \nnumber of problems solved on LeetCode/Codeforces, etc. \nAt the end of the call, they said they were happy to proceed with me for \ninterviews and asked about my availability. Since it was my MST week, I \nrequested a slot in the following week. Later that day, I received the confirmation \nemail for the scheduled interview. \n \nInterview Preparation \nI quickly contacted seniors and took guidance, advice, and mock interviews from \nthem."
+    },
+    {
+      "pageNumber": 2,
+      "text": "Google’s interview process is very structured. \n●​ Each round has a strict 45 minute limit. \n●​ You get a problem/problems, and you have to walk through your thought \nprocess with the interviewer. \n●​ You solve it in a shared Google Doc. \n●​ DSA skills are essential, it’s not something you can build in just a week or \ntwo, so keep practicing consistently and you’ll see steady improvement. \nImportant points I focused on: \n●​ State your assumptions clearly and ask clarifying questions.          \nThis is very important, because interviewers often provide an incomplete or \nminimal version of the problem to test your communication skills. We may \nend up making incorrect assumptions and solve the wrong problem, and \nonly realize it near the end of the interview. So make sure to state your \nassumptions so you can catch errors early. \n●​ Write clean, readable, well-structured code with good variable names \n●​ Dry run the solution. \n●​ Think of corner cases, but choose simple ones so you don’t waste time. \n●​ Communicate your thought process clearly. \n●​ It’s okay to take a minute of silence to think, but not too long. If stuck, \ncommunicate where you’re stuck, interviewers often give subtle hints. \n●​ Time management is very important. Keep checking the clock. \n●​ Pay attention to your interviewer. They’re not against you. They want \nyou to solve the problem. They may drop tiny hints, so make sure to catch \nthem. \nBefore the interviews, I did a few mocks with seniors and friends. It helped me \nidentify strengths and weaknesses. \n \nFirst Round \nI gave Round 1 on 26th September. I was asked 1 problem with a couple of \nfollow-ups. Took exactly 45 minutes to answer everything. \nI can’t discuss the exact problems for confidentiality reasons."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Second Round \nI received the mail for Round 2 a few days later. I gave this round on 7th October \nand was asked 1 problem. \nInitially, I gave a solution but later realized it was wrong when I dry-ran it on a test \ncase given by the interviewer. Then I came up with the correct approach and \ndry-ran that one too. By that time, 35 minutes had passed. \nThe interviewer ended the round without any follow-ups. \n \nResults \nAfter a long wait, I received the results on 12th November and I was fortunate \nenough to be selected. \n \nFinal Thoughts \nThe overall process requires a good amount of fortune to go your way. Many \nthings are out of your control. Focus only on what you can control, give your \nbest, and don’t think too much about the outcome. \nNo matter what happens, you’ll come out a better version of yourself."
+    }
+  ]
+}

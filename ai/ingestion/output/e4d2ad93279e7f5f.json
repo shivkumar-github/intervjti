@@ -1,0 +1,37 @@
+{
+  "fileId": "e4d2ad93279e7f5f",
+  "fileName": "Texas Instruments Interview experience_Fardeen_Khan (1).pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Texas Instruments\\Texas Instruments Interview experience_Fardeen_Khan (1).pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Texas Instruments"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Fardeen Khan - Technical Sales Associate\nFinal year Electrical-2024\n\nInterview Experience"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Branch: Extc, Electronics & Electrical\nCGPA: 6+\nNo backlogs\nTechnical (20 questions)\nAptitude (20 questions)\nThere were two sections: \nTechnical section had questions on core electrical, the questions were a mix\nof both analog and digital, questions on op-amps, filters, mosfets, bjts,\ntransformer & priority encoder.\nAptitude was relatively easy with questions on quants- positions & directions,\nquick math, ratios, one or two questions on data interpretation and a few\nquestions on logical reasoning.\nEligibility Criteria\n Online pre-placement talk \n Online Assessment \n Technical interview 1\n Technical interview 2\n HR round\n Interview with Hiring team head \n Interview with India Sales director\nRoles Offered: Field Application Engineer(FAE) & Technical Sales Associate\n(TSA)\n1.\n2.\n3.\n4.\n5.\n6.\n7.\n \nHiring Workflow\nOnline Assessment"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Around 18 students were shortlisted after the online assessment for\nthe role. Before the interview we were given a business case study\nproblem statement, a semiconductor company was facing a\ndistribution issue and wanted a solution for the same, I proposed an\noptimized supply chain with ideas of reverse logistics, product\ndiversification among distributors, breakbulk terminalization during\nseasonal peaks and a competitive analysis of that problem.\nWe were asked to prepare a presentation for the same and present it\nin the interview 1.\nThe interview started with my introduction followed by a few questions\nabout my work experience at previous internships and a few technical\nquestions from my research internship. He then started asking me\nquestions on the design of a mosfet and then he made a mosfet circuit\ngiving conditions of switching noise reduction, faults in output voltage\nand how to fix it, there were follow-up questions where he asked me\nthe effects of connecting a capacitor at different location within the\ncircuit. We then discussed my presentation of the business case study\nand he was impressed by my solutions, he asked me to provide\nprobable solutions and sustainable planning on current semiconductor\nand electronics industry issues. He added follow-up questions to my\nanswers, after he was satisfied with my answers, he wanted to test my\ntechnical approach and asked questions on how I would design a\ndrone and how would I plan to switch a geo-stationary satellite\ncovering x perimeter of earth with 10 smaller satellites covering the\nsame distances. The interview went for an hour.\nConcluding the interview he asked me what all do I know about TI and\nwill I be willing to relocate, I happily replied yes :)  \nTechnical Interview 1"
+    },
+    {
+      "pageNumber": 4,
+      "text": "There were two interviewers, the interview started off with my\nintroduction followed by profile based questions- work ex, academic\nprojects, position of responsibilities and a few questions on the\nacademic competitions I had on my resume.\nInterviewer 1 asked me questions on revenue generation, market cap,\nconsumer demand, distribution planning and competitive sale and\nbusiness dev. Interviewer 2 asked me technical questions on the\nworking of a microphone with follow-up questions on how to fix a\nnoisy analog signal and the sampling done from analog to digital\nsignal.\nThen they gave me situation problems, one was an angry client\nsituation where I had a delivery issue due to the production issue on a\nfactory level, they asked me how I would fix it and a revenue plan on\nthe deliveries. Another was on rising consumer demand for our client\nand price negotiation for the supply components.\nLater they asked me question about TI and why do I want this role.\nThis interview also went for an hour.\nTechnical Interview 2\nThe interview started with my introduction followed by profile based\nquestions, it was a basic HR round where I was asked questions on\nhow have the interview rounds been so far and questions about my\nextracurriculars, family background and future plans.\nHR Round"
+    },
+    {
+      "pageNumber": 5,
+      "text": "This was a short interview, it started with my introduction and then the\ninterviewer asked me to talk about myself apart from what was written\nin my resume, this was a tricky question since I had to frame an answer\nwhich would make me a great fit for the role and it was not supposed\nto be in my resume, I tackled that question by telling the interviewer\nabout my experience with my family business led retail stores and my\nidea on opening a club.\nThe interviewer asked me to draft a plan on scaling an electronics retail\nstore. He further asked me questions about the TSA role and why I\nwanted it.\nInterview with Hiring team head \nIt was an online interview since the India Sales director was in Texas\nand he was working in US hours so the interview was scheduled\naround 10:30 pm. It was a 45 mins interview where he assessed my\nprofile, my technical skills as well as my business solutions &\ncommunication skills.\nHe asked me questions on my internships and future plans. He asked\nme questions on my recent travels, we discussed about life\nexperiences and where would I be willing to work, he jokingly asked\nwould I be willing to work in the US.\nInterview with India Sales director"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Analog fundamentals\n Op-amps and filters (GATE level)\n Case studies, Guesstimates & analytical thinking questions\n For technical skills and technical interview questions -\nhttps://youtu.be/KBI7mGolOXI \n For case studies and guesstimates -\nhttps://www.linkedin.com/in/verma-sarthak/ (he posts great\nconsulting business cases and guesstimates)\nFor aptitude questions- https://www.indiabix.com/\nFollowing are the topics to prepare for the TSA role\n1.\n2.\n3.\nFollowing are the links to refer:\n1.\n2.\n3.\nResources\nTI is very selective with the hiring and each interview lasts about an\nhour atleast. They check each and every skill required for the job role. I\nhighly recommend  to build your profile with strong spikes in academic\nrecords, work experiences, academic projects, technical and business\ndev skills and great communication skills during the interviews.\nTips"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "fileId": "7cbd195ec7d34fc8",
+  "fileName": "Mohak_Chandani_UBS.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\UBS\\Mohak_Chandani_UBS.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "UBS"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERVIEW EXPERIENCE\nSUMMER INTERNSHIP 2022\nMohak Chandani\nThird Year\nInformation Technology"
+    },
+    {
+      "pageNumber": 2,
+      "text": "ROUND 1 - ONLINE TEST (1 HOUR)\nEligibility Criteria : Students from CS, IT, EXTC with 7+ CPI (No Backlogs)\nOnline Test was conducted on 15th Nov, 2021 at 4:00 PM on HackerRank. The test had\n1. 23 MCQs which were based on\n●\nJava, C++ and a few on Python ( OOPs, Predict the Output )\n●\nPseudocode for getting the output\n●\nDSA (Quicksort, Doubly Linked list)\n●\nDBMS (Normalization, SQL Queries and SQL keywords eg. DISTINCT)\n2. One Coding Question\nThe coding Question was Matrix Traversal\nGiven a 4 x 4 matrix mat, the initial energy is 100. The task is to reach the last row of the\nmatrix with the maximum possible energy left.\nThe matrix can be traversed in the following way:\n1. Start with any cell in the first row.\n2. In each move, traverse from cell (i.) of the throw and th column to any existing\ncell out of (i + 1, j-1), (i+1, j) or (i+1, j+1).\n3. Finish the traversal in the last row.\nAfter stepping on a cell (i, j), energy decreases by mat[i][j] units. Find the maximum\npossible energy left at the end of the traversal.\nNote: The final energy can be negative.\nExample mat =[ [10, 20, 30, 401],\n[60, 50, 20, 80],\n[10, 10, 10, 10],\n[60, 50, 60, 50] ]\nAns : 0 ( 100 - ( 20 + 20 +10 + 50 ) )\nI gave a recursive solution (as the size of the matrix was fixed) and all the test cases were\npassed. There was an optimized solution using Dynamic Programming.\nThe question was similar to this."
+    },
+    {
+      "pageNumber": 3,
+      "text": "INTERVIEW 1 - TECHNICAL (30 MINUTES)\nInterviews were scheduled on 18th November, 2021. 9 students were shortlisted for the\ninterviews. My interview was at 10:00 AM on Skype Business Meetings.\nThere were 2 interviewers and both of them were very friendly. I was asked\n●\nTell me about yourself.\n●\nTell me about your projects.\nThen she started with DBMS.\n●\nWhat is Normalization and what is its purpose ?\n●\nWhat are various Joins in SQL ?\n●\nWhat are DDL and DML ?\n●\nDifference between DELETE and TRUNCATE ? Can we use WHERE clause in\nDELETE and TRUNCATE ?\n●\nWhat are the various SQL set operations ? What is UNION ALL operation ?\nThen I was asked questions on C++, OOPs and DSA\n●\nWhat are Constructors and destructors ?\n●\nHow to allocate and deallocate memory in C++ ?\n●\nWhat is Polymorphism and its types ?\n●\nDifference between Virtual and  Pure Virtual Functions ?\n●\nWhat is a Linked list and explain its types ?\nSQL Query\n●\nGet the maximum salary from each department. And then she extended the\nquestion , If I also want to know the id of the employee ?\nThen she asked, Did you use any strategy while making these projects ? And then asked\nindirectly about stages of SDLC ( Software Development Life Cycle ) ?\nDo you wish to ask any questions ? I asked 2."
+    },
+    {
+      "pageNumber": 4,
+      "text": "INTERVIEW 2 - TECHNICAL (30 MINUTES)\nThe second interview was scheduled on the same day at 2:30 PM on Skype Business\nMeetings. This round had more Resume related questions. There were 2 interviewers\nand both of them were very friendly.\n●\nTell me about yourself and your projects.\n●\nWhich is your preferred language ? I said C++.\n●\nWhat are the Pillars of OOPs ?\n●\nExplain Abstraction with a real life example.\n●\nWhat is Multiple inheritance?\n●\nWhat are the problems with multiple inheritance ?\nAs I also mentioned Python, MERN stack and Javascript in my resume I was asked,\n●\nDo you know ‘join’ function in python ? What is its use ?\nThen I was shown a code snippet with a join function and was told to give the output.\n●\nWhat is the difference between == and === in Javascript ?\n●\nWhat are the advantages of MongoDB ?\n●\nWhy did you use React ?\n●\nWhat are React keys ?\n●\nWhat is Dynamic Typing ?\n●\nDo you have any Questions ?\nROUND 3 - HR (TELEPHONIC)\nThis round was on a phone call at around 5:30 PM. I was asked,\n●\nWhat is your branch ?\n●\nWhere do you live ?\n●\nWhat are your hobbies ?\n●\nWhy do you want to join UBS ? (Go through the company website. You will get\nmany points)\nThe result was declared the same day at 10:00 PM. They selected 7 people and I was\nfortunate to be one of them."
+    },
+    {
+      "pageNumber": 5,
+      "text": "TIPS & RESOURCES\n1. For Data Structures & Algorithms , I have practiced on 450dsa , Leetcode Top\nQuestions\n2. Referred this for DBMS and this for SQL Queries.\n3. Watched Gate Smashers Playlist and read this for Operating Systems. (Although\nOS was not asked in any of my interviews still it is asked by some companies)\n4. Referred this for OOPs in C++.\n5. If you have mentioned C++ and Python on your Resume then you can expect C++\nVs Python, Interpreter Vs Compiler.\n6. In Online Test, submission time also matters. So try to submit early if you have\ncompleted all the sections.\nIf you have any queries, I would be happy to answer them. You can email me at\nmohakc10@gmail.com."
+    }
+  ]
+}

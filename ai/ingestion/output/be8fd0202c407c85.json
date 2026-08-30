@@ -1,0 +1,29 @@
+{
+  "fileId": "be8fd0202c407c85",
+  "fileName": "NirbhayHanjura_KotakLifeInterviewExperience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Kotak Life\\NirbhayHanjura_KotakLifeInterviewExperience.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Kotak Life"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Kotak Life Interview Experience\nNirbhay Hanjura\nThird Year\nInformation Technology\nLocation - Mumbai\nAfter the end of the fifth semester , kotak life came on-campus for the\ninternship process . The online assessment was conducted on a\nplatform called Freshersworld .\nThe test had 60 questions and the duration of the test was 60 minutes.\nThe test consisted of 5 sections . The camera had to be kept on .\nSection 1 : Aptitude (10 questions)\nSection 2 : Logical Reasoning (10 questions)\nSection 3 : Verbal Aptitude (10 questions )\nSection 4 : Java(15 questions) -> Fundamentals of java were asked ,\nMost of the questions here were easy , some of them were core\nconcepts of java so if you are new to java you will not be able answer\nthem ."
+    },
+    {
+      "pageNumber": 2,
+      "text": "Section 5 :  Psql (15 questions ) -> Toughest section out of all . Though I\nwas familiar with sql , here the questions were based on cursors ,\nindexing in psql database . I could attempt only 10 /15 and have no idea\nif they were correct or not .\nAfter the test , I was waiting for the shortlist and had no hopes as in the\nprevious company tests I solved questions but still I wasn't shortlisted .\nBut luckily I got shortlisted in Kotak Life .\nInterview (Only 1 round)(15-25 minutes)\nTechnical + HR : The interviewer was very friendly and asked about me .\nQuestions asked :\n●Introduce yourself\n●Which domain do you want to work in\nAfter asking these questions the interviewer asked questions with\nrespect to my resume . I have a profile of web developer so he asked\n●What is node js and why do we use it ?\nAns -> Node.js is an open-source and cro-platform runtime\nenvironment for executing JavaScript code outside a browser. You need\nto remember that NodeJS is not a framework and it’s not a\nprogramming language. We often use Node.js for building\nback-end services like APIs like Web App or Mobile App.\n●What is react js ?\nAns -> The React.js framework is an open-source\nJavaScript framework and library developed by Facebook.\nIt’s used for building interactive user interfaces and web\napplications quickly and efficiently with significantly\nless code than you would with vanilla JavaScript."
+    },
+    {
+      "pageNumber": 3,
+      "text": "●What is npm ?\nAns -> npm is two things: first and foremost,\nit is an online repository for the publishing of open-source\nNode.js projects; second, it is a command-line utility for\ninteracting with said repository that aids in package installation,\nand dependency management .\nThen he asked me questions on fundamentals of java as java is my\npreferred language\nQuestions asked :\n●Can you overload main function in java - > Yes , but there is only\none public static void main others cannot be the same .\n●Difference between array and arraylist - > Array has a fixed size\nwhile the arraylist is dynamic and the interface that implements\nthem are different .\n●What is garbage collector in java - > Garbage collection in Java is\nthe process by which Java programs perform automatic memory\nmanagement. Java programs compile to bytecode that can be run\non a Java Virtual Machine, or JVM for short. When Java programs\nrun on the JVM, objects are created on the heap, which is a\nportion of memory dedicated to the program. Eventually, some\nobjects will no longer be needed. The garbage collector finds these\nunused objects and deletes them to free up memory.\n●How does garbage collector work in java - > By freeing up heap\nmemory . Java garbage collection is an automatic process.\nAutomatic garbage collection is the process of looking at heap\nmemory, identifying which objects are in use and which are not,\nand deleting the unused objects. An in-use object, or a referenced\nobject, means that some part of your program still maintains a\npointer to that object. An unused or unreferenced object is no\nlonger referenced by any part of your program."
+    },
+    {
+      "pageNumber": 4,
+      "text": "●What are unreachable objects in java wrt to garbage collector ->\nUnreachable objects are the objects which when deleted cannot\nbe dumped properly because they cannot be accessed directly .\nAt last he asked “ Do you have any questions for me  “ ?\nDo ask questions to the interviewer which makes them feel that you are\ninterested\nResources :\nJava fundamentals : https://www.javatpoint.com/java-basics"
+    }
+  ]
+}

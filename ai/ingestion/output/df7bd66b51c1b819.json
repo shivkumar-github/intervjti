@@ -1,0 +1,29 @@
+{
+  "fileId": "df7bd66b51c1b819",
+  "fileName": "Vishal Dange.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Fiserv\\Vishal Dange.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Fiserv"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1 \nFiserv \nRole: Technology Analyst Intern \n \nVishal Dange | VJTI B.Tech. IT’23 \nRounds : \n \n0) CGPA Shortlisting   \n1) Group Discussion – 30th September \n2) Technical Interview – 1st October \n3) HR Interview – 1st October \nFiserv : \n \nFiserv, Inc. is a global provider of payments and financial services technology solutions.  \nThe Company provides account processing and digital banking solutions, card issuer  \nprocessing and network services, payments, e-commerce, merchant acquiring and \nprocessing, and the Clover cloud-based point-of-sale solution. \n \nFiserv visited our campus on 29 September ,2021 for the On-Campus Internship Drive.  \nEligibility: 6+ CGPA \nBranches: \nComputer Engineering , Information Technology ,Electronics & Telecommunication , \n \nCGPA Shortlisting – \nFiserv Shortlisted people based on CGPA. Only those people having CGPA > 8.0 were \nallowed to sit for further rounds . \nSo, try to keep your CGPA at least 8.0."
+    },
+    {
+      "pageNumber": 2,
+      "text": "2 \nGroup Discussion (GD) Round - \nFiserv had informed us about this round just a day before , and we have been expecting \nCoding round but they had not taken any coding round, and GD round started from 9:00 \nAM on 30th September. \n \nSo, I had gone through all the GD topics asked in interviews and practiced these topics \nexplaining myself in front of camera. ( P.S. : So, if you prepare this before hand, you will \nnot fumble in the interview) \n \n \nGD Topic : Women empowerment and Gender Injustice \n \nPoints to keep in mind :  \n• Be Calm . \n• Try to speak to the point  \n• Ask right Questions \n• They want to check how good team player you are and also your communication \nskills will be tested. \n \nThis round went well. After a day ,they have shortlisted around 44 candidates for \nnext round and I was one of them. \n \nTechnical Round:(25 minutes) \nAs I had not found any Interview Experience of Fiserv anywhere. So I asked my seniors \nabout how was interview process and questions . \nAlways read the past year experiences because it really helps in the interview. \n \nMy Round  was scheduled at 10:00 AM  \nThe interview lasted around 25 mins. \n● The interview started with the standard question of tell me about yourself \n \n● Then she gone through my resume and asked to explain my project ( \nBookxchanger)."
+    },
+    {
+      "pageNumber": 3,
+      "text": "3 \n● Since, I have used MERN stack in my project, she asked me to explain MERN \nstack in detail . Then she asked why you preferred MongoDB over SQL  ( A \npretty standard question on project) . \n● She asked me SQL Queries regarding Create, Adding Keys to Table ,Clauses , \nher intention was to check if I am familiar with basic SQL queries or not. \n● Then she asked  about size of varchar(). \n● She moved on to my next project and asked me How CRUD application works ( \nAs I had mentioned in my resume ). \n● Then She asked me OOPs concepts such as what is Inheritance. Explain with \nthe help of example. \n \nFrom 44, 30 people were shortlisted for next round i.e. HR round and I was one of \nthem. \nMy round was scheduled at 12:00 PM. \n \n \nHR Round: \n     Basically, HR round is to check how fit you are for the given role. \nHR round started with my introduction. He was trying to make me comfortable by \nasking questions like how are you ? Where do you live ? etc. \nIt was more like a conversion rather than interview. \nQuestions Asked :  \n1.What Tech  Stacks you know ? \n2.What new Technology you want to learn ? \n3.Are you enjoying Work from home ? \n4.What happens behind the scenes when you type something on google and hit enter ? \n5.If We all start using Electric Vehicles , then how will this benefit us ? \n8.Any questions you want to ask ? \n \nFinally after waiting for exhausting  4 days , Fiserv announced that 23 people were \nselected for internship and I was one of them. \n \n \nResources: \n● For DSA, I have used 450dsa, InterviewBit, GeeksforGeeks, and"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4 \nLeetCode.I mainly used Geeksforgeeks practice and one question \nfrom each bucket on interviewbit. \n● For OOPS ,OS,DBMS I referred to Love Babbar’s Roadmap  and These \nNotes"
+    }
+  ]
+}

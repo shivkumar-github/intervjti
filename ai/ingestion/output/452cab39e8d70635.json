@@ -1,0 +1,17 @@
+{
+  "fileId": "452cab39e8d70635",
+  "fileName": "PPO_Interview_Experience_Morgan Stanley.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Placements\\Morgan Stanley\\PPO_Interview_Experience_Morgan Stanley.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Morgan Stanley"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Morgan Stanley PPO Interview Experience \nPriyanshi Gupta, BTech IT (2018-2022) \nAt Morgan Stanley, the PPO interview + Manager Review + ED Review is considered for the \nconversion process. And in the PPO interview, you can be asked about the internship \nproject, DSA questions, OOP principles, System Design, OS, CN depending on your \ninterviewer. \nFollowing is my interview experience \nThe duration of my interview was approximately 1hr 15mins. \nTo begin with, I was asked about my internship project. I explained both - the business \naspect and technical aspect of my project. I was asked a few questions related to the project \non the lines of scalability and reliability of the system and why I chose a particular tech stack \nto implement it. This discussion was about 15-20mins long. \nNext, I was asked to code the following two questions on Linked Lists \n1. https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/ \nI kept discussing the approach with the interviewer (Highly Recommended). Initially I \nsuggested an approach which used Stack for reversing the lists and then adding the \nnumbers. He asked me to code the same (in Notepad). Then he wanted me to optimize the \nspace used i.e he wanted me to recursively solve the problem. I wrote the code for the \nsame. \n2. https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/ \nHere too I discussed the approach, I didn’t get this immediately but after some \ndiscussion I gave a solution which used a HashMap. He didn’t ask for further \noptimization due to paucity of time left. \nAfter the two DSA questions, I was asked a system design question. I had to design a \nTournament System. There was a 15-20 minutes long discussion on the same. Basically, I \nwas expected to list the classes that will be required and the data members and methods \nfor the same. (Notepad was used for this as well) \nWhile discussing he would often introduce a new functionality and ask how you would \nimplement that using the system that you have designed and if any additional classes would \nbe required. \nWhen I was listing classes, he would ask if this class is really necessary or if a particular \nmethod in the class is required or we could do without it. In such cases, it is expected that \nyou will be able to justify your thinking and provide a reasonable approach for \nimplementing any functionality. \nTowards the end, the interviewer allowed me to ask any questions that I had. (Always ask \nsomething here!)"
+    }
+  ]
+}

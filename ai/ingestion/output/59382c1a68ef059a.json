@@ -1,0 +1,21 @@
+{
+  "fileId": "59382c1a68ef059a",
+  "fileName": "Morgan Stanley-Internship Interview Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2020 Experiences\\Internships\\Interview Experiences\\Morgan Stanley\\Morgan Stanley-Internship Interview Experience.pdf",
+    "year": "2020",
+    "experienceType": "Internships",
+    "companyFolder": "Morgan Stanley"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Morgan Stanley (2 Month Internship) On-Campus \n \nI. \nCoding Round (only for TY CS and IT) conducted on AMCAT \n \n1. Aptitude (10 question and 20min) \nIt had Quantitative Aptitude questions (to prepare for this you can use indiabix.com  or \njavatpoint.com) \n \n2.  Code Debugging 7 ques (20mins) \n(Some easy codes like find max product of 3 numbers, find median, find the smallest \ndistance, area of triangle, loops) \n3. Coding (3 questions 1 hour) \na. It was too long and something related to priority, I didn't attempt it all \nb. Find the number with maximum number of 1's in binary from a given set of numbers. \n(I missed just one test case for this, probably due to modulo) \nc. The question was based on disjoint set (union-find), I don't exactly remember the \nquestion. It said there are a given number of people with priority assigned to each, and \nsome groups already made. Some requirements were given. You've to find out the first \nbatch of people that can work simultaneously with highest priority. (Only passed 1 test \ncase and time was up) \nThe questions were too long, and little confusing to understand (so I would suggest read all \nthe questions, understand it, and start with the one you know the logic of) \n \nOut of all 26 were selected for the next round (Interview) \n \nII. \nInterview 1: Technical Round (1-hour 15mins) \n→ Tell me about yourself (expected technical stuff) \n→ Which programming language do you use? I said C++. A few questions about Base and \nDerived class pointers, virtual keyword, will base classes static member be available to \nderived class. (trial and error a program to learn, when what is inherited) \n→ Linked List: Given a set of numbers, find the greatest element up to (took me a little \ntime to understand the question) \nExample: 1,3,5,10,7,8,3 \nOutput: 10,10,10,10,8,8,3 \nI was asked to explain the approach, after that optimize it (which I didn't), coded it on \nnotepad.  \nAfter that I was asked to convert it into Recursive solution, only partly I could. \n→ Given a huge file, and size of RAM is less, how will your sort it?"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Ans: External Merge Sort (https://www.geeksforgeeks.org/external-sorting/) /Min Heap \nApproach, then if there are duplicates will the order be maintained (which sort has that \nproperty? Merge, Quick or Heap, Ans: Merge) \n→ Some array questions, convert the array into low-high-low-high points \nExample: 1,5,6,7,8,9 \nOutput:5,1,7,6,9,8 \n→ OS Questions: \no Deadlock Conditions? \no What if RAM is overloaded? \no Booting process \no Few fellow interviewees were asked about thread, process and multithreading \nintensively  \n \nOut of 26 only 10 were shortlisted \n \nIII. Interview 2: HR+Technical (1:30 hour) \n→ Gave me 7-10mins to explain about myself and how I got into Tech, asked me about \nhow do I related my extra-curricular activities to the academic stuff (be true, don't fake \naround, it doesn’t help the vibe) \n→ Asked me to rank myself among my peers and why? \n→  If I've had read any technical books, learnt any language out of the way (I was true to \nsay NO and which he appreciated)  \n→ One thing in your attitude, you would like to give your peers and one you want to take \nfrom them. \nTip: BE TRUE \n→ Technical Part: Design an Uber Lite (give all the entities, how will they communicate \nusing OOPs concept), lasted an hour. \n \n8/10 were selected for the internship (It was decided before the last undisclosed round) \n \nIV. There was another round. But let's keep that a secret xD. \n \nTips to work on: \n1. Archives on GFG (go through every single one for the company, there is a pattern ;) ) \n2. GFG for data structures \n3. OS (Deadlock, Process Synchronization, CPU Scheduling, Threads, Memory-RAM) \n4. DBMS (Normalisation and SQL Queries)"
+    }
+  ]
+}

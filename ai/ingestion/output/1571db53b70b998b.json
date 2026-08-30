@@ -1,0 +1,41 @@
+{
+  "fileId": "1571db53b70b998b",
+  "fileName": "Diven Sirwani _ Oracle _ Interview experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Oracle\\Diven Sirwani _ Oracle _ Interview experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "NAME : Diven Sirwani\nBatch 2024\nInformation Technology"
+    },
+    {
+      "pageNumber": 2,
+      "text": "ROUND 1 →ONLINE TEST\nThe test was divided into four sections. There wasn’t any time\nconstraint in these sections. You can switch between the sections\nand the time limit was for the overall test submission.\nSection 1:\nCoding Question (Medium-difficulty) Longest Increasing\nSubsequence\nSection 2:\n10 MCQs on Aptitude.\nSection 3:\n10 MCQs on vocabulary, paragraph reading, grammar,\ncorrections, etc.\nSection 4:\nCoding Question (High-difficulty) REST API: Asteroid Orbits\n40 students were shortlisted for role 1 and 15 for role 2 out of the\n191 students that applied."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Round 2 →Technical Round 1 : Duration : 45mins : offline\nThere were 2 interviewers in the 1st round of interview.\nThey both were friendly…\nFirstly they started with my introduction and then asked me about\nmy internship work in very detail.\nThen they asked me questions on web development as i had\nmentioned fullstack web developer in my resume.\nThey asked me :\n1. What is react\n2. What is virtual DOM\n3. What is API\n4. What is rest API\nThen they asked me if I was familiar with c++ or java.\nI said c++.\nThen they asked me all about pointers and their powers.\nAka . Advantages and Disadvantages.\nThen they started to ask me if I knew about DBMS?\nThey gave me 3 tables and asked me to print the output of their\nquestions.\nIt was A piece of cake IF YOU KNOW about joins in SQl.\nBasically you just had to apply joins on the table.\n(PRACTICE SQL … it is important)"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Later they asked me if I knew about trees or not…I said yes\nThey asked me about all the traversals I know on trees.\nThey asked me logic for →\n1. level order traversal\n2. left view of tree\n3. right view of the tree\n4. boundary traversal of the tree.\nThey seemed to be impressed by the answer I gave , then they\ngave me a tricky puzzle which I had never seen before.\nhttps://www.geeksforgeeks.org/puzzle-16-100-doors/\nThis was the puzzle they gave me.\nIt took me a good 4-5 minutes to figure out the solution and finally\nI came up with the correct solution and both of the panelists\nseemed to be impressed by the approach I came up with.\nLater they asked me if I play guitar?\n(which i had mentioned in my resume :)\nhaha…)\nThe interviewer also used to play the guitar so we had discussion\non our guitar skills and on the songs we both have written by\nourselves hehe…And then we were done with the 1st Technical\ninterview.\nNO HR questions were asked in this round."
+    },
+    {
+      "pageNumber": 5,
+      "text": "Round 3 →Technical Round 2 : Duration : 60mins : offline\nThis round was the longest of all.\nIn this round the VP himself was taking my interview along with 1\nmore interviewer.\nThey started with my intro.\nMy family background.\nAnd a few basics just to make me feel comfortable with them.\nThen again in this round they asked about my internship work in\ndetail.\nThen they came up with more questions on SQL Joins.\nThey also asked me about ACID properties and\nNORMALIZATION in DBMS.\nThey also asked me on inheritance in OOPS in detail and i\nexplained it to them using c++.\nLater they asked me a few questions in the MACHINE\nLEARNING domain as I had a project in it.\nI explained what it is and how it works. I explained my whole ML\nproject to them.\nThen they came to a new topic\nLINKED LIST ….. YESSS"
+    },
+    {
+      "pageNumber": 6,
+      "text": "They asked me what a linked list is and how to make one and few\nbasic operations on a linked list.\nThen they asked me how to find if a cycle is present in the\nlinkedlist or not and how to remove it.\n(If you have done the basics of DSA too , You would easily be\nable to answer it.)\nThen they asked me about web development technology as I had\nmentioned in my resume. Wish were simple yet important\nquestions.\nTIP : Whatever technology you have used, be thorough with it.\nAS such no HR questions were asked in this round.\nAnd then it came to an end of this round.\n--------------------------------------------------\nOnly 2 rounds were conducted. Some were purely technical,\nsome were technical + HR.\nThe results were out in the evening. 19 students were selected\n(14 for role 1 and 5 for role 2) and I was luckily one of them to be\nselected in role 2.\nTHANKYOU…!\nAll the best.\n(references are mentioned below in the next page which i used for\nmy prep)"
+    },
+    {
+      "pageNumber": 7,
+      "text": "DSA :\nhttps://450dsa.com/\nhttps://neetcode.io/practice\nOOPS :\nhttps://www.javatpoint.com/cpp-oops-concepts\nDBMS :\nLove babbars DBMS playlist on youtube\nML :\nCOURSERA Andrew NG course\nOS :\nLove babbars OS course on youtube"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "fileId": "e4ed728cd2a85544",
+  "fileName": "Barclays Internship Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2019 Experiences\\Barclays Internship Experience.pdf",
+    "year": "2019",
+    "experienceType": null,
+    "companyFolder": "2019 Experiences"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Barclays Interview and Internship Experience \n8 November,2019. \n \nBarclays had visited the Campus for Internship hiring in November 2019. There was one \nTechnical Round and one HR Round after Selection from the Online Test. \nOnly Computer and IT Branch were  allowed for appearing in the Online Test. \n \nRound 1: Online Test  \n \nOnline Test was Conducted on ​HackerEarth​ Platform. \nThere were two sections: Aptitude(Technical MCQs) and Coding Round. \n \nAptitude(Technical): ​Major part of this section had questions based on SQL Queries, JAVA \nProgramming and Data Structures. Few Questions were based on Operating System and \nNetworking.Very few quantitative & logic based questions were also there in this section. \n \nCoding Section(60 min):​ There were 2 coding Questions. Questions were different for \neveryone.Difficulty Level of the questions was easy/moderate. \nI had one question related to  prime numbers array and another question related to \nlexicographically ordering of Strings.  \n(You can easily crack this round if you have some practice with competitive programming.)  \n \n \nRound 2: Technical Interview \n \nI was first asked to introduce myself. After this, I was asked technical questions as following:- \n \n1) Object Oriented Programming Concepts with real life examples. \n2) One  String Based Coding Question using JAVA. \n3) Searching & Sorting Algorithms.(Binary Search,Time & Space Complexities of Merge \nSort, Quick Sort,Heap Sort etc). \n      4)  Some Questions related to JAVA Programming Concepts . \n      5)  Joins in SQL (Given the tables and asked to write the Inner Join SQL Query) \n \n     After this I was asked questions based on my Projects (Since I had mentioned one DBMS \nProject , I was asked to write/draw about all tables used in the Project) .  \n \nAt the end , I was asked if I had any question for the interviewer. This round lasted for around \n30-35  minutes."
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 3 : HR Interview \n \nThis was a quite easy round. I was asked about Barclays Values (RISES) and some real life \nexamples of them. Then I was asked some general questions and about relocation etc. \n \nAt the end, I was asked if I had any Question for the interviewer. \n \n14 students were selected for the internship. \n \nInternship Experience(June 2020 - July 2020) \n \nThe internship was conducted virtually due to covid crisis.( Otherwise the Office  Location is in \nKharadi,Pune).  Interns had been offered Role as Graduate Intern at BUK . For project,Some \ninterns were grouped in a team of 3 members(Of same college) , some were  individual and \nsome worked with their business teams. I was a part of 3 members team and we  were assigned \nan Interesting project- Data Masking and Refresh Utility. We got to work on technologies like \nAngularJS,Spring Boot,​RESTful Web Services,​JDBC,SQL Server etc.  Other teams projects \nwere also very interesting. You will get to learn and  work on new technologies depending on \nthe project requirements. We were also assigned a technical guide  for guidance related to the \nproject. Line Managers conduct the meetings (1 or 2 times)  for tracking the progress of the \nproject and may give some suggestions in the project. \n \nThere were also some leadership,training and other interactive sessions from the higher \nauthorities and renowned personalities of the organisation during the internship.  \n \nAfter the project completion , all teams had to give a presentation on their respective projects. \n(Presentation followed by Q&A session). \n \nPre-Placement Offer:​ Out of 14 students from our campus,  9 people were offered  a PPO. \nBased on the Presentation Performance and after conducting reviews with the line managers, \nStudents were given a  Pre-Placement Offer.  \n \nThus, Overall it was a very Nice Experience of Internship in Barclays. \n \n \n All The Very Best  Guys!!"
+    }
+  ]
+}

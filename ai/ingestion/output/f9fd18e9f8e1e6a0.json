@@ -1,0 +1,41 @@
+{
+  "fileId": "f9fd18e9f8e1e6a0",
+  "fileName": "snehaSingh-Google- STEP-process.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2025 Experiences\\Internships\\Google\\snehaSingh-Google- STEP-process.pdf",
+    "year": "2025",
+    "experienceType": "Internships",
+    "companyFolder": "Google"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Google STEP Internship Process \n(Offcampus) \n \nSneha Singh \nB-Tech Information Technology \nVJTI Mumbai \n \n \n \n \n \n \n \n \n \n \n \nSECTIONS - \n1.​ The process \n2.​ Approaching a Google Interview \n3.​ Suggestions \n4.​ Resources"
+    },
+    {
+      "pageNumber": 2,
+      "text": "What is the Google STEP Internship? \nThe Google STEP Internship (Student Training in Engineering Program) \nnow called ASD Internship (Associate Software Developer Intern) is a \n12-week paid summer internship at Google, designed for first- and \nsecond-year undergraduates in computer science or related fields. Interns \ncollaborate in small teams with full-time Googlers, working on real \nsoftware projects while receiving mentorship and professional \ndevelopment. \n \n \nSECTION 1 : The process \n(FYI: Each round is eliminatory which implies, you can advance to round \n(x+1) only if you clear round x) \n \n \nRound 1 : Initial Application \nYou can apply for the STEP through https://careers.google.com/. The \napplication process contains filling your personal details and resume. The \ninitial shortlisting is purely on the basis of resume, so have a professional \nresume. Attaching the template I used for my resume. Try to have at least \n2–3 projects, good coding profiles and decent CGPA. Mention relevant \nachievements, experiences and certifications. \n \nRound 2 : Telephonic Round \nIn this round I was asked everything about my technical background like \nmy projects, CGPA, coding profiles, contests performance, proficiency in \ncoding, number of questions solved till date, etc."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Round 3 : Interview 1 (4th November 2024) \nDuration : 45 minutes \n \nThe interview started by both of us introducing yourselves. Then the \ninterviewer quickly shared an online editor link with me and pasted the \nquestion on it. The question was of LeetCode Hard difficulty.I was able to \nsolve it within the given time. It concluded with me asking him some \nquestions. The interviewer seemed satisfied with my overall performance. \n \nRound 4 : Interview 2 (11th November 2024) \nDuration : 45 minutes \n \nThe interview began with quick introductions, and then we moved straight \nto the question. The question was of Leetcode medium difficulty. I was able \nto solve it in around 15–20 minutes. The interviewer then asked three \nfollow-up questions in succession, each presented only after I had solved \nthe previous one. The follow-ups increased in difficulty. In the end, the \ninterviewer seemed satisfied with my performance. \n \nVerdict :  \n \n \nAfter refreshing my inbox every single day😂, and waiting for around two \nweeks, I was finally informed that I was SELECTEDDD🎉🥳. I was"
+    },
+    {
+      "pageNumber": 4,
+      "text": "extremely happy to see all the years of hard work and sleepless nights \nfinally bear fruit. \nNote: The verdict process may take anywhere from one day to one month, \ndepending on the evaluation cycle and internal timelines. \n \n \nSECTION 2 : How to approach a Google \nInterview? (Important) \n●​ Self Introduction: Since you have only 45 minutes in total, having \na short & sweet intro would save time \n \n●​ Lead the communication: DON’T be a silent coder. Be ALOUD \nthroughout the interview and lead the communication. Leading the \ncommunication is as important as solving the problem. Candidates \nwho do both are the ones who stand out. Even when you are coding \nthe problem, keep narrating what you are writing. This keeps both of \nyou on track and keeps the interview lively. \n \n●​ Summarise the problem: Start by briefly summarising your \nunderstanding of the problem. This shows the interviewer that you’ve \ngrasped the correct problem and creates a positive impression \n \n●​ Ask clarifying questions: Google’s interview questions are \nintentionally open-ended — they don’t always provide all the details \nupfront. It’s important to ask clarifying questions to understand the \nrequirements fully. I’ve listed some examples of such clarifying \nquestions in this article: Clarifying Questions List. \n \n●​ After this, start discussing your approach with the interviewer. \nDo NOT directly jump into silent coding. Usually start with the brute \nforce approach and build it towards the optimal one."
+    },
+    {
+      "pageNumber": 5,
+      "text": "●​ Discuss the time and space complexities of the approach in \ndetail. \n \n●​ Dry Run: Once both of you agree over the approach, do a quick dry \nrun on the editor over a few test-cases. This shows your capability to \nfind errors in any code without needing to run it. \n \n●​ Write neat, modular code: Writing neat code helps ensure that \nfuture requirements can be addressed without heavily modifying \nexisting code. Break your solution into clear, well-defined functions. \nFor example, in my second interview, I was able to work quickly \ndespite multiple follow-up questions because my code was neat and \nmodular, making it easy to adapt to any requisite changes and \noptimisations. \n \n●​ Good Naming: Write clean and readable code. Give meaningful \nvariable naming and use camelCase throughout the code. Readability \nis just as important as correctness, especially in Google interviews. \n \n●​ Listen to the interviewer: Consistently listen to what the \ninterviewer is saying. He/She might drop some hints where you are \nstuck. \n \n●​ Be quick but not hurried: The interviewer may expect you to solve \nfollow up questions. So try to solve the initial question given to you as \nearly as possible. \n \n●​ Edge cases: Always practice thinking of your own edge cases instead \nof relying on platforms like LeetCode to point them out. In interviews, \nthe interviewer won’t help you identify edge cases, it’s your \nresponsibility."
+    },
+    {
+      "pageNumber": 6,
+      "text": "SECTION 3 : Suggestions \n●​ Don’t expect easy questions — Even though STEP is a second-year \nopportunity, the interviews often involve challenging DSA problems \nthat test both your depth and breadth of knowledge. Try to cover \nevery topic of DSA and do not skip hard questions. \n \n●​ Apply early — STEP receives a huge amount of applications every year \nso submitting your application early can increase your chances of \nbeing considered. \n \n●​ Apply through referrals — Reach out to Google employees, interns, or \napprentices to request referrals and increase the visibility of your \napplication. \n \n●​ Participate in Google hackathons — These events not only help you \nbuild skills but also make your profile visible to recruiters \nbeforehand. \n \n●​ Think of multiple approaches when solving problems. Over time, I’ve \nrealised that work in most MNCs is less about just getting one \nsolution that meets the requirements and more about evaluating, \ndiscussing, and comparing different possible approaches. \n \n●​ Practice doing dry runs on editors as well. \n \n●​ Always analyse time and space complexities of problems you solve. \n \n●​ Practice explaining your approaches in a clear and precise manner \nwith your friends and peers, as good communication and explanation \nskills are equally essential. \n \n●​ Take up mock interviews."
+    },
+    {
+      "pageNumber": 7,
+      "text": "SECTION 4 : Resources :  \n●​ I completed the strivers A-Z sheet before my interview. I highly \nrecommend solving it entirely by yourself. \nhttps://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-c\nourse-sheet-2 \n \n●​ Blind 75 in the last few weeks : \nhttps://takeuforward.org/interviews/blind-75-leetcode-problems-det\nailed-video-solutions  \n \n \n \nThank you for reading. ALL THE BEST!!"
+    }
+  ]
+}

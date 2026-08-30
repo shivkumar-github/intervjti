@@ -1,0 +1,29 @@
+{
+  "fileId": "a7cf27b2999b554a",
+  "fileName": "Prasad Thakare_Citi Corp.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Citi\\Prasad Thakare_Citi Corp.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Citi"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "CitiCorp Interview Experience\nPrasad Thakare    |    Computer Engineering    |    2019-2023\nDue to the COVID-19 pandemic, all of our interviews for internship programs\nwere being held online. The test was held on the AMCAT platform and\ninterviews were conducted on Zoom.\nOnline Test (Around 2.5 - 3 hours)\nThe test had 4 sections:\n●Technical MCQs\n●Logical reasoning and basic maths MCQs\n●English MCQs\n●2 Coding Questions\nFirst section consisted of only programming and DSA based MCQs.\nEach section was individually timed (25 to 30 mins) and most of the\nquestions were easy. Free navigation was restricted in all the MCQ sections,\nwhich means once a question is submitted, you cannot come back to it, also\nyou cannot randomly solve any question in the ongoing section.\nI was able to solve almost all of them.\nThe coding section was 1hr long and everyone had received different\nquestions. Mine were:\n●Printing a trapezium pattern of numbers\n●Rat in a maze: Basically, given a maze represented by a matrix M,\nwhere M[i][j] = 0 means the cell cannot be traversed, M[i][j] = 1 means it\ncan be traversed and M[i][j] = 9 means a piece of cheese is kept at that\nposition.\nA mouse is present at M[0][0] and we must return true/false based on\nwhether the mouse can reach the piece of cheese."
+    },
+    {
+      "pageNumber": 2,
+      "text": "I used simple DFS traversal considering the matrix as a graph.\nI was able to solve both the questions fully and thus was selected for\nthe interview rounds which were held 2 days later. Total 41 students\nwere shortlisted.\nInterview Round (on Zoom)\nRound 1 (Technical, 20-30 mins)\nThe interviewer was very friendly and started by first asking me to introduce\nmyself and then asked me about my hobbies. After a few minutes he started\nwith the technical questions. He asked me the following questions based on\nOOPS in C++, which was my preferred language.\n1) How would you implement an interface in C++ ?\n2) What is the use of an interface, how and where have you implemented it\n? I explained this question with the help of an example and he seemed\nsatisfied with the answer.\n3) What is polymorphism and its types?\n4) Have you ever made use of function overloading in your projects?\nLooking at my projects, he then proceeded to ask me about the frameworks\nI’ve worked with in javascript. I said that I have some experience in React,\nand these were the questions\n1) How would you pass data between components in React ? My answer\nwas using props. He didn’t seem fully satisfied and proceeded to ask\nfurther.\n2) Have you worked with React Store ? I was not aware of this and thus\npolitely declined.\n3) What is a state and how have you used them ? I was able to answer this\ncorrectly and gave an example.\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Further he went on to ask me what all data structures I was comfortable\nwith. I listed a few (including trees, coz I like trees XD).\n1) First question was to find the kth node from the end in a linked list given\nonly the head pointer. I gave a naive and an optimized solution for this\nproblem.\n2) Second question was, given an array A and an integer X, find the number\nof pairs in A that sum up to X. I was able to give a naive and an optimized\nsolution for this too. He then asked me for an approach without sorting\nand time complexity of each approach.\nI was able to answer all the DSA questions correctly. He didn’t ask me to\ncode any of them. In the end he asked me whether I had any questions for\nhim, to which I asked him about the technologies we get to work with and\nthe cloud infrastructure at citi. Around 23 were shortlisted for the next round.\nRound 2 (Technical+HR, 10-15 mins)\nThis interview was taken by a senior person from the company. He first\nlooked at my resume and said that he was amazed to see Kotlin there.\n1) Why and how did you learn Kotlin ?\n2) Have you worked with Mongo ? Why did you choose a NoSQL DB?\n3) What qualities are necessary to become a software engineer?\n4) Have you worked with oop ? Why do we use oop ?\n5) Tell me about your parents and background.\n6) Where do you see yourself in 5 years ?\n7) What is your favourite technology ? Why ?\n8) What do your peers and parents think about you ?\nIn the end he asked whether I had any questions ? I specifically asked about\njava and where all it is used at citi.\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Finally in the evening, the results were out and 10 students were selected in\ntotal and I was one of them!\nAdvice:\n1) Prepare your intro and the question you wanna ask the interviewer\nbeforehand.\n2) For the coding round, consider going through the archives on gfg.\n3) Be calm and answer confidently. If you are not aware of any\nterminology which the interviewer asks you about, you can politely\ndecline / let him know that you are not sure before giving a final\nanswer  / if you can’t remember the exact definition, consider\nexplaining with the help of an example.\n4) It is always important that you have a good understanding of your\nprojects and the technologies you have used for the same, along with\nthe reason why you chose to use that technology. Eg: why mongo ?\nWhy react ? etc etc.\n5) You may get questions such as….what services does Citi (company\ndependent) offer?\nSo it’s better to have a little bit of background knowledge about the\ncompany\nFeel free to reach out and Best of Luck!!\n3"
+    }
+  ]
+}

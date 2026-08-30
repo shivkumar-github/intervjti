@@ -1,0 +1,15 @@
+{
+  "studentName": "Not specified",
+  "companyName": "Bank of America",
+  "batch": "Not specified",
+  "preview": "A two-round interview experience for a Full Time role covering technical questions on DSA, OOPs, DBMS, and behavioral questions.",
+  "content": "Round 1 (30 mins) ●Asked me about my internships and the international competition I had participated in. ●Asked me to explain binary search and compare it to linear search ●Asked me my language of preference ●Asked me about difference between call by value and call by reference ●Asked me about run-time polymorphism ●Asked me about abstraction in OOPs ●Asked me how to implement abstraction in a database Ans : Views ●What are aggregate functions ? ●What is the necessary condition for aggregate functions. ●What are triggers ? Syntax for creating one ●What is indexing. Explain the types of indexing ●Asked me a simple puzzle. ●What will you do if you misunderstood instructions from your manager. ●Biggest achievement till date. ●Any questions ? Round 2 (30 mins) ●Asked me about binary Search again ): ●Asked about master slave architecture in DBMS. ●Asked me to implement stack, queue, binary tree from scratch. ●Find the duplicate in database records. ●Indexing ●The bulb puzzle (very common) ●Which languages do you know ? ●Difference between list and tuple. ●Asked me about the paper presented and the international competition ●How would you solve a conflict between teammates. ●How would you rate your presentation skills ? ●Do you know what Bank of America does ? ●Any questions",
+  "source": {
+    "fileId": "517ab2f86ae1ee0f",
+    "fileName": "Bank Of America-Interview Experience Rishabh.pdf",
+    "originalPath": "2023 Experiences\\FTE\\Bank of America\\Bank Of America-Interview Experience Rishabh.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Bank of America"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "fileId": "fb89129e699cab0e",
+  "fileName": "Achintya_Bhat_IE.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Oracle\\Achintya_Bhat_IE.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "By: Achintya Bhat \nI got selected at Oracle. Actually, it is a subsidiary named Oracle ﬁnancial services soŌware. They \noﬀer soŌware services related to Oracle products to ﬁnancial insƟtuƟons. Their largest client is \nHDFC. They also serve Axis bank and AU bank.  \nThe selecƟon process consisted of 1 online assessment and 2 oﬄine interviews. \nOnline Assessment: \nThere were 3 secƟons: \n1. First secƟon had a DSA quesƟon. The quesƟon was of Leetcode medium level. I had already \ndone it before so I could solve it quickly with all test cases passed. You can ﬁnd the quesƟon \nhere: \nhƩps://leetcode.com/problems/remove-duplicate-leƩers/ \n \n2. Second secƟon had MCQs about logical reasoning. It had the quesƟons like train \nspeed/length, probability, English grammar, etc. I think I did it well. \n \n3. Third secƟon had a programming quesƟon. We had to fetch data from a given API, sort it and \nthen return it as the output. This was an unexpected quesƟon. I stupidly tried to do this in \nC/C++ but had many errors. Later, I realised it would be easier in python. There was less Ɵme \nleŌ so I wrote it quickly and submiƩed it without tesƟng at the end. I am not sure how many \ntest cases passed. \n \nTechnical Interview: \n \nThe interviewer was very friendly. \n \nI was late to the interview and had come running so I was panƟng. She oﬀered me water. \n \nShe ﬁrst started quesƟons related to my resume. \n \nThen, she asked me which is the best sorƟng algorithms. I said quicksort. Then, she told me \nto explain it. I did some mistakes while explaining it but I guess she understood that I know \nthe concept. \n \nShe asked about the 4 components of inheritance. And told me to explain inheritance. \n \nShe asked me the types of inheritance. \n \nThen, she told me to write a SQL query to ﬁnd the 2nd largest value of a column in a table. I \ndid this successfully."
+    },
+    {
+      "pageNumber": 2,
+      "text": "HR interview: \n \nThe interviewer was very friendly. \n \nHe asked me general quesƟons. He was tesƟng my problem solving quesƟons. Like how \ncould I improve the appearance of the room in which the interview was taking place. \n \nHe also asked me quesƟons regarding my resume. \n \nHe asked me to explain any of the subjects that I had in the college. He randomly chose \n‘Wireless networks’ and I explained what I knew."
+    }
+  ]
+}

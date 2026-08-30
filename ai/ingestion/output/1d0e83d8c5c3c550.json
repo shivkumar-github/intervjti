@@ -1,0 +1,33 @@
+{
+  "fileId": "1d0e83d8c5c3c550",
+  "fileName": "Morgan Stanley Interview Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2020 Experiences\\Internships\\Interview Experiences\\Morgan Stanley\\Morgan Stanley Interview Experience.pdf",
+    "year": "2020",
+    "experienceType": "Internships",
+    "companyFolder": "Morgan Stanley"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERNSHIP INTERVIEW \nMORGAN STANLEY \nARCHEEL PAREKH, B. Tech. CS 2018-22 \n \n●ROUND 1 (Online Test conducted on AMCAT) \n100 mins \n \n1. Aptitude Section (20 mins) \nQuestions based on Probability, PnC and statistics. \n(I was not able to attempt a few of them) \n \n2. Debugging Section (20 mins) \n7 questions were asked and we had to select the \nprogramming language of our choice(C/C++/Java). \nCode with logical and syntax errors were given and we had \nto debug the code to get the desired output. \n(I was able to solve 6 questions and one partially) \n \n3. Coding Section (60 mins) \n3 coding questions were asked. \n(All questions had some story related to them. I am directly \nwriting the coding problem related to the story) \nA. Given an array of integers of length N \n Find indices of two elements A[i] and A[j] such that \n j>i and A[j]<A[i] and  (j-i) should be maximum possible. \nB. Given N integers find the first K integers having \nmaximum number of 1’s in their binary representation. \nC. This was some problem related to batch OS. \nGiven N processes and their priorities, and how the \nprocesses are interdependent. We had to process all \nthe interdependent processes together(in form of"
+    },
+    {
+      "pageNumber": 2,
+      "text": "batch). Priority of the batch is equal to the sum of all \nthe processes present in it. We have to find the batch \nwith maximum priority. \n(I was able to write a brute force solution for all the \nthree problems. Few test cases didn't pass in all of them) \nThis was all about the online round, 24 people were \nshortlisted for the next round. \n \n●ROUND 2 (Technical Interview) \n1 hour \n \nThe interview started with me introducing myself. Then we \ntalked a bit about my projects and internship. Then he directly \nstarted with DSA questions. \nI was asked 4 questions (3 algorithms and 1 question on \nOOPS) \n \n1. Given a binary matrix with sorted rows. Find the row with \nmaximum 1’s. \nSolution​: \nhttps://www.geeksforgeeks.org/find-row-number-binary-ma\ntrix-maximum-number-1s/ \nI told him the brute force approach directly, and then I was \nable to give him the optimized O(m+n) approach directly \nsince I had previously seen this problem. \n(He was satisfied with the logic and he didn't expect me to \ncode this question) \n \n2. Given an array of integers, You have to make the array such \nthat every alternate element is in increasing and decreasing \norder. \nExample​:"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Input array : 1 2 5 9 17 13 6 3 \nOutput array : 1 5 2 17 9 13 3 6  \nI told him the naive solution immediately, to sort the array \nand divide it into two parts and merge it to achieve such a \nfashion of elements in the array. Complexity O(nlogn). \nHe told me to further optimize it and gave me some hints \nand I was able to come up with an O(n) solution. \n(I was asked to code this question) \nSolution​: \nhttps://www.geeksforgeeks.org/rearrange-array-maximum-\nminimum-form/ \n \n3. Given an array of stock prices, write a program to trade to \nfind the maximum profit. \nSolution​: ​https://www.geeksforgeeks.org/stock-buy-sell/ \nI was able to come up with a solution which failed a few dry \nruns and then I corrected it and told him the right solution \nO(n). \n4. He made me write some classes with inheritance and virtual \nfunction, and asked for the expected output. \nFollow up questions like how are virtual functions \nimplemented and questions on function pointer and virtual \ntables were also asked. \n \nThese were the questions asked to me.(I was not asked a \nsingle question on OS, DBMS :) Other interviewees were asked \nquestions on DS, Os and DBMS in depth, so be prepared for it.) \nHe was quite satisfied with the solutions. He then asked me \nif I had any questions.(Always ask something, it shows that you \nare interested) \nHe was very friendly and discussed with me the projects he \nworks on and other opportunities at Morgan Stanley. \n(10 students were selected for round 3)"
+    },
+    {
+      "pageNumber": 4,
+      "text": "●ROUND 3(Technical + HR Interview) \n30-40 mins \nIt started with me introducing myself, my achievements, \nprojects and internship.I was asked about what is CoC, what do \nwe do, what was my role there. \nShe then asked the design of the database for one of my \nprojects and how to make API calls to other services. Asked \nabout my role in group projects and what part of the project was \ndone by me.(Be honest and don't fake about things you have not \ndone) \nThen she asked me to remove duplicates from a 100GB file. \nI asked her for memory constraints if any! And she was happy \nwhen I asked, she was going to put the memory constraints later. \n(Always clarify the problem so that you can directly reach the \ncorrect solution without wasting time) \nSolution​:​https://www.geeksforgeeks.org/external-sorting/ \nThen she asked how to design a search engine. Follow up \nquestions like what are the memory requirements, how the web \ncrawler would work, what is reverse indexing, how will you further \noptimize the search engine were asked. \nI was then asked to design an online service for hospitals \nand patients to book an appointment. To which I replied “​I have \nalready implemented this project during CoC’s inheritance \nprogram​”. I asked her if I can show her the website (hopefully \nthis one was deployed). I shared my screen and navigated her \nthrough the website and explained its functioning. She was happy \nand asked me if it is commercially used!(I said to her it was just a \nprototype for learning purposes. A big thanks to CoC for \nconducting Inheritance Program ) \nShe then asked me situational questions and then we were \ndone with the interview. She asked me if I had any \nquestions.(Always ask something!)"
+    },
+    {
+      "pageNumber": 5,
+      "text": "(8 students were selected for the internship and they played a \nprank on us XD.) \n \n●PREPARATION \nDSA standard questions from geeks for geeks. \nDynamic Programming Youtube Aditya Verma’s Playlist. \nInterview archives on geeks for geeks. \nDBMS from tutorials point. \nOS YouTube Sanchit Jain’s Playlist."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fileId": "e50c227c5cc48b72",
+  "fileName": "Parth_Shirole_SAPLabs_Intern.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\SAP Labs\\Parth_Shirole_SAPLabs_Intern.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "SAP Labs"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Interview Experience\nParth Shirole,\nB.Tech Comps 2020-2024\nEligibility Criteria:\n70 % or 7 CGPA and above in current graduating degree and 60% in\n10th & 12th\nCoding Round\nDate: 4th August 2022\nQuestion 1:\nWe were given a 2D matrix of integers. We needed to return an array\nwhere the i'th element of the array corresponds to the maximum integer in\nthe i'th row of the given matrix.\nExample - Matrix = [[1, 2, 3], [4, -9, 8], [11, 3, 19]]\nOutput = [3, 8, 19]"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Question 2:\nAn array was given to us and another integer k was provided. We needed\nto sort the first k elements of the array in ascending order and rest of the\nelements in the descending order.\nExample: Array = [2, 6, 9, 23, 0, -1, 4, 9, 5] and k = 5\nOutput: [0, 2, 6, 9, 23, 9, 5, 4, -1]\nOverall the coding round was very easy. We had been given a total of 1\nhour to attempt these 2 questions. However I submitted the test in 15\nminutes itself as all my test cases had passed.\nTechnical Interview I\nDate: 9th August 2022\nTime: Around 10 AM\nAround 40 students were shortlisted for this round\n●The interview started off with the interviewer asking for my\nintroduction. I told him about my hobbies and interests and then gave\na brief about the kind of projects I had done\n●Since I had worked on MongoDB and MongoDB Atlas on a\nhackathon project, he asked what issues I faced and how me and my\nteam solved it. He further asked if I knew what DDOS is and what\nmeasures I had taken to prevent it from happening to my website\n●Next, he asked me \"What can I ask you?\". Here I made the mistake\nof being overconfident and I said \"Anything\". He started asking me\nabout load balancing and sharding which I wasn't really sure about.\nWhen I couldn't answer these questions properly, he again asked me\nthe same question. And this time I replied with DBMS.\n●From DBMS, I was asked - Difference between RDBMS and DBMS,\nexamples of each, types of joins. I was also asked to combine\ncolumns from 3 different tables using a common attribute."
+    },
+    {
+      "pageNumber": 3,
+      "text": "●What is data lake and data ocean? I wasn’t very sure about this\n●Trick question - I was asked how can I select all columns from a\ntable. To which I replied using `SELECT * FROM tablename`. He then\nsaid, he uses ‘@’ for selections like these as it's more efficient. I said I\nhaven’t heard of this before and then he admitted this was just a trick\nquestion.\nTechnical Interview II\nDate: 9th August 2022\nTime: Around 4PM\nAround 28 students were shortlisted for this round.\n●This time I wasn’t asked to introduce myself but was asked about one\nof my projects\n●Asked me the approach for solving\nhttps://www.geeksforgeeks.org/count-ways-reach-nth-stair-using-step\n-1-2-3/\nI mentioned recursion and explained how I would implement this. I\nwasn’t asked to code this.\n●Asked me the time complexity of the code snippet -\nfor(int i=1; i < n; i *= k)\n●I was asked how would I delete a node from linked list when the\npointer is already at that node. Even though this question was easy, I\ncould only solve it after getting a hint from him.\nhttps://www.geeksforgeeks.org/in-a-linked-list-given-only-a-pointer-to-\na-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/\n●I was asked to open my desired code editor (I chose vs code of\ncourse) and code the below question in 5 min\nhttps://www.javatpoint.com/program-to-find-the-frequency-of-characte\nrs"
+    },
+    {
+      "pageNumber": 4,
+      "text": "The one mistake I made here was I accidentally defined char as int.\nThis ended up printing the ascii codes of the character instead of the\ncharacter itself. But I spotted this instantly and fixed it.\n●The final question I was asked was a puzzle -\nhttps://www.geeksforgeeks.org/puzzle-7-3-bulbs-and-3-switches/\nThankfully, I was already aware of this puzzle and how to solve this. He\nonly gave me 2 minutes to answer this question. So I pretended to think a\nlittle and then answered it easily.\nHR Round\nDate: 9th August 2022\nTime: Around 6:30 PM\n9 people were shortlisted for this round.\nThis round was more relaxed and the HR was also very polite. She asked\nme what my hobbies were and was I tired from the whole day of interviews.\nShe asked why I wanted to join SAP. Since I had attended their\npre-placement talk, I knew what principles they worked on and what they\nvalued the most. Hence I said the answer somewhat along those lines and\nthe HR seemed satisfied.\nThe round barely lasted 5 minutes\nThe HR round was the final round and results came in at around 10PM on\nthe same day. All 9 students who had qualified for the HR round were also\nshortlisted for the internship position at SAP Labs."
+    }
+  ]
+}

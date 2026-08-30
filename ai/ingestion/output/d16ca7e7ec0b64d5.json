@@ -1,0 +1,21 @@
+{
+  "fileId": "d16ca7e7ec0b64d5",
+  "fileName": "FTE 2020 Interview Experience - Morgan Stanley.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2020 Experiences\\Placements\\FTE 2020 Interview Experience - Morgan Stanley.pdf",
+    "year": "2020",
+    "experienceType": "Placements",
+    "companyFolder": "Placements"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "VIRIK JAIN, BTech CS 2017-21 \n \n• Company: Morgan Stanley \n• Job description or Role: Technology Analyst (FTE) \n \n \n \n• \nTest information \nOnline Round on AMCAT having 3 sections:  \n1) Debugging (7 Qs, 20 mins): very basic Qs like find error in logic, missing \nsemicolon, etc  \n \n2) Aptitude (10 Qs, 20 mins): Basic maths, logic based aptitude and data \ninterpretation Qs; except a few, most of them were easy \n \n3) Coding (3 Qs, 1hr): Qs were basic but problem statement is slightly convoluted; 1 \nMath, 1 Graph(BFS/DFS) and 1 hashing+sorting \n \n• \nInterview Process \n2 Technical + 1 HR/Pro-fit \nRound 1 (20 students): \n– Asked me to describe one of my projects, but didn’t ask any Qs on it \n– Discussion on Time Complexity: how is it measured, compare some complexities \n– Function call and return mechanism in OS (ie. function call stack) \n– Suggest a data structure to use based on given requirement (eg: what will you use \nto implement whatsapp search autocomplete feature? Ans: Trie) \n– Hashing and why and when to use it \n– DSA Qs (find frequency of all characters in a string, find 2nd largest element in an \narray, find kth largest element in an array, mirror a binary tree) \n– 32 bit vs 64 bit processor \n– Describe Virtual vs Physical memory \n– Asked if I have any question for him (ask anything, for example, the tech stack or \nprojects in the company, but do ask something) \nRound 2 (12 students): \n– Asked me to describe one of my projects, but again no Qs on it \n– Given a boolean matrix (0/1 matrix) where the rows are sorted, find the row with \nthe most number of 1s (gave N*M, NlogM and N+M solutions) \n– Design a data structure that supports all the given 3 queries in O(1) \n1) Insert(x): insert ‘x’ in the data structure \n2) Search(x): return true if ‘x’ exists in data structure, else false \n3) Add(x): add ‘x’ to ALL the elements that are currently in the data structure \nThe queries can be in any order. (Hint: Maintain a cumulative sum of all ‘x’ for all"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Add(x) queries) \n– Design a food delivery system like Swiggy \nI mentioned the different functionalities and the entities in the system. I was then \nasked to describe the attributes of the entities. This was more discussion based \nrather than a Q&A; you should be vocal and describe all your design choices and in \na few cases justify why you chose one choice over the other. The interviewer will \nquestion your choices, that’s fine, it doesn’t mean you are wrong. You need to justify \nyour choice in such case or accept a change in your choice and justify the change. \n– Asked if I had any question for him \nRound 3(~4 students): \n– Asked about what is an important life ethic/characteristic for me \n– Then asked situational Qs (what would you do in case of a disagreement with your \nteam members, what would you do if your childhood friend is breaking company \nrules, etc) \n– Asked if I had any question for him \n– (some people were asked a few technical design Qs too in this round, but due to \ntime constraints, I wasn’t asked any technical Qs in this round) \n \nFinally, 2 of us were selected for Technology Analyst role."
+    }
+  ]
+}

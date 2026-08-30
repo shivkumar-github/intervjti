@@ -1,0 +1,45 @@
+{
+  "fileId": "25bcece2f56e3e5a",
+  "fileName": "Piyush Motwani-Deutsche Bank.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Deustche Bank\\Piyush Motwani-Deutsche Bank.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Deustche Bank"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Interview Experience\nDeutsche Bank\n________________________________________________________\nPiyush H.Motwani, Final Year B.Tech EXTC Student\nPlacements 2023-24\nABOUT COMPANY\n●Role : Graduate Analyst\n●Location : Pune\n●Branches Allowed : CE, IT, EXTC\n●Eligibility :\n➢\nB.Tech Undergraduate - 7 CGPA\n➢\nNo Backlogs"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1\nONLINE ASSESSMENT\nThe online test was held on the HackerEarth platform on\nAugust 4th. There were a total of 3 coding questions with a\nduration of 90 minutes. The questions were of easy-medium\ndifficulty.\n1. Power Limit\n(20 Pts)\nA and B are 2 sources given. At each round, we have to\nselect one source. The power of source at a time of\nselection must be greater than 1. Every second, the power\nof the selected source gets reduced by 2 and the unselected\nsource gets charged by 1. We have to stop when at least one\nsource has power 0.\nSample Input : 3,5\nSample Output : 6\n2. Auto Suggest\n(50 Pts)\nYou are given a query string and an array of strings. Your\ntask is to find the closest string to the given query string\nusing the Levenshtein distance. If two words have the same\nLevenshtein distance, then the\nlexicographically smaller word is given priority. Calculated\ndistance for each word given in the array with respect to the\nquery word and selected the minimum one."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2\nQuery string \"apple\";\nString strings[] =[\"apples\", \"banana\", \"apricot\", \"grape\",\n\"peach\"]\nOutput: “apples”\n3. Backlink Sorting\n(50 Pts)\nWe were given an array of web pages title and array of\ncorresponding number of backlinks. The task was to\narrange web pages in descending order of backlinks they\nhave. If two web pages have the same number of backlinks,\nwe need to maintain the order.\nInput: web-pages[] = [“A”, “B”, “C”, “D”]\nBack-links[] = [10,20,5,10]\nOutput: “C”, “A”, “D”, “B”\nI was able to solve all three questions and a total of 41 students\nwere selected for interviews.\nTECHNICAL INTERVIEW I (45 Mins)\n1. Introduce Yourself.\n2. Asked about Projects, Internship Experience."
+    },
+    {
+      "pageNumber": 4,
+      "text": "3\n3. Interviewer went through each and every skill, technology\nmentioned in my resume and asked nearly 3-4 questions on\neach. ( Please don’t fake it in your resume).\n4. Difference between setTimeInterval and setTimeOut in JS.\n5. What is React?\n6. How does React internally work? (Virtual DOM)\n7. What is NodeJs, Express?\n8. Difference between block and inline elements in HTML.\n9. 3-4 more basic questions on development.\n10.\nThen she asked questions on DBMS.\na. What is SQL?\nb. What are joins and different types of joins?\nc. She gave 3 to 4 sql queries to write the code.\nd. What is RDBMS?\ne. What are keys and different types of keys?\n11.\nThen she asked DSA question:\nRemove duplicates from string. I had done using maps and she\nwas satisfied (Only pseudo code was expected and dry run).\n12.\nPuzzle : 3 Bulbs and 3 Switches.\nThis round was mostly development based and sql oriented.\nOnly one DSA question and one puzzle was asked."
+    },
+    {
+      "pageNumber": 5,
+      "text": "4\nTECHNICAL INTERVIEW II (1 hr)\n1. Introduce Yourself.\n2. Difference between data and information.\n3. What is OOP Language, explain four pillars, give real life\nexamples on each pillar.\n4. Types of inheritances.\n5. Diamond problem and its solution.\n6. What is a friend function?\n7. Explain Pure virtual function and abstract class in c++.\n8. One code was there containing static keywords at 2 3\nplaces in code, I was expected to guess the output. (This\nwas a tricky question, the interviewer asked the reason for\nthe output, she was satisfied with an answer).\n9. One scenario was given where I was needed to give the\nsolution. I tried but couldn’t answer. Answer was\nexceptional handling (try catch blocks).\n10.\nAfter OOPS she came on DSA and asked the names of\nsorting algorithms and asked to explain and code merge\nsort algorithm.\n11.\nPrint the pattern\nfor n = 5"
+    },
+    {
+      "pageNumber": 6,
+      "text": "5\n12.\nDifference between array, vector and linked lists.\n13.\nDifference between singly and doubly LL.\n14.\nDelete a node in DLL ( Code and explain)\n15.\nThen she came on SQL Queries, nearly 5 queries were\nasked to code.\n16.\nDifference between primary key and unique key.\n17.\nExplain process states in OS.\n18.\nShe asked me to explain my project.\n19.\nShe asked if I had any questions and round 2\nconcluded.\nPro-Fit Round (50 min)\n1. Tell me about yourself.\n2. Then she asked to explain the group project and asked the\ndifficulties faced during group project.\n3. What is SQL and joins in it. Then she asked me to write\nthe queries on the table she had with her.\n4. Scenario Questions:\na. How will you handle conflicts in a team, if you are\nteam leader?\nb. What would you do if a sudden bug is noticed in\nsoftware by a client and you are enjoying the\nweekend and it is necessary to fix the code and you\nhave less resources?"
+    },
+    {
+      "pageNumber": 7,
+      "text": "6\nc. If a client is not satisfied with your product and you\nhave met all the requirements, how will you handle\nsuch clients?\nd. Your boss is asking you to do irrelevant work, like\ngo and bring coffee, get my car tank filled with\ndiesel,etc . How will you handle such a situation?\ne. You are team lead, one member is not doing his\nwork properly, how will you manage him?\n5. Puzzle : There are 1000 bottles out of which one bottle\ncontains poison. How many minimum numbers of rats\nwill be required to determine which bottle had poison.\n6. Why bank over Product based companies?\n7. How\ndo\nyou\nkeep\nyourself\nupdated\nwith\nnew\ntechnologies?\n8. She was satisfied with all the answers and asked if I had\nany questions for her?\nHR Round (15 min)\n1. Tell me about yourself.\n2. Asked to explain my all projects and my contribution in\ngroup projects.\n3. Asked about my family background and family members.\n4. He asked if I had any questions?\n5. This was a very short round because my interviewer was\nin hurry and he was receiving lot of calls in between as\nwell."
+    },
+    {
+      "pageNumber": 8,
+      "text": "7\nResources and Tips\n●DSA : https://450dsa.com/\n●OS : CodeHelp by Love Babbar\n●DBMS : Roadmap by Love Babbar\n●OOPS : Roadmap by Love Babbar\n●CN : Gate smashers playlist\nSome Tips:\n●When you don’t understand a particular problem statement, do ask for\nclarifications on it.\n●Think out loud. This way the interviewer gets an idea about which\ndirection you are going.\n●Always have a look at some interview experiences beforehand.\nCheckout Geeks For Geeks and COC drive. Very Helpful.\n●ALWAYS ASK the interviewer something when they ask you whether\nyou have any questions for them. It shows that you do have interest in\nthe company. ( Ask relevant questions only)\n●Prepare for HR and Behavior questions too, we generally prepare\ntechnically and ignore behavioral questions.\n●Don’t neglect CS fundamentals and don’t leave for the end.\n●Be in formal attire and posture, they notice everything while you\nanswer, how you entered the room, how you are leaving the room.\n●Don’t lie on your resume.\n●Self belief is a key. Always be confident.\nKEEP CALM AND ALL THE BEST 👍🏻\nFor any queries reach out to me at Gmail or LinkedIn."
+    }
+  ]
+}

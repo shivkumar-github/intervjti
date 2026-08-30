@@ -1,0 +1,25 @@
+{
+  "fileId": "8cbfe1f34aaaf954",
+  "fileName": "BNY Mellon Technology FTE interview Experience .pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2020 Experiences\\Placements\\BNY Mellon Technology FTE interview Experience .pdf",
+    "year": "2020",
+    "experienceType": "Placements",
+    "companyFolder": "Placements"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Rakesh Amrutkar, Btech IT 2017-21 \nCompany​: BNY Mellon Technology \nRole​: Senior Application Developer  \n \nOnline Assessment​(1.5 hrs,Hackerank):  \n \n \nThere were four coding questions in the online Assessment to be solved in the 90 minutes. \nOne of easy level (50 marks ), two of medium level(75 marks ) and one of hard level (100 \nmarks) \n \n1. This problem was similar to \nhttps://www.geeksforgeeks.org/program-chocolate-wrapper-puzzle/ \n(50 marks)  \n \n2. Find the count of triplets such that the sum of the nos is less than the given Sum x.  (75 \nmarks) \n \n3. Given a Grid   ​grid = [ \n  [\"1\",\"1\",\"0\",\"1\",\"1\"], \n  [\"1\",\"1\",\"0\",\"0\",\"0\"], \n  [\"0\",\"0\",\"1\",\"0\",\"0\"], \n  [\"0\",\"0\",\"0\",\"1\",\"1\"] \n] \nAnd given a vector v= {4,2,1} \n \nIt should return ans ={1,2,1} \nThere are 2 islands of size 2 so return 2, only 1 island of size 1 and so on ...(75marks) \n4. Don’t remember (100 marks) \n \n6​ students qualified for the Interview round. \n \nInterview Process​: \n \nTechnical Round 1​(70 mins, Codepair round on Hackerrank) \n \n1. The interview started with which language are you most comfortable with? I said C++.So he \nasked me the difference between C++ and java. \n2. Polymorphism in c++. \n3. Aggregate Function in SQL and explain each of them. \n4. Gave me the schema of the Department table and Student table and asked me to write a \nquery to give the Department name and student name. \n5. Types of Joins. \n6. Difference between Natural joins and inner join."
+    },
+    {
+      "pageNumber": 2,
+      "text": "7. Asked me the Query on  Group by, Aggregate function, and having clauses. \n8. Given 4 rows in the table where one of the rows is completely NULL and asked me to give \nthe answer of count(*). \n9. Given a table of the student where the score column has value is (10,5,3, NULL) and asked \nthe sum(score) \n10. Then we move on to the Coding part, First question was Reverse an array to be run on all \ntest cases.  \n11. Given  1 chocolate=1 rupee  3 chocolate wrapper = 1 chocolate how many chocolates at a \nprice of X ?? write a function. \n12. He gave me a code snippet and asked me how I would implement Caching in it? \nExplain the approach and write the code. \n \n3 students qualified for the next round. \n \nTechnical Round 2​(55 minutes, Codepair round on Hackerrank ) \n \n1.\nAsked me the technologies do you know? I said Android. Then he asked me some \nquestions on android. \n2.\nWhat is the android manifest? \n3.\nA detailed discussion about permission in android. what would happen if we didn't \nmention permission in the android manifest? \n4.\nDetailed Discussion on my ML+Android project. What is your role in this project? \n5.\nThen asked about Denormalization and Normalization in  Database. Asked advantages \nof Normalization vs Denormalization. \n6.\nDifference between compiled and interpreted languages. Explain each one of them with \nexample  \n7.\nWhich languages do you prefer? compiled or interpreted? why? \n8.\n Then we moved to the coding on Hackerrank where he gave me one question which is \nexpected to be run on all possible test cases.  \n           Given an array of bad numbers and a range of integers determine the longest segment of \n \n           integers \nI solved this on all test cases. \n \n    2 students were qualified for the Next Round. \n \n    ​Bar Raiser Round​(60 minutes, Technical + Hr, Webex) \n  \n   1. Tell me about yourself \n   2. How do you implement a Graph? \n   3. Discussion on the pointer in c++ \n   4. Memory leak  \n   5. Discussion on  Dynamic memory allocation and new operator in c++ \n   6. How do you represent 2D array using pointer"
+    },
+    {
+      "pageNumber": 3,
+      "text": "7. What are constructors and destructors? \n   8. Which algorithms are generally used in DBMS? (Searching and sorting ) \n   9. Different types of Searching algorithms. \n  10. What is hashing? Detailed discussion on hashing.  \n  11. Detailed Discussion on Project \n  12. What is your hobby? \n  13. Tell me the situation where you got beyond your expectations? \n  14. Do you know about BNY? \n  \nI was the only one to get selected."
+    }
+  ]
+}

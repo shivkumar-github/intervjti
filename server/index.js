@@ -8,12 +8,12 @@ const { Server } = require('socket.io');
 const jwt = require('jsonwebtoken');
 const cookie = require('cookie');
 
-
 // Routes
 const experienceRoutes = require('./routes/experienceRoutes');
 const authRoutes = require('./routes/authRoutes');
 const contactRoutes = require('./routes/contactRoutes');
 const messageRoutes = require('./routes/messageRoutes');
+const aiRoutes = require('./routes/aiRoutes');
 
 // DB
 const connectDB = require('./config/db');
@@ -114,6 +114,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/experiences', experienceRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/messages', messageRoutes);
+app.use('/api/ai', aiRoutes);
 
 // start server
 const PORT = process.env.PORT || 1000;

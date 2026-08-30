@@ -1,0 +1,25 @@
+{
+  "fileId": "f17f594716d2058c",
+  "fileName": "Azeez Dandawala_Fiserv.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Fiserv\\Azeez Dandawala_Fiserv.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Fiserv"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERVIEW EXPERIENCE\nFISERV\nAzeez Dandawala, CS B. Tech 2019-23\nRound 1: Group Discussion (25 mins)\n6 people were present in each group and 2 topics were given to every group out of which\nwe had to select one.\nWe were given a choice between Women Empowerment & Gender justice and Merits &\nDemerits of a cashless economy, out of which we chose the former one.\nEach one of us had to share our opinions and views on the topic. We discussed the\nproblems that women are facing, solutions/ideas to overcome those problems,\nachievements made so far by women, steps taken by the government on women\nempowerment in rural areas, etc.\nSome tips to win the group discussion:\n●\nClarify the topic beforehand with the panel.\n●\nMake sure the points that you present are clear, concise, and relevant to the topic.\n●\nCarry a pen and notebook to jot down important points.\n●\nListen more than you speak :)\n●\nBe positive during the group discussion.\n44 people were shortlisted for the technical round.\n1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 2: Technical Round (20 mins)\nI was asked to introduce myself (mug it up xD!)\nThe interviewer continued by asking me my language of choice to which I replied C++.\nHe then asked me to explain OOPS, Polymorphism, Data Abstraction, and the real-world\nsignificance of these terminologies. Try explaining the concepts with the help of examples.\nI was asked a question about abstract classes in Java(I had mentioned Java in my resume). I\nexplained abstract classes, pure abstraction using interfaces, etc.\nNext, questions on DBMS were asked like what are clauses in SQL?, What is DDL? And What\nis a software development lifecycle? (I was not so familiar with this question).\nFinally, I was asked if I had any questions for them (Always ask a question).\n32 people were shortlisted for the managerial round.\nRound 3: Managerial Round (15 mins)\nIntroduce yourself (again, mug it up!)\nThis was sort of an HR round, the interviewer asked me to explain any one of my projects.\nMake sure you have a clear understanding of your project and the ability to explain it in\nsimple terms. Further, I was asked about my interests apart from coding.\nLastly, I was asked to share my view on the impact of electric cars on India. (Always look for\nsome unique points, in my case, I talked about the effect on the economy i.e.  benefits to\nthe state by reducing fuel costs and shifting consumption away from imported oil to more\nlocally produced electricity sources.)\n21 students were shortlisted for the internship and I was lucky to be one of them :)\n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Resources I followed:\n●DSA: Leetcode, CSES Problem set\n●OOPS: OOPS  cheatsheet by Love Babbar\n●DBMS: DBMS cheatsheet by Love Babbar\n●OS: OS cheatsheet by Love Babbar\n3"
+    }
+  ]
+}

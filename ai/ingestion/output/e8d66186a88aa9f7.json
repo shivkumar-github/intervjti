@@ -1,0 +1,69 @@
+{
+  "fileId": "e8d66186a88aa9f7",
+  "fileName": "Priyansh Interview Experience(1).pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Hilti\\Priyansh Interview Experience(1).pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Hilti"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "PRIYANSH AGARWAL\nTHIRD YEAR \n B.TECH \nCOMPUTER ENGINEERING\nHTSI INTERVIEW\nEXPERIENCE"
+    },
+    {
+      "pageNumber": 2,
+      "text": "TABLE OF CONTENTS\n1 PREFACE\n2 TEST\n3 TECHNICAL INTERVIEW\n4 HR INTERVIEW\n5 RESULT\n6 PREP"
+    },
+    {
+      "pageNumber": 3,
+      "text": "1   PREFACE \nHTSI(Hilti) was scheduled to visit the campus for internship\ndrive on 1st September 2022 . The PPT took place on Microsoft\nTeams virtually at 3:30 pm for almost 90 minutes.At the end of\nthe PPT it was declared that the test will be taken on the same\nday after the PPT at 6:00 pm."
+    },
+    {
+      "pageNumber": 4,
+      "text": "2   TEST \nThe test consisted of MCQs on core CS topics like\nDBMS,Computer networking , Operating Systems,Data\nstructures and one coding question which was this --\nhttps://www.geeksforgeeks.org/program-for-k-most-\nrecently-used-mru-apps/\nMCQs went a bit tough for me especially the networking\npart as I was not good in that particular subject.But I took\nmy time and gave the correct answers.The coding\nquestion was extremely easy it was just left shifting\nelements in an array by 1. Also the test is heavily\nproctored.Participants have to install Mettl chrome\nplugin which enables audio,screen,video proctoring. Ek\nbhi popup aaya ya tumne window ya tab change kia toh\nthe test gets automatically terminated, hence please be\nextra careful and don't take the test lightly."
+    },
+    {
+      "pageNumber": 5,
+      "text": "3    TECHNICAL INTERVIEW\n       The list of students shortlisted after the test came at\naround 9:30 pm the same day and I was glad to see my\nname.My interview was scheduled the very next day at\n2:00 pm. i.e 2nd September 2022.\n        At the start of my interview I was greeted by the\ninterviewer , I introduced myself and then he introduced\nhimself (never do this mistake...always let the interviewer\nspeak first and then only you speak :) ).Always remember\ntry steering the interview into a direction when you are\nintroducing yourself.Since I was well-versed in android\ndevelopment and had confidently studied my projects I\nsteered the interview completely towards android and\naway from DSA :) . The interviewer became very\ninterested in my knowledge about android and started\nasking me questions about my projects. I explained him\none of my projects,the tech stack used and the reason\nwhy I was using the particular tech stack."
+    },
+    {
+      "pageNumber": 6,
+      "text": "In my opinion , the game changer for me was when I\ntold him I'd developed all my apps following a standard\narchitecture.That is when, he started questioning me a\nlot about what architecture i've used and how does it\nbenefit my app and I was able to explain him each and\nevery point related to my project and also he told me to\nopen my android studio and run my app which\nsuccessfully worked.\n         He then started asking me Kotlin vs Java specific\nquestions which were very easy as he himself didn't have\nmuch knowledge about kotlin and was curious about\nhearing my take on it. The interviewer interviewed me on\nmy project for about 43mins as far as I can remember\nand then he finally shifted to DSA.\n        He asked me first which data structures I know, I told\nhim graphs,stack,trees,queues,......etc.He then told\nme,\"Can you explain me what do you know about a binary\ntree as a data structure?\".I explained him what I\nknew.Then he told me to state all types of tree\ntraversals.Then he told me to implement inorder tree\ntraversal by writing a pseudocode.\n        I was quite happy as I thought it had already been\n50mins since the interview started and I thought this was\nthe last question."
+    },
+    {
+      "pageNumber": 7,
+      "text": "So I started with drawing a random tree and started\nexplaining my approach . (Always explain your approach\nbefore giving the answer no matter how easy the\nquestion is as it shows your explanation and\nunderstanding skills). As I was writing the pseudocode,he\ncut me and told me to find an element in the tree and if\nfound return true else false. I found this easy and wrote a\npseudocode for it and immediately realised how stupid I\nwas because the next thing interviewer tells me is that\n\"your code correctly finds an element in the tree but I\nwant it to traverse in an inorder fashion while searching\nfor the element !!\".\n       I was honestly quite exhausted at this point and\nhence I panicked a bit.Always remember never stay quite\nduring the interview always keep saying what you think\nand what you know and explain your approach in detail.\nSo I started with what I knew and slowly explained my\napproach and the interviewer also helped me a lot in\nbetween because I was fumbling a lot.As I recall it now , I\nremember how ridiculously easy the question was but I\ncouldn't think straight because I was so exhausted at that\npoint.But eventually in 2-3 mins I gave him the correct\nanswer and he was quite happy with the way I\napproached the problem since I was explaining each and\nevery step with great detail."
+    },
+    {
+      "pageNumber": 8,
+      "text": "Still the interview wasn't done.He then asked me\nOOPs oriented questions which were mixed with\nJava.Eg:How does inheritance work and how would\nyou implement it in Java. These questions were\nvery easy and I was able to answer all of them\neasily.He then finally asked if I had any questions\nfor him .I asked him what work is the company doing\nin the app dev space and specifically in\nandroid.Unfortunately he wasn't part of the app\ndev space but still he told me a lot about the on-\ntrack gen3 app which the company had just\nlaunched and what tech stack is used and what are\nfuture plans for the company and how has his\nexperience been so far in the company. Always ask\nquestions in the end and try keeping it one\ntechnical question and one interviewer based\nquestion.\n       The results came after I guess 30 40 mins and I\nwas selected for the HR round. In my head , I knew\nthat the most difficult part is now going to begin as\nthis particular company is known for keeping a very\nstrict HR round unlike others."
+    },
+    {
+      "pageNumber": 9,
+      "text": "4    HR INTERVIEW\n     HR round started at around 4:00 pm. I was greeted\nby the interviewer who congratulated me for\nsuccessfully clearing the technical round.\n        He first introduced himself and his role in the\ncompany. He then asked me to introduce myself.I\nintroduced myself about my schooling and everything\nnon-technical about me. He then asked me to tell\neverything I know about Hilti. I told him all the things\nthat I knew and he seemed satisfied. \n        He then asked me the famous HR question ,\" Why\nHilti?\". I told him that it's a product based company\nand explained him why working for a product based\ncompany meant more interesting tech will be involved\nwhich means there's more work and hence more to\nlearn. I also told him about the company's trust in\ntheir employees since the whole internship drive was\nundertaken by all the newly-hired employees."
+    },
+    {
+      "pageNumber": 10,
+      "text": "This shows that the company has a good work-culture  \nand trust among their workers.\n      He seemed happy but not satisfied and moved\nahead by asking me a lot about where I was born and\nbrought up,about my parents' profession. So I told\nhim about how I am currently living in Thane. He\nabruptly cut me off and told me how happy he was to\nfinally talk to a Thanekar.We straight up talked for 5\nmins  we started bonding on Thane  .     He then\nextended his last question by asking , \"Why hilti ? Like\nwhy should you join a company jiska business model is\nall about selling construction equipments ? Why\nshould hilti invest in you (tech peeps) ?.\" I knew with\nmy 20 mins of interaction with him that he wanted a\npractical take on his questions and not standard HR\nanswers.\n      I started with an example of how earlier fridges\nwere manual with extremely basic features but\nnowadays there full fledged apps for controlling a\nfridge even when you are thousand kms away from\nyour home . This increases the market value of that\ncompany's products and also creates a brand value."
+    },
+    {
+      "pageNumber": 11,
+      "text": "I then connected my example and concluded on how a\nhardware company can profit a lot if it invests in\nsoftware . He seemed satisfied and happy with my\nanswer.\n     He then asked me if I had any questions for him.I\nasked him about his role in the company"
+    },
+    {
+      "pageNumber": 12,
+      "text": "5    RESULTS\n     The results came at around 8:00 pm in the evening and\nout of 18 people only 7 were selected and I was happy to see\nmy name. As I told you earlier,Hilti takes an extremely strict\nHR round so please be prepared accordingly.\n      After the results, we were told to join a meet with a senior\ncompany official in which he congratulated us for getting\nselected."
+    },
+    {
+      "pageNumber": 13,
+      "text": "6    PREP\nDSA -->  https://450dsa.com/\nCN --> https://www.interviewbit.com/networking-\ninterview-questions/\nDBMS --> https://www.interviewbit.com/dbms-mcq/\nSQL --> https://www.sql-practice.com/\nOS --> Gate Smashers playlist\n      Also for the interview prep in general , I read a lot\nof past year interviews and also interacted with\nseniors, since there was nothing on GFG archives\nbased on Hilti. It is very important to know how to\nspeak in an interview and how to convey your views\nand ideas properly to the interviewer in a formal way.\n      Also research the company seriously , each and\nevery bit of information that can impress the HR."
+    },
+    {
+      "pageNumber": 14,
+      "text": "THANK YOU FOR READING\nAND ALL THE BEST !!"
+    }
+  ]
+}

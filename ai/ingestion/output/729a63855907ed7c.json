@@ -1,0 +1,33 @@
+{
+  "fileId": "729a63855907ed7c",
+  "fileName": "Tushar_zalte_interview_experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Oracle\\Tushar_zalte_interview_experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Interview Experience \n \n \n \n \nTushar Zalte \n \n31.08.2023 \nFinal Year Electrical (2020-24)"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1 \n \n \nINTRODUCTION \n \nRole - Associate Application Developer \n \nOrganization - Oracle Financial Software Services Ltd. \nEligibility: Circuit Branches (CS, IT, EXTC, Electronics, \nElectrical) \nCGPA - 7+ | No Backlogs | 12th - 70% | 10th - 70% \nLocation - Mumbai / Pune / Bangalore / Chennai \nSalary - 19.2 CTC ( Base-14.5 + 20K Stocks(25% redemption every year) + PF ) \n \n \nHIRING WORKFLOW \n \n1. Online Test \n2. PPT ( TPO Seminar Hall ) \n3. Technical Interview \n4. Tech + HR Interview \n \nONLINE TEST \n \nHackerrank Platform (Online)| 5:00 PM 10/8/23 | 100 mins | 22 Questions \n \n1. Coding (1): Leetcode – Medium -> link \n2. Aptitude (10) \n3. Grammar (10) \n4. REST API (1) \n \nTip: Don’t make silly mistakes in Aptitude & Grammar Coz that factor \ninfluences score I did solve the coding question (All test cases passed) \nwith Aptitude & Grammar. \n55 Students were shortlisted for 2 Roles (40 + 15)."
+    },
+    {
+      "pageNumber": 3,
+      "text": "2 \n \n \nTECHNICAL INTERVIEW \n \nTPO (Offline)| (around 1 hr) \n \nHe started with the standard question “Tell me About Yourself.” \n \nInterviewers went through my resume and asked me everything about my recent \nprojects. \nHe asked me about REST API (mentioned in resume). \nAlso asked how you implement Social google login feature (which is mention in my \nproject). \nHe asked do you have knowledge of Java and python. (I said no) \nThen he asked OOPs concept. \n1) What is OOPs? \n2) Difference between interface class and abstract class? \n3) What is inheritance? \n4) What is Method Overriding ? \n5) Difference between C and C++. \n \nThen he asked do you have knowledge of Data Structure. \n1) Implement Stack using array. \n2) Linked List Vs Array ? Which is better & Why ? \n3) Which data Structure is better if you want to insert element in the middle? \n(array or linked List). \n4) What is Circular Linked List and Doubly Linked List and implement them? \n5) Find the index of element in sorted array. (I started with linear search and then \napply binary search.) \n6) Given an array, count the frequency of each element. \n \nAfter that he want to test my SQL knowledge. \n1) What are Joins? \n2) What are different types of joins? \n3) What is Self Join? \n4) Then he gave a query of Self Join which is tricky one. \n5) Difference between Delete and Truncate Command. \n      \n    Lastly, the interviewer asked If I had any questions. \n    (PS. Always ask 1-2 questions that show that you’re interested in the company.) \n \nNote:- Make sure you are confident talking about the content on your resume."
+    },
+    {
+      "pageNumber": 4,
+      "text": "3 \n \n \nTECHNICAL + HR INTERVIEW \n \nTPO (Offline) | 35-40 Mins \n \nFirst he asked How Electrical Engineering is going on? \n \nThen He started with the standard question “Tell me About Yourself”. \nThen he told me explain any one project in detail And also asked some questions \nbased on Project. \nAs my project is related to web development he asked, \n1) How you integrate API call? \n2) How client side and server side work? \n \nThen he said design your project I was confused at that moment. (question is \nbasically related to Low level design). \nSo, I explained project and also draw the structure of the project. (like how frontend \nand backend interact with each other) And also explained Low level design. \n \nThen Interviewers moved to DBMS and asked \n1) What is transaction? \n \nThen he gave me one scenario, Assume if your wife has your all the bank related \ndetails and suppose she and you are making transaction at same time like (she \nusing UPI and you do transaction through ATM) Then which transaction is \noccurred first? \n(Then I answered it is special case that we should handle and also transaction \nshould maintain ACID properties. Interviewer satisfy with that) \n \n2) Explain Acid Properties. \n \n \nThen He asked what are your Hobbies? \n      \n     Lastly, the interviewer asked If I had any questions \n \nRESULT \n \n19 Students were selected and luckily I was one of them \n \nADVICE: Always read company archives on gfg and coc drive (and practice)"
+    },
+    {
+      "pageNumber": 5,
+      "text": "4 \n \nREFERENCE: \n \nDSA: \nYoutube channels that I followed: \nAbdul Bari DAA , \nTake u Forward, \nAditya Verma (the GOD of DP, also referred to his other playlists of recursion, sliding \nWindow ,binary search, stacks) \n \nAlso I follow Love babbar’s 450 sheet and striver 180 sheet \n \nOOPs: \nLove Babbar's Cheatsheet: Covers all the important topics \n \nFor OOPS, be very clear with the 4 pillars, their analogies and real life \nexamples. OOPS real world \n \nI followed Prof Abdul Bari’s course on C++ which had oops. \n \nDBMS: \nDBMS Gate Smashers Playlist \nDatabase Indexing \nNormalization \nSQL practice on Hackerrank and leetcode \nQuick Revision \n \nAPTITUDE: \nIndiaBix \n \nSYESTEM DESIGN: \nLow Level Design \n \n \n \n \n \n \nALL THE BEST!!  \n     \n(If you have any queries, drop an email at  tusharzalteidol75@gmail.com)"
+    }
+  ]
+}

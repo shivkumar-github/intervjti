@@ -1,0 +1,41 @@
+{
+  "fileId": "97a2b9f8cf3b3164",
+  "fileName": "Sayali Panch_Deutsche Bank experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Deustche Bank\\Sayali Panch_Deutsche Bank experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Deustche Bank"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Deutsche Bank\nFTE interview experience 2024\nSayali Panch\nB.Tech in Information Technology\nDetails\n●\nCTC: 19.63 LPA\n●\nRole: Graduate Analyst\n●\nEligibility: CGPA above 7; No Backlogs; CS, IT & EXTC branch\nHiring Pattern\n●\nOnline Coding Test\n●\nTechnical Interview - 1\n●\nTechnical Interview - 2\n●\nProfessional Fitment interview\n●\nHR interview\nOnline Coding Round :\n●\nPlatform: Proctored on HackerEarth\n●\nDate: 4th August 2023\n●\nQuestions: 3 with partial test case marks\n●\nDuration: 1.5 hours\n1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1. Power Limit - 20 marks [Solved by brute force]\nGiven two resources with powers A and B respectively. At each second, you have\nto select one resource out of the two to run the software. The power of the\nresource at the time of selection should be greater than 1. Every second, the\npower of the selected resource gets reduced by 2 and the power of the\nunselected resource gets increased by 1. The software stops when at least one\nresource has a power of 0.\nYou are given integers A and B. Print the maximum number of seconds your\nsoftware can run if you select the resources optimally as output.\nSample input: 3 5\nSample output: 6\nPassed all test cases.\n2. Auto Suggest - 50 marks [Solved by DP]\nGiven a dictionary consisting of N words and a query word S. All the words and\nthe query word S consist of lowercase alphabets only. You need to auto suggest\nthe best word from the dictionary that is closest to S. Two words are first\ncompared by their Levenshtein distance to the word S. If two words have the\nsame Levenshtein distance, then the lexicographically smaller word is given\npriority.\nLevenshtein Distance is defined as the minimum number of edits required to\nconvert one string to another. Operations allowed to edit are insert, delete or\nreplace a character.\nInput: N words S\n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Output: suggested word\nPassed all test cases.\n3. Backlink Sorting - 50 marks [created 2 dictionaries sorted one and used it]\nYou are given N webpage titles and corresponding arrays that constrain the\nnumber of backlinks for each webpage. The objective is to rank the web pages in\ndescending order based on the number of backlinks they have. If two or more\npages have the same number of links then maintain their ordering.\nSample Input:\n4\npg1 pg2 pg3 pg4\n20 80 40\n10\nSample Output:\npg2 pg3 pg1 pg4\nPassed all test cases.\n40 students shortlisted for interviews held on 9th August 2023 in offline mode in\nTPO\nTechnical Interview - 1 :\n●\nTell me about yourself\n●\nHe told me he was from the OS domain and asked if I was comfortable with\nthat subject, I said yes.\n3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "●\nAsked me to draw the architecture between end user and os (the kernel\ndiagram one) and explain it.\n●\nDifference between Linux and Ubuntu, then compare it with windows.\n●\nList all the linux commands you know (asked the implementation of some)\n●\nTold me to list all the memory units I knew in ascending order.\n●\nAsked me which memory can be accessed fastest by CPU and then gave me\nvarious options and asked to order them ( RAM, CD, Hard disk, cache\nsomething like that)\n●\nAsked me how a small RAM can run a large program, I answered using virtual\nmemory, then he asked to explain what virtual memory is.\n●\nAsked me about paging and segmentation and to state different types of\npage replacement algorithms. Gave a numerical for optimal page\nreplacement.\n●\nAsked me to write any code in any language just it should have a practical\napplication and gave example of olx (I didn’t understand what he wanted but\nI wrote a python code for student and course management)\n●\nList all the git commands you know, then he asked some follow up questions\nlike can you create branch of branch etc.\n●\nAsked me if I had any questions.\nLasted for about 45 min to 1 hr. 33 shortlisted for round 2.\nTechnical Interview - 2 :\n●\nAgain introduce. Then asked which language I prefer.\n●\nWrite a code to reverse a string\n●\nAsked about stacks and told to code it.\n●\nCode to find prime no. in a given range\n●\nWhat is a binary tree?\n4"
+    },
+    {
+      "pageNumber": 5,
+      "text": "State all the tree traversal methods you know, then show inorder traversal.\nAsked which traversal has the best complexity and what it is.\n●\nWrite sql query to create a table of given specifications (with distinct, primary\nkey and all), insert data in it. Then gave some conditions to fetch particular\ndata.\n●\nWhat is OOPS, state pillars. Told to show each pillar implementation for\nLibrary management System and explain.\n●\nWhat is an abstract class? difference between abstract class and interface\n●\nAsked me about my projects in depth and the technologies used\n●\nWhat are sockets and some other basic CN questions.\n●\nAsked me a puzzle similar to this:\nhttps://www.geeksforgeeks.org/missionaries-and-cannibals/\nLasted 1 hr\nProfessional Fitness Interview :\n●\nIntroduce but include something not on resume\n●\nTell about internship experience and the project done there (explained the\nentire project in depth). Asked me why I was not taking SAP Labs PPO\n●\nThen asked about all the committees I was part of like Coc and my role there.\n●\nWhat is normalization, its different forms and conditions.\n●\nThen gave me some scenarios and asked what would I do\n●\nAsked if I could handle a leadership role\n●\nAsked what my father does and about family background\n●\nAsked if I wanted to pursue higher education and if yes what. (I answered\nthat I was not sure but after gaining some experience maybe I could do MBA\nfinance as this role would give me finance domain knowledge)\n5"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Lasted 45 min. 26 shortlisted for HR\nHR Interview :\n●\nIntroduce yourself.\n●\nInternship discussion, how was Bangalore, team, what did you learn,\nhighlight on some learning you gained excluding technical and overall\nexperience.\n●\nWhy DB, if you get PPO from SAP Labs would you accept (I said no), why not?\n●\nWhere do you see yourself in 5 years?\n●\nAre you comfortable with relocation\nLasted 25 - 30 min\nAll 26 candidates were selected.\nTips:\n●\nFor DSA practice leetcode questions and follow any code sheet. I also\nreferred to Geeks for Geeks.\n●\nPractice all the core CS subjects from most asked interview questions. (like\nfrom interviewbit)\n●\nIf there is any ambiguity in understanding question, ask them and clarify,\n●\nKnow all your projects mentioned in the resume and their tech stack\nthoroughly. Do not lie on your resume (maybe exaggerate)\n●\nAlways ask some questions when they ask if you have some and show\ninterest.\n●\nWhile solving some logical questions, explain your approach and do not stay\nsilent for long.\n6"
+    },
+    {
+      "pageNumber": 7,
+      "text": "●\nGo through the geeks for geeks puzzles section :\nhttps://www.geeksforgeeks.org/puzzles/?ref=shm\n●\nIf you don't know something state it and then maybe try to attempt it\n●\nPrepare a proper introduction excluding just your educational details.\nAll the best!\n7"
+    }
+  ]
+}

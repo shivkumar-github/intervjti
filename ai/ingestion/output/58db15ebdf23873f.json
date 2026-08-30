@@ -1,0 +1,37 @@
+{
+  "fileId": "58db15ebdf23873f",
+  "fileName": "Dhruvin Gandhi.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Morgan Stanley\\Dhruvin Gandhi.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Morgan Stanley"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERVIEW EXPERIENCE(Internship)\nMORGAN STANLEY\nDhruvin Gandhi- B Tech CS-(2019-2023)\nOverview: (3rd September- Online test, 6th September- Interviews)\nEligibility Criteria: 7.5+ CGPA\nThey provide 2 tracks: Application Development (App dev) and Enterprise Engineering\nTrack (EE)\nEE track focuses more on subjects like OS,DBMS whereas App Dev focuses more on\nData structures and algorithms.\nI had selected the App Dev track.\n●Round 1(Online Test)\nThe online test was conducted on the AMCAT platform and the test\nhad mainly three sections.\n1. Aptitude Section(20 mins,10questions)-\nIt had mainly MCQs on topics like probability,PnC,Time and\nwork,Pipes and Cistern and some statistics.\nQuestions weren’t difficult but the time provided was\nless.Hence, developing speed is necessary.\nhttps://www.indiabix.com/aptitude/questions-and-answers/\nI was not able to solve 3-4 questions due to the time limit.\n2. Debugging Section(20 mins,7 questions)-\nThere were 7 questions where we had to select a programming\nlanguage out of C/C++/Java and questions were mainly based\non logical errors and syntax errors. So we had to correct that so\nthat the desired output is produced."
+    },
+    {
+      "pageNumber": 2,
+      "text": "For eg:-\nint solve(int arr[],int n)\n{\nint res=0;\nfor(int i=0;i<n;i++)\n{\nres=res*arr[i];\n}\nreturn res;\n}\nYou have to correct the code so that the desired output is\nproduced.\nI was not able to solve 2 questions due to the time limit.\n3. Coding Section(60 mins,3 questions)-\nThe questions were not direct but had a long story related to it.\nYou just have to find the useful information from the question.\n1. https://leetcode.com/problems/longest-valid-parentheses\n/\n2. https://leetcode.com/problems/merge-intervals/\n3. The third question was a very simple dp problem.\nI was able to solve all the three questions in 45 mins.\nSo this was the online round.\nApp Dev Track:- 25 were shortlisted\nEE track:- 13 were shortlisted\n●Round 2(Technical Round,75 mins)"
+    },
+    {
+      "pageNumber": 3,
+      "text": "The interview started with him introducing himself followed by a Tell\nme about yourself question.\nAfter that he asked me about my recent project in which I had used\nObject Oriented Programming.\nBased on my answer he told me to code a few classes in notepad.\nThen he told me to do an oop design of the parking lot system.\nhttps://crack-oop-system-design.herokuapp.com/\nHere you can find the commonly asked oop design questions.\nBased on the discussion we had about the parking lot:-\n1. What are use cases of the parking lot?\n2. Asked me to write the class for a single parking space and a\nparking lot.\n3. Asked me to write the class for a vehicle.\n4. What oop concept would most likely to be used here like\n(Inheritance,Polymorphism)\n5. What data structure should be used so as to get the nearest\nfree parking space from the entry point?\nI told a min heap would be the best data structure to store the\nfree parking spaces and he was satisfied with the answer.\nHe also asked me concepts like abstraction and polymorphism and\nwhat is the difference between overriding and overloading.\nAfter this he asked me:-\n1. You are given large chunks of data of share prices and your\ntask is to sort them. What sorting algorithm would you use?\nhttps://www.geeksforgeeks.org/external-sorting/\n2. You are given a nearly sorted array. What sorting algorithm\nwould you use?\n3. Based on my answer in the first question he asked me what is\nthe other feature that merge sort offers?\nAns:- stability"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Based on my oop design he asked me why I had used vectors\ninstead of arrays and asked me the difference between the two.\nBased on my answer he asked me when you initialize a vector or\narray where does that memory allocate.\nThen he asked me about Memory heaps and stacks.\nThen he said that he was trying to allocate a large size array/vector\nbut he was getting an error saying that the memory limit had been\nexceeded.\nHe asked me what could be the possible reason for this and how can\nyou solve it.\nHe gave me a hint for this question based on which I was able to\nanswer correctly.\nReason:- finding a  large contiguous memory for array or vector can\nlead to memory limit exceeded.\nLinked lists can be used to solve the error.\nLater he told me to code and explain the following in notepad(also did\na dry run of few test cases):-\n1. Reverse a linked list\n2. Quick sort\n3. A simple dp problem\nI wasn't asked a single question about os /dbms however other candidates\nwere asked.\nHe was quite satisfied with the solutions. He then asked me\nif I had any questions.(Always ask something, it shows that you\nare interested)\nHe was very friendly and discussed with me the projects he\nworks on and other opportunities at Morgan Stanley."
+    },
+    {
+      "pageNumber": 5,
+      "text": "App Dev Track:- 12 were shortlisted\nEE track:- 4 were shortlisted\nRound 3(HR + Technical Round,45 mins)\nAgain I was asked About Introducing myself and he asked to\n●Describe one of the projects that I had mentioned in my resume\nand also asked about my internship.\n●Based on my internship he asked me a few questions about\npython.\n●You have built an application and a user has reported a certain\nproblem. What would be your step by step approach to solve\nthe problem?\nThen Some HR questions were asked:\n●What difficulties/challenges did you face while doing a group\nproject?\n●Describe a situation where your teammates were convinced to\ngo with your idea and how did you convince them\n●Describe a situation where you were not satisfied with the work\nyou have done and what did you do then?\nAfter a few more hr questions he asked me if I had any questions for\nhim.\n(Ask questions always).\nIn the end around 9:30/10:00  the same night the results came, 11 of us\nwere selected (2  EE, 9 App dev)."
+    },
+    {
+      "pageNumber": 6,
+      "text": "Preparation:\n●https://github.com/yash0530/InterviewPrepResources\n●InterviewBit\n●Leetcode\n●Company wise from GFG\n●Tag archives from GFG(imp)\n●OOPs from GFG\n●DBMS/OS from InterviewBit /  Last Minute Notes gfg\n●Aptitude from Indiabix\n●https://www.youtube.com/watch?v=c0_1QnyVYQY&list=PLgUwDviBIf\n0p4ozDR_kJJkONnb1wdx2Ma&index=2\nALL THE BEST !!"
+    }
+  ]
+}

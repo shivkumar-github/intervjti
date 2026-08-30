@@ -1,0 +1,15 @@
+{
+  "studentName": "Archeel Parekh",
+  "companyName": "Morgan Stanley",
+  "batch": "2018-22",
+  "preview": "PPO interview experience for Morgan Stanley covering internship projects, resume-based technical questions, multithreading, and coding problems.",
+  "content": "PPO INTERVIEW MORGAN STANLEY ARCHEEL PAREKH, B.Tech. CE 2018-22 There was only 1 round for PPO interviews 60 mins 1. Introduction and discussion on internship project (10 mins) Asked me to explain my project, how it will be useful for the firm, and what were my learnings. 2. Resume based questions (10 mins) Projects on my resume had flutter and AgoraRTC used so interviewer asked about those projects (Interviewer had used those technologies and was familiar with them) ○How would you implement a navigation bar in flutter? ○Questions on AgoraRTC and webRTC 3. Non Coding Questions (5 mins) ○Questions on multithreading and its use, how threads communicate in java? Thread vs Process? What will happen to child threads when the parent process is killed? 4. Coding Questions (30 mins) ○Write a C++ generic class/function to add two strings or two integers. ○Error handling code in C++ ○What if you return from the catch block? Does the finally block execute? What will happen to the return statement in the finally block? ○Coin Change ○Longest common prefix 5. Coding Questions (5 mins)",
+  "source": {
+    "fileId": "2aa3504a573c0813",
+    "fileName": "Interview_Exp.pdf",
+    "originalPath": "2021 Experiences\\Placements\\Morgan Stanley\\Interview_Exp.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Morgan Stanley"
+  }
+}

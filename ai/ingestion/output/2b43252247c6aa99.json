@@ -1,0 +1,37 @@
+{
+  "fileId": "2b43252247c6aa99",
+  "fileName": "Abhishek Kalshetti WellsFargo_FTE_Interview_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Placements\\Wells Fargo\\Abhishek Kalshetti WellsFargo_FTE_Interview_Experience.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Wells Fargo"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Abhishek Kalshetti B.Tech CE 2018-2022\nWells Fargo\nEligibility: CGPA 6.75 and above\nBranches Allowed: CS, IT, EXTC, Electronics, Electrical, and\nMechanical.\nTimeline and Events:\nPreplacement Talk: 8 August\nThe test was conducted right after the pre-placement talk.\nOnline Assessment:\n1.Verbal\n2.Business Aptitude\n3.Coding\nVerbal: 12 questions in 15 mins based on detecting grammatical errors fill in the\nblanks and vocabulary. This was pretty easy if one has a moderate level of\nEnglish knowledge.\nBusiness Aptitude: 15 questions in 25 mins. These were interpretation\nquestions based on business graphs, candlesticks, etc.\nCoding: 2 questions in 60 minutes.\n1.Array-based questions, about a game being played and rules, were given how\nthis game is to be placed. I applied a brute force approach and was able to pass\nall the test cases.\n1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "2.Based on 2-D Array it was a variation of Minimum lines to cover all points.\nhttps://www.geeksforgeeks.org/minimum-lines-cover-points/\nI managed to pass 3 out of 11 test cases.\nRound 1:(Next Day--Technical Round)\n(We got the names of shortlisted students the same day.)\nQuestions:\n1.Interviewer first asked me to introduce myself.\nKeep this short and simple. Mention your internship in a line or two. Techstacks\nyou’ve worked on, similarly mention your projects in a line or two.\n(Tip: Your introduction should sound very confident i.e your first impression is what\nwill set the tone for further interview)\n2.Interviewer asked a couple of questions about my internship.\n3.Questions on ASP .NET Core (Since mentioned on my resume)\n4.API Development in ASP .NET Core and follow-up questions about SQL Injection,\ndependency injection, and how are APIs platform-independent.\n5.How I implemented my internship project in ASP .NET Core?\n6.Then he asked me to explain my personal project.\n7.Sum of diagonals of a given 2-D Array.\n8.Difference between array and LinkedList.\n9.Then the interviewer moved on to OOPS and CS Fundamentals Q’s.\n10.What is OOPS and why was it introduced.\n11.Types of inheritance.\n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "12.What is a virtual function?\n13.What is pure virtual function?\n14.Difference between abstract class and interface.\n15.Difference between private and protected access modifiers.\n16.Then some OS questions.\n17.What is a Page Fault?\n18.Virtual Memory vs Segmentation.\n19.Some questions on Deadlock.\n20.What is Indexing? (DBMS)\n21.Clustered Indexing vs Non-Clustered Indexing.\n22.Explain different types of Joins.\n23.Some SQL Queries.\n24.Are API’s Platform Independent? (Yes, they are)\n25.Then at last the interviewer asked me to explain my Flutter Project.\n●\nThe motivation behind the project. (Why did you build this project?)\n●\nDo explain what is this project about. If you’ve used some resources/services like\nAPIs do mention the source, how were these APIs playing role in your project?\n●\nWhen you explain your project, do explain what kind of architecture you used for\nex if you’ve used MVC(Model, View, Controller) mention that, and what did you\nuse this.)\n●\nExplain how did you break up your project into different modules and the\napproach used to implement them. For example, if you’ve used a specific\npackage/library, mention how this library played a role in your project.\n3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "●\nMostly important DRAW!! Keep drawing (MS Paint or anything), keep writing on a\nnotepad for making the understanding clear. This helps a lot to you as well\nbecause you then can explain your points properly and the interviewer can also\nunderstand what you are trying to explain very easily.\nThe interviewer was quite happy with my answers and asked me if I have any questions\nfor him.\nSince the interviewer asked me a lot of questions about APIs and ASP .NET Core, I\nasked about the tech stacks he has worked on. He told me that, he had a lot of\nexperience working with ASP .NET Core and API’s development using the same. Then\nwe had a good discussion about APIs, how they are platform-independent, and the\ndevelopment of APIs using ASP .NET Core.\nAs soon as my technical round got over I got an update for the\nsecond round.\nRound 2 (Senior Leader interview):\nThe interviewer was very friendly, she asked me about my Round 1 Interview.\nThen she asked me to introduce myself.\nThen the interviewer asked me a puzzle.\nPay an employee using a gold rod of 7 units?\nhttps://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-units/\nI gave the solution after some thinking. Then the interviewer confirmed that my answer\nwas correct and now told me to code the solution.\nI was able to do this using a recursive approach. (Include/Not Include Method).\nThe interviewer was satisfied with the solution. Then she moved on to my resume.\n●\nSome questions about my internship.\n●\nDifficulties faced while implementing the project.\n4"
+    },
+    {
+      "pageNumber": 5,
+      "text": "●\nExplain the ML project mentioned in my resume.\nThis interview lasted for 40 minutes.\nRound 3 (HR round):\nThis was a telephonic round.\nFirstly the HR asked me to introduce myself. I gave a brief introduction about my\nacademic background, mentioned my internship and the projects that I’ve worked on.\nThe interviewer then asked me about my ML Project since the dataset used was the HR\nanalysis of IBM. I explained to him in brief about the motivation behind the project and\nhow the outcomes could be used.\nThen he asked me about my family background and if am comfortable with relocation (I\nsaid, Yes).\nAnd some more HR-type questions.\nThis call lasted for around 20 Minutes.\nResults were announced at 8.05 PM,7 out of 31 were selected and I am happy to share\nthat I was one of them.\nBut on the same day, I got an offer from MSCI and I decided to go with MSCI.\nTips:\n1.Be calm, interviewers are generally helpful, keep explaining your approach step by\nstep if you get stuck interviewer will give you hints use them, and complete your code.\n2.You have to present your ideas/approaches very clearly. The interviewer must know\nwhat are you trying to do at each point.\n3.You should know each and everything mentioned in your resume. That is you should\nbe able to defend everything asked about your internships and projects.\n5"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Resources:\n1.GFG Must do coding questions\nhttps://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-m\nicrosoft-adobe/\n2.Dynamic Programming\nhttps://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFoh\nncHwz8TY2Go\n3.Graphs\nhttps://www.youtube.com/watch?v=YTtpfjGlH2M&list=PLgUwDviBIf0rGEWe64KWas0Nr\nyn7SCRWw\n4.Puzzles\nhttps://www.geeksforgeeks.org/puzzles/\nAll the Best!!\n6"
+    }
+  ]
+}

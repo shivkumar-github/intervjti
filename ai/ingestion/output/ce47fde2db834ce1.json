@@ -1,0 +1,21 @@
+{
+  "fileId": "ce47fde2db834ce1",
+  "fileName": "SAP FTE 2020.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2020 Experiences\\Placements\\SAP FTE 2020.pdf",
+    "year": "2020",
+    "experienceType": "Placements",
+    "companyFolder": "Placements"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Sahil Pavaskar, Btech EXTC 2017-21 \nSAP Labs FTE Interview Experience \n \n \nOnline Test​:  \n1.\nGiven a string delete k consecutive identical characters. \n            eg: Input: string str = \"abbcccbd\" and k = 3  \n            Output: \"ad\" \n2.\nGiven a string text and a pattern with zero or more special characters * and * can be \nmapped with any character, find the starting index of the first occurrence of pattern in the \ntext. \n           eg: Input: text = \"abcdefgh\" and pattern \"c*d\" \n           Output: 2 \n      There were around 10 MCQs based on DSA, DBMS, C, etc. \n \nI solved both coding questions and mostly 8-9 MCQs and was shortlisted for the next round. \n \n(​15 students were shortlisted for Tech 1​) \nTechnical Round 1​(on hackerank codepair):  \n \n1.\nProject discussion. \n2.\nGiven an array of integers, move all zeros to the end. (I was not allowed to code in C++, \nonly options were C and Java). \n3.\nDesign Product Notification for out of stocks products in an eCommerce application. \n4.\n3 SQL queries( 1 on joins, 1 on nested query, and 1 on group-by). \n5.\nHe wrote around 10 SQL commands and asked to define them. \n6.\nDifference between Delete, Drop, and Truncate. \n7.\nPointers and References. \n8.\nStruct and Union with respective use cases. \n9.\nExplain malloc, calloc, etc. \n \n \n(​6 students were shortlisted for Tech 2​) \nTechnical Round 2​(on Microsoft Teams): \n \n1.\nProject Discussion. \n2.\nDiscussion on Convolution Neural Networks, layers of some CNN models, optimizers, \nbias-variance, activations, and logistic regression. \n3.\nGiven an array of 0's and 1's find the largest subarray of equal no. of 1's and 0's. \n4.\nGiven 2 strings check if they are rotation of each other or not. \n5.\nDesign a Car Rental System. ( I started with a basic design then he asked me to add \nfeatures like transfer of ownership, etc.) \n6.\nNormal Forms, ACID properties, and how to make transactions serializable."
+    },
+    {
+      "pageNumber": 2,
+      "text": "7.\nDiscussion on memory allocation and malloc, calloc, new, etc. \n8.\nDesign TinyURL( only approach was asked.) \n \n(​5 students were shortlisted for this round​) \nManagerial Round​(on Microsoft Teams): \n \n1.\nDiscussion on Projects and Internship. \n2.\nWhat does SAP do? \n3.\nWhat all SAP products you know? \n4.\nQuestions on my family background and plans for future studies. \n5.\nHow are you improving yourself in the current situation? \n \nHR Round​(on Microsoft Teams):  \n \n1.\nWhy SAP? \n2.\nWhy should we hire you? \n3.\nWhat are your expectations from SAP? \n4.\nInterests and job location. \n5.\nWhat are your long term goals? \n6.\nWhat co-curricular activities do you want to do in SAP? \n \n3 students were selected."
+    }
+  ]
+}

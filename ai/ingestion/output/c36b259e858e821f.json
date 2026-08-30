@@ -1,0 +1,41 @@
+{
+  "fileId": "c36b259e858e821f",
+  "fileName": "DevayaniChandane_citi_experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\Internships\\Citi\\DevayaniChandane_citi_experience.pdf",
+    "year": "2023",
+    "experienceType": "Internships",
+    "companyFolder": "Citi"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Devayani Chandane - TY CS\nINTERVIEW EXPERIENCE FOR\nSUMMER INTERN"
+    },
+    {
+      "pageNumber": 2,
+      "text": "INDEX:\n1.PPT\n2.ONLINE ASSESSMENT\n3.INTERVIEW ROUND\n4.HR ROUND\n5.RESOURCES\n6.PREPARATION TIPS\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "PPT\nThe pre placement talk was conducted on 1st September in online mode.Do attend the\nPPT as it is crucial when you are asked company specific questions.Make note of\nimportant points.The PPT contains info about the company’s values ,reach,\ngoals,employee commitments,internship program details and much more.\nONLINE TEST:\n1.ONLINE ASSESSMENT\nEligibility: 6.5+ CPI. CS,IT and circuit branch students were eligible.No active backlogs.\nOverview:The Test was conducted on SHL platform.The Test consisted of 4 sections.\nThere were sectional timers.You cannot switch between the section.There was no\nnegative marking.\na)Coding Round:\nThis section had two coding questions and 45 mins were allocated for this section.\n1.Given an array of numbers, I had to find out the sum of individual digits of the numbers\nand return an array.\nExample:\narr[]={22,67,921,88}\nSolution array : {4,13,12,16}\nApproach:For each number ‘n’ in the array find n%10 , add it to the sum then divide n by\n10. Continue till n!=0.\nPush back the sum after each iteration.\nI could pass 15/16 test cases.\n2.Given a string we had to eliminate vowels(lower as well as uppercase) and return the\nstring.\nExample:\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "String s=”ThisPlaceIsTooGood”\nString res=”ThsPlcesTGd”\nApproach: if(s[i]!=vowel) {res+=s[i]}\nI could pass all the test cases.\nI could complete the above questions in 25 minutes, so I submitted the section and\nmoved on to the next section.\nb)DBMS:\nThere were 12 questions in this section and time allocated was 15 min.\nQuestions were related to simple DML commands(insert,update etc.) and extracting data\nfrom the provided database. Level of questions was easy to moderate.\nc)React:\nThere were 12 questions in this section and time allocated was 15 min.\nI don’t remember the exact questions,but they were related to component\nrendering,props etc.\nd)Angular:\nThere were 12 questions in this section and time allocated was 15 min.\nThe test lasted for abouts 1½ hour.The results of the test were declared on 3rd\nseptember at 10:15 pm. 20 students were shortlisted for the ICG role and 20 for PBWM\nrole. 10 were waitlisted.\nTECHNICAL INTERVIEW:\nAs I was shortlisted for ICG role, our interviews began at 11:00 am on 4th Sep.The\ninterviews were conducted on zoom.My interviewer gave a brief introduction of himself\nand then asked me to give mine. I told him about my techstack, the projects I’ve worked\nwith and the committees I’ve been a part of.He advised me to give a crisp introduction as\nit went on for 4 minutes.\n3"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Then he asked me to describe one of the projects I’d mentioned on my resume.I\nfollowed the STAR approach to explain the project.(Make sure to highlight a unique\nfeature and in what way you contributed to it).He asked me about hooks and redux.He\nalso asked me about debugging. This went on for about 8-9 minutes.\nNext up,he told me he would be testing my analytical skills. He asked me a puzzle:\nYou have x number of mangoes, when you try to arrange them in 2 or 3 or 4 or 5 or 6\nrows, one mango is always left out, but all the mangoes fit in 7 rows. (You need to find out\nlcm of all the numbers before 7) .I wasn't familiar with this puzzle but after taking a hint\nfrom him I could solve it. Later he asked me to optimize the solution,which again I\nunderstood only when he gave me the hint. He asked me what is time complexity and\nhow to find it.The meet lasted for about half an hour.\nI was anxious and nervous about the results as I couldn’t completely solve the puzzle on\nmy own. Only 4 students were shortlisted for the technical round 2, I wasn't one of them.\nBut then around 5:20 pm, I got a call from TPO CR saying “you’ve been shortlisted for the\nHR round”. And the interview was scheduled at 5:30pm.\nTotal 6 students were shortlisted for HR round.\nHR ROUND\nI got ready in 5 minutes for the interview and rushed towards my laptop. The interviewer\nwas friendly and generous. He asked me about the first interview round and how it\nwent.Then he asked me about the project I had mentioned in my resume under the\nachievements section. I described the project in detail and highlighted the key features\nand in what way I brought life to the website through UI/UX.\nThen he asked me about my interests other than academics.He also asked me about my\nshort term goals. I mentioned about improving my skills and exploring other domains like\nML.To that he cross-questioned, why do you want to do ML as you’ve applied for SDA\nrole. To that I replied, I just want to explore a new domain out of curiosity and\ninquisitiveness, but I reassured him that I would obviously prioritize the techstack\nrequired by the company. He was satisfied.\n4"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Rest of the questions were about my family background, my willingness to relocate to\nPune, any gov officials I was associated with etc.\nTowards the end of the interview, he asked me if I had any questions. I asked about the\nwork culture and how a day in the life of intern looks like. The interview ended on a good\nnote.\nI was confident about the interview but still a bit tense about the results. The results were\ndeclared at 8:00 p.m. 5 out of 6 people were selected for ICG role,I was one of\nthem.Parallely, 5 out of 11 were selected for PBWM role.\nRESOURCES:\nPractice DSA questions on regular basis. Revise OS,OOPS,DBMS frequently .\nDSA:\nDSA sheet love babbar\nStriver’s SDE sheet\nDynamic programming:Aditya Verma’s Playlist\nOS:\nGate smashers playlist, Interviewbit(for interview questions).\nDBMS:\nGate smashers playlist,Interviewbit(DBMS, SQL)\nOOPS:\nLove Babbar's Cheatsheet\nBe prepared with a real life example for the four pillars of OOPS.\n5"
+    },
+    {
+      "pageNumber": 7,
+      "text": "PREPARATION TIPS:\n1.Give sufficient time to each subject while preparing.\n2.Be confident.Even if you don’t know the exact solution try to explain your\nlogic/approach to the interviewer.\n3.Be honest while including your technical skills in the resume as interviewer might ask\nquestions based on it.\n4.Be well-versed with your project and techstack used. You should have good\nknowledge of the features and working of your project. Explain your contribution in\ndetail.\n5.Prepare well for the HR round. Go through some commonly asked HR questions.Note\ndown the important points mentioned during ppt, it will help you to answer the question\n“why do you want to join citi?”. Express your honest thoughts while answering the\nquestions, you should seem genuine and interested in working with the company.\n6.If you are asked to code a question during interview, explain your solution\nsimultaneously. Think out loud!\nALL THE BEST GUYS!!!\n6"
+    }
+  ]
+}

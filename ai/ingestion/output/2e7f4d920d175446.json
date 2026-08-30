@@ -1,0 +1,41 @@
+{
+  "fileId": "2e7f4d920d175446",
+  "fileName": "Darshan_Shelar_UBS.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\UBS\\Darshan_Shelar_UBS.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "UBS"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Public\nRole: Software Development Intern\nStipend: 40,000/MONTH\nLocation: Mumbai/Pune\nCriteria: 7+ CPI  70%+ in 10th and 12th\nInterview + Internship Experience\nDarshan Shelar- Btech in Information Technology\nTimeline :\n1.\nPPT:\n2.\nOnline Test: 24th January 2023 (5:00 pm -7:00 pm) \n3.\nInterview: 31st January 2023"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Online Test\nAn online test for 2 hours was conducted on the Hackerrank platform.\nIt consisted of MCQ part and Coding part (You can navigate to previous questions).\nPreparation: \nKeep practicing on coding platforms like codechef, Leetcode, 450DSA, Striver sheet, etc.\nFor MCQs, make sure you solve some logical and quantitative questions.\nRest, DBMS, OS, CN and DSA will be from your curriculum so make sure you are thorough in that.\nGeneral tips: First try to solve the coding question, and then move to MCQs.\nMCQs:\nThere were 60 MCQs, Questions were on aptitude, logical reasoning, quantitative analysis, DBMS OS CN, and some basic DSA.\nCoding question:\nThere was only one coding question, Languages were C, C++ and Java."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Online Test: Coding question\nA company wants all of its employees to focus in cyber security and hence regularly change their passwords. Given two binary \nstring passwords s and t of equal length. Each string represents a binary Integer where the first character represents the most \nsignificant bit of number. You can rearrange the characters of t in any order you want.\nThe task is to maximise the value of bitwise XOR of s and t. Return maximum possible XOR as a binary string of length the same as \nthe input strings\nFor example,\ns = ”0011110”, t = “1111000”.\nIt is optimal to rearrange the characters of t to “1100011”.\nThe bitwise XOR of s and t would be “1111101”.\nHence the answer is “1111101”."
+    },
+    {
+      "pageNumber": 4,
+      "text": "Interview\nInterview consisted of only one round.\nIt was for about 40 to 60 minutes.\nPreparation: \nYou should be able to explain your whole resume.\nKeep practicing on coding platforms like codechef, Leetcode, etc. In interviews, only easy problems are asked.\nGo through OS and DBMS questions on Interviewbits.\nPractice SQL queries, specially the join ones.\nMake sure you are aware of all OOPs concepts specifically the inheritance and classes part.\nPrepare all the known sorting algorithms with their pseudocode (Bubble sort, Insertion sort and Selection sort are simplest and most \nasked ones). Mention 3 to 4 projects in resume.\npractice for the data structures along with pseudocode (Stack, Queue, Linked List, trees and graphs and their functions and algorithms).\nGo through Interviewbit site’s frequently asked questions\nGeneral tips:\nBe confident and clear.\nIf you don’t know the answer, just sat so.\nMake sure that you are not saying any fake/unstudied terms. Because they will cross question you."
+    },
+    {
+      "pageNumber": 5,
+      "text": "Interview: Questions asked\n1. DSA question- explain stack and heap, Implement Stack and it’s functions (pseudo code).\n2. Sorting question- give names of some sorting algorithms you know, give pseudocode and step by step explanation + working \nfor any one of your choice.\n3. Coding question- you are given a string consisting of many small case alphabets, find the alphabet which had maximum count.\n4. Project question- explain projects mentioned in your resume, give final output, use case diagram, some functions and \ntechnologies used, the reason why you’ve used the particular technology and give it’s alternatives (eg. If you have used \nMariaDB database, state why you have used that, Mention the other technologies available like MongoDB, and the benefits of \nMariaDB over MongoDB)\n5. Theory questions- some basic questions on OS and DBMS, a complex sql query was also asked."
+    },
+    {
+      "pageNumber": 6,
+      "text": "Internship Experience\nIt was an amazing experience interning with UBS.I got to learn a lot of new things and interact with many individuals across this \nsummer program. There were a lot of events, mandatory training sessions which were conducted along with our assigned work.\nI worked on web automation part using python. Here, I’ve learned more about selenium library and table scraping stuff. I was \nassigned with 3 projects. The role and project differs from person to person.\nMy manager, mentor, and buddy were all very supportive and helpful. They made sure that I was able to get up to speed quickly\nand that I had everything I needed to succeed. Not only them, even those working around with me were friendly. \nI came to know a lot about Software Development Life Cycle, the deadline management part and various other activities.\nIn the final weeks, each intern need to give a presentation sharing his projects and experience in UBS office.\nOverall, my internship at UBS was an amazing experience. I learned a lot, made great connections, and had a lot of fun. I'm so \ngrateful for the opportunity and I would definitely recommend it to anyone who is looking for a challenging and rewarding \ninternship."
+    },
+    {
+      "pageNumber": 7,
+      "text": "Internship Experience: Do’s and Don’ts\nMake sure you are in close contact with other interns too. This will ensure that you do not miss any event or other stuff.\nKeep your buddy updated on what progress you make everyday.\nMake sure that you prioritize your tasks properly and manage deadlines.\nIn the final presentation, you must mention the things you learned in UBS and not just project work. Keep it more presentable, \nmake use of flowcharts, tables and various animations.\nIf you face any difficulty, just seek for any colleague. They will surely help you.\nDo not share any kind of confidential data with others.\nKEEP YOUR LINE MAGER/MENTOR HAPPY He is the one who will give your feedback and your ppo will be based on his feedback."
+    }
+  ]
+}

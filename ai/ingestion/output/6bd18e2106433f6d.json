@@ -1,0 +1,33 @@
+{
+  "fileId": "6bd18e2106433f6d",
+  "fileName": "Keisha Gupte_Wells Fargo_Interview.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Wells Fargo\\Keisha Gupte_Wells Fargo_Interview.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Wells Fargo"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "WELLS FARGO INTERVIEW EXPERIENCE \n        KEISHA GUPTE | TY BTECH IT \n \n \nCoding / Online Assessment Round: \nThis round was conducted on AMCAT platform on 8th of August, 2022. The webcam \nhad to be kept on, also no changing tabs/windows was allowed. It consisted of three \nsections- \n1) Verbal Aptitude: It had questions on grammar, such as choosing the right \ntense, or choosing the most appropriate word according to its definition. It \nhad comprehension questions too. It was pretty easy \n \n2) Business Aptitude: A company’s graph of their growth was given and there \nwere follow up questions on that, such as analysing or interpreting its data. \nThere was a time crunch while solving these questions. I couldn’t solve all \nof them and marked the answers of the remaining questions randomly as \nthere was no negative marking \n \n3) Coding Section: This section had 2 questions. I don’t remember the questions \nspecifically because there was a huge gap between our coding round and \ninterview round. Both were array-based questions and the difficulty level \nwas easy. I was able to pass 10/10 test cases for one question and 10/13 test \ncases for the other question"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Interview round: \nThis round was conducted on the 7th of September. 7 students were shortlisted for \nthis round. A day before the interview, we were asked to submit our resumes.  \n \nTechnical + HR interview First round: \nAll the candidates were given different zoom links and our first interview was at \n9.30am. I had joined the link 5 mins prior to the given time. The interviewer asked \nme to give a brief introduction about myself. You can mention about your projects, \ndescribe your contribution in it, and what all achievements you have had so far. Do \nmention your hobbies too. \n \nI was given two problems to solve. I had to predict the next element of the following \nseries: 80, 10, 70, 15, 60, ?. Another similar question on completing a series was \nasked. \n \nBe careful about what you include in your resume because they keep it open all the \ntime and ask questions based on what you have written in it. I had included Java, \nC++, and Python as the languages that I was proficient in. I was asked the difference \nbetween these languages and which one I preferred and why. \n \nNext, I was asked to explain the OOPs concepts and give examples etc. I was also \nasked to explain various data structures, how I had used these data structures and \nto give a real-world example for each \n \nAlso, remember to keep the screenshots of the company’s presentation. Or you can \ndo a little research about the company before the interview. Basically, you must be \na little aware of the company’s various sectors and policies. I was asked to tell him \nwhat I knew about Wells Fargo.  \n \nThis round went well and all the 7 candidates were chosen for the next round."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Second Interview Round: \n \nThis round was scheduled at 12.40pm.  \n \nThe interviewer asked me to give the most optimal way of finding out if a number is \nprime number.  \n \nNext, I was asked to write a query such that the duplicate tuples of the table were \nto be deleted and only one entry of these tuples was to be kept in the table. It was a \ntypical interview question and required using row id column. I gave it a try but \nwasn’t able to answer it correctly. \nhttps://www.oracletutorial.com/advanced-oracle-sql/how-to-delete-duplicate-\nrecords-in-oracle/ \n \nNext, he gave a scenario where I was to design a product for a customer. I had to \nexplain the steps involved and how I would approach it. I answered that by giving \nthe basic steps such as planning, designing, adding required functionalities, testing, \ndeploying etc. His feedback was that the first thing to do is market research and \nunderstand the requirements of the customer.  \n \nA few more HR questions related to Wells Fargo were asked which I don’t \nremember exactly.  \n \nThe name of the shortlisted candidates came at around 5. I was luckily shortlisted \nalong with 3 other candidates! \n \n• I wasn’t asked any questions on OS but be prepared for anything as it solely \ndepends on what the interviewer wishes to ask \n• Be prepared to be asked thorough questions on everything written in your \nresume  \n• Also, be ready with a few questions related to the company"
+    },
+    {
+      "pageNumber": 4,
+      "text": "FOR DSA: \n• I followed GFG Practice problems. And for DP I watched Aditya Verma’s \nplaylist \n \nFOR OS AND DBMS: \n• I followed interview bit questions for last minute revision and referred to the \nnotes I had made \n• You can also refer to Apna College notes: \n \nhttps://docs.google.com/document/d/1KV-9I5D6iddJbAoDzPEBVR6izf-\nj_7PXq3JQSC7KC2Q/edit \n \nhttps://drive.google.com/file/d/1B_kmekdghu-sO8-eXZ1kc4Xx_YtB8BPM/view \n \nFOR OOPS: \n• I followed interview bit questions for last minute preparation and had \nreferred Love Babbar’s Cheat Sheet \n \nhttps://www.interviewbit.com/oops-interview-questions/ \n \nhttps://whimsical.com/object-oriented-programming-cheatsheet-by-love-\nbabbar-YbSgLatbWQ4R5paV7EgqFw \n \nALL THE BEST!!!!!"
+    },
+    {
+      "pageNumber": 5,
+      "text": ""
+    }
+  ]
+}

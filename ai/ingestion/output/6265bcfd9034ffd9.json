@@ -1,0 +1,29 @@
+{
+  "fileId": "6265bcfd9034ffd9",
+  "fileName": "HarshGawli_UBS_Interview_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\UBS\\HarshGawli_UBS_Interview_Experience.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "UBS"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERVIEW EXPERIENCE\n  SUMMER INTERNSHIP\n  \n                    Harsh Gawli\n                           TY B.Tech CS"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 1: Online Assessment\nEligibility Criteria - CS, IT and EXTC students could apply with CGPA > 7.0\nThe online assessment consisted of 61 questions(1 coding question and 60 MCQs) \nwhich were to be solved in 80 mins. The assessment took place on HackerRank.\n1.\nThe MCQs consisted of theory questions related to Java, OOPs in Java, SQL and \naptitude questions(pattern-based questions).\n2.\nI don’t remember the exact coding question, but it was a variation of this question \nso do go through it. I was able to pass 13/15 test cases.\nThe test results were announced on 27 January and 8 students were shortlisted for the \ninterview and I was one of them. We were informed that the interview will take place \nin offline mode in the UBS office at Airoli. We were given time slots for our \ninterview and were asked to be present 10 - 15 mins prior to our time slot.\nInterview Round (31 January):\nIn the email that we received, everyone was assigned 2 interviewers. For some, both \nthe interviews were developers while for some one of the interviewers was the HR \nand one was an associate director, the latter being my case. My interview began at \n11:15am.\nThe interviewers were friendly and made sure that I was comfortable and not nervous \nthroughout the interview. The associate director was a guy, and the HR was a woman.\nThe interview began with a discussion on my projects. I was asked to explain the \nvery first project on my resume(what is the end goal of the project, the tech stack \nused in the project, why the particular tech stack was used, the code logic used for a \nspecific functionality and so on). The interviewers didn’t seem very impressed at \nfirst. Then, one of the interviewers asked me which of the projects that I had \nmentioned was very close to my heart, to which I replied the very first full-stack \nwebsite that I had developed and deployed. So I started explaining this project and \nthis time they were content with my explanation. \nNext, I was asked some theory questions on DBMS - What is the difference between \nDELETE, DROP and TRUNCATE; What is a view and what are its advantages."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Next, the interviewer moved on to DSA and asked me what algorithms (searching \nand sorting) I was aware of. So I listed all the algorithms I was confident about. The \ninterviewers didn’t ask me anything more on this topic.\nMy HR round began in this very slot itself. \nThe very first question that I was asked was “Why do you want to join UBS”. I had \nan answer prepared for this. For this question, always the check the company website \nand jot down stuff like “Principles of ABC company” or “Our motto” etc. Next, I was \nasked if I knew the difference between retail banking and investment banking. I had a \nrough idea about the difference between the two so I answered this question and the \ninterviewer also added some extra points and gave me a brief idea about the \ndifferences. \nNext, the HR asked me if I kept myself up to date with current affairs to which I \nreplied not much as I was busy preparing for internships. She proceeded to ask me \nsome questions on current affairs like what are your views on the Russia-Ukraine \nconflict.\nFinally, the interviews asked me if I had any questions for them. Always ask 1-2 \nquestions as it shows that you’re interested. So I asked them how has their experience \nbeen working in UBS and whether interns get to work on new projects or on-going \nprojects. The interviewers answered both questions. After this, my interview ended.\nThe interview lasted for about 40-45 mins.\nNow, only one round was conducted for all the 8 students but for some, the interview \nwas entirely technical.\nOn 8 February the results were announced. 6 students were selected for the \ninternship and I was lucky to be one of those 6."
+    },
+    {
+      "pageNumber": 4,
+      "text": "Some useful resources:\n1.\nDSA - Striver’s SDE sheet\n2.\nDBMS - Gate smashers playlist and last minute revision notes on GFG.\n3.\nOS - Gate Smashers playlist.\nBe thoroughly prepared with your projects - the motivation behind the project, if \ndeveloped during a hackathon then be ready with the problem statement that you \naimed to solve using the website/app that you developed as group, the tech stack used \nin the project, why the tech was used, what are the alternatives, etc.\nAll the best!!"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fileId": "276b70e2dff139a3",
+  "fileName": "Misha Azmi_Wells Fargo.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2022 Experiences\\Internships\\Wells Fargo\\Misha Azmi_Wells Fargo.pdf",
+    "year": "2022",
+    "experienceType": "Internships",
+    "companyFolder": "Wells Fargo"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "WELLS FARGO\nIntern Analyst - Summer Internship\nName : Misha Azmi\nThird Year - Information Technology\nLocation : Hyderabad or Bangalore\nStipend : 90,000 INR"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 1 : Coding Test - 8th August, 2022\nDivided into 3 sections\nVerbal Aptitude : First section had 10 questions\n●\nFill in the blanks with appropriate words\n●\nBasic grammar questions\n●\nQuestions based on the given passage\nBusiness Aptitude : Second section had 10 questions\n●\nQuestions on graph analysis\nCoding Section : Third section had 2 coding questions\nSince this test was taken a month before the interview, I don’t remember the questions.\nThe only thing I remember is that we had 45 mins to complete. The questions asked were long\nbut on understanding it was easy to implement.\n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Online Interview - 7th September, 2022\nTechnical Interview (40 mins)\n8 students were selected for this round\nQuestions asked :\n●\nTell me about yourself\n●\nExplain your project. Follow up questions were asked on the project like technology\nused, purpose of the project, target audience.\nHTML & CSS\n●\nSince the project I had mentioned was mainly front-end based, questions on HTML were\nasked in depth.\n●\nDifference between elements and tag\n●\nWhat is <i>, <en>? Difference between them.\n●\nWhat is a void tag? Give examples\n●\nBasic questions were asked on CSS and regarding its implementation in my project\nOS\n●\nWhat is OS?\n●\nDifferent types of OS\n●\nWhich OS is used in College?\n●\nOther basic OS regarding questions were asked\nDBMS\n●\nTypes of keys\n●\nDifference between primary key and unique key\n●\nDelete, truncate, drop\n●\nWhat is rollback operation? Rollback operation after delete, truncate, drop\n3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Algorithm Analysis\n●\nStarted with what is algorithm analysis, why it is important and where it is used in real\nlife.\nDSA\n●\nTypes of data structure, where they are used\n●\nI was asked to explain Stack\n●\nAll the following questions were based on Stack and its implementation\nGeneral Question\n●\nHow does Wells Fargo work?\nTechnical + HR (only HR for me)\n●\nIntroduce yourself\n●\nFavourite subject. Why?\n●\nHobbies\n●\nFamily background\n●\nHow will I make a difference at Wells Fargo?\n●\nWas asked to elaborate the extracurricular work mention on the resume\nAfter this round 4 students were offered the internship\nTips\n●\nKnow your resume well. Questions were asked on every part of the resume\n●\nResearch about the company well. Their head (CEO). How does the company work\n●\nFor HTML : https://www.interviewbit.com/html-interview-questions/\n●\nFor OS : https://www.interviewbit.com/operating-system-interview-questions/\n●\nFor DBMS : https://www.interviewbit.com/dbms-interview-questions/\n●\nFor OOPS : https://www.interviewbit.com/oops-interview-questions/\n4"
+    }
+  ]
+}

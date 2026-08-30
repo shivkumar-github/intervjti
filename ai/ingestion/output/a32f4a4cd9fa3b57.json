@@ -1,0 +1,29 @@
+{
+  "fileId": "a32f4a4cd9fa3b57",
+  "fileName": "Microsoft_ Yash S. Jain.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2019 Experiences\\Microsoft_ Yash S. Jain.pdf",
+    "year": "2019",
+    "experienceType": null,
+    "companyFolder": "2019 Experiences"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "INTERVIEW EXPERIENCE - INTERNSHIP FOR SUMMER 2020  \nMICROSOFT  [OFF CAMPUS] \nYash S. Jain, B. Tech IT 2017-21 \n \n \nONLINE ROUND [ONE TEST 2019] ​[90 mins] \n●\nThis round was open to students from all the Institutes across India. \n●\nThis round had 3 coding questions. \n●\nCoding questions were very straightforward and were mostly \nimplementation based with little logic required. \n●\nOne of the questions was \n○\nGiven a JSON string find the max depth of the string. \n○\nExample ​“a:{b:{a:‘z’,b:‘y’},c:{z:[2,3]}}”​. \n■\nHere the max depth is 3. \n●\nI don’t remember the other 2 questions. \n●\nI was able to solve and submit all 3 questions within 15 or 20 mins. \n●\nAfter a month or so I got a call for Online Interview."
+    },
+    {
+      "pageNumber": 2,
+      "text": "ONLINE INTERVIEW ​[45 mins] \n●\nThis round focused on Data Structures, Algorithms and Implementation. \n●\nOnly one question was asked in this round. \n●\nProblem:​ Implement a DS that supports 3 operations. \n○\nInsert \n○\nDelete \n○\nGet Random Element (Return a uniformly random element from \nthe set of elements) \n●\nIt is guaranteed that the elements are unique. \n●\nI was asked to implement DS that supports all these operations in ​O(1) \ntime. \n●\nAfter 15 mins or so I was able to come up with an optimal solution and \nwas able to implement the same within 20 mins. \n●\nAfter a week I received a mail for Onsite Interview. \n●\nMy ​Solution​."
+    },
+    {
+      "pageNumber": 3,
+      "text": "ONSITE INTERVIEW \n●\nThe interview was at Hyderabad.  \n●\nOnsite Interview consisted of 2 Rounds. \n●\nIn my batch, there were 25 students out of which 9 got selected for the \nInternship. \nROUND 1 [TECHNICAL] ​[60 - 75 mins] \n●\nThis round was majorly focused System Design but 2 DSA questions were \nalso asked. \n●\nQuestion 1 ​Given a matrix find a submatrix with the maximum sum. \n○\nThe naive solution takes ​O(n ^ 4)​ time. \n○\nThis is a standard DP question and can be solved in ​O(n ^ 3)​ time \nusing  ​2D Kadane​ Algorithm. \n○\nI gave both solutions. \n●\nQuestion 2 ​Given a row-wise and column-wise sorted matrix find a given \nelement. \n○\nThe naive solution takes ​O(n ^ 2)​ time. \n○\nCan be solved in ​O(n * lg n)​ time by applying binary search in \nevery row or column. \n○\nCan also be solved in ​O(n)​ time  by starting the search from the \ntop right element​. \n○\nI gave all 3 solutions. \n●\nBoth questions were asked in the first 15 minutes of the interview and the \nrest of the Interview was focused on ​System Design​. \n●\nQuestion 3 ​Design a Restaurant Management System."
+    },
+    {
+      "pageNumber": 4,
+      "text": "ROUND 2 [TECHNICAL + HR] ​[40 mins] \n●\nDuring this round, Interviewer asked related to resume and my projects. \n●\nQuestion 1 ​Tell me about yourself. \n●\nQuestion 2 ​Given two very big numbers (each more than 500 digits), \nmultiply them. \n●\nQuestion 3 ​In one of my Internships I had created a website (along with \none friend), So he asked me to explain my entire process of website \ndevelopment from requirement gathering till deployment. \n●\nSimilar questions were asked regarding my other projects. \n●\nI have done Internship in my summer vacation of the second year at \nSamsung R&D Bangalore, So Interviewer asked me whether Samsung \noffered me an Internship this year and also asked me about my \nexperience there. \n●\nThe Last Question ​Three Qualities why we should hire you? \n○\nIt is a standard question and I gave the answer that I read online."
+    }
+  ]
+}

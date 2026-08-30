@@ -1,0 +1,37 @@
+{
+  "fileId": "a118d57a5565978f",
+  "fileName": "Pramod_Dhaygude_Dolat_Capital_Interivew Experince.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Dolat Capital\\Pramod_Dhaygude_Dolat_Capital_Interivew Experince.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Dolat Capital"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Dolat Capital\nPramod Dhaygude | IT"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Eligibility Criteria :\nBranch : CS & IT\nCGPA : 7+\nClass X & XII : 65% and above\nHiring Workflow :\n3 rounds\n1. Online assessment ( 7th august )\n2 . Technical interview ( offline , at their office ) ( 8th Augus )\n3. HR interview ( offline at theri office ) ( 8th augus )\n1. First Round (Online Test ) :\n2 Section\neach section has 35 min and 2 Q\nSection 1 : ( 1 easy and 1 medium)\nQ1 You are given an integer array A and an integer K ,\nRemove the minimum number of elements such that the frequency of\neach element is divisible by k.\nReturn the min number of elements removed.\nQ2 Implement a billing system for a Parking lot of Commercial building.\nThis had a lot of conditions and accordingly was to implemented.\nGiven the list of cars name and in,out time\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "For each car we have to find the fees for parking based on amount of time stay in\nparking .\n1 hr : 50rs 2 hr : 100 3 hr : 150 rs\nMorethan 3 hr extra charge :Rs 30 per hr .\nSection 2 : ( easy medium )\nQ1 An integer N is given ,\nP is all prime numbers less than N\nQ is all fibonacci numbers less than N\nFind number of elements is in Q Union P\nSol :\n1 to n number prime number ; 1 algorithm have to use ( log(logN)) complexity\nQ2 The name was something punished students ,\nThere are N students numbered from 1 to N who visited a museum.\nThey entered in the order A1, A2, .., AN and exited in the order B1,\nB2,..BN. If the ith student overtook the jth student, then the ith student\nwill be punished. Any student can be punished at most once\nReturn the count of punished students.\nI solved 3 Q completely .\n14 STUDENTS GOT SELECTED IN THIS ROUND\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "2. Second Round (Tech interview ) (OFFLINE ROUND AT DOLAT )(1 hour 40 mins) :\nI was interviewed by 2 Senior Employees of DOLAT Capital at their office.The\nInterview will be completely on Cpp and OOPs and DSA.\nThe interview began with Introduction .\nThen OOPS Question asked :\n1. Pillars of OOPs. Explain all (Encapsulation, Abstraction, Polymorphism,\nInheritance)\n2. Difference in Abstraction and Encapsuslation\n3.\nImplement Polymorphism with code and example :\nI started directly compile time polymorphism . then they asked which\npolymorphism writing . what are the types of polymorphism\nWhat is difference between polymorphism .\nWhich func will get called when?\n→What happens when base class pointer points to child class\n→What happens when child class pointer points to base class\n(UPCASTING AND DOWNCASTING)\nHow run time polymorphism happening at execution level .\nThen CPP Question asked :\n3 Code written on paper have given and asked to what will be the output . and how\n3 codes based on mainly pointers ( simple pointer , increment with pointer ,\ncomplex increment pre and post both used ) .\n3"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Then DSA : all codes have to written on paper and explain using 1 example tracing .\n1. Implement Min Stack :\n2. Given String extract the double number :\nString : abc2adsf31asdf6.wdsf2afdsl3\nans : 2316.23\n3. Detech Cycle in linked list\n4. Find the stating point in linked list\n5. Find the number of nodes in cycle\n6. 1 Q given have to tell which approach have to solve : ( toposort in graph Q )\nI explain the khans algorithm and written the code .\n7. Then asked Find the indegrree of graph\n8. Real life use queue , graph\n9. What is Binary Search Tree\nEnd Aked have any question\nMust ask question .\n3. HR Round :\n1. Introduction\n2. Asked about project explanation .\n3. Interview experience\n4. Family members\n5. Why Dolat ?\n6. What known about company : dolat capital is HFT ( high frequency Trading )\nand they have invest only self componey investment . they are not platform .\n4"
+    },
+    {
+      "pageNumber": 6,
+      "text": "The Result were announced the same day as that of interviews and i was one of the\nselected. Also i would like to thank VJTI TPO for all the support , guidance and smooth\nconduction of this process.\nResources :\nhttps://docs.google.com/document/d/1i_m1a1F9vKECeHp7cMRDndh4YndFqbZveh\nQhwUBdvhk/edit?usp=sharing\nSinor kaa github link hai : : https://github.com/yash0530/InterviewPrepResources\n5"
+    }
+  ]
+}

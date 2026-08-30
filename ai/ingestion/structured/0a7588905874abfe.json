@@ -1,0 +1,15 @@
+{
+  "studentName": "Nidhee Kamble",
+  "companyName": "2019 Experiences",
+  "batch": "Not specified",
+  "preview": "Nidhee Kamble shares her experience as a finalist in the Barclays India Hackathon 2019, detailing the multi-round coding and hackathon process.",
+  "content": "Barclays India Hackathon, 2019 Nidhee Kamble Finalist, Team Smurfs, VJTI Team: Ameya Daddikar, Nidhee Kamble, Yash Gupte Selection through: Hackathon rounds Format: Round 1: Team coding round, 3 questions; Round 2: Individual coding round, ~9 questions; Round 3: 15-hour hackathon, venue: Sheraton Grand, Pune a) Technical b) H.R. Note: The teams were selected for Round 3 of the Hackathon based on the results on Round 1 and Round 2 aggregated. However, the Technical and H.R. rounds were conducted parallely with the hackathon. The interviews and its results were independent of the proceedings of the hackathon finale and were based on the aforementioned rounds. ROUND 1 1st June, 2019 # Questions: 3 Duration: 03 hours Q1: Question similar to N-queen problem, but modified. (Dynamic programming) Q2: Bit manipulation. Q3: Logic based, but had a formula that needed to be derived. ROUND 2 5th-6th-7th June, 2019 Duration per day: 02 hours # Questions: 3 or 4 per day. Question domains: Segment trees Divide and Conquer Dynamic Programming Variations/applications of Kadane’s algorithm Graphs ROUND 3(a) 27th June, 2019 Question basis: Broadly, resume-based. Project: frameworks, architecture Languages: Library implementation specific Other courses/domains that have been done and/or mentioned Domains for other questions: Database management: some theoretical questions, database-specific syntaxes Object-Oriented Programming: concepts and implementation, Java System Design: Development styles, scaling and sharding, Redis, UML Yes No Asked to write code or draw on paper Was pen-paper code scrutinised for minute syntax-related details Asked technical questions referencing previous rounds (just a few) ROUND 3(b) 27th June, 2019 Questions related to personal experiences in certain contexts and beliefs regarding specific things. A few questions to ask for basic commerce-related knowledge or fintech in general. Aur woh RISES (Barclays’ values) ke baare mein bhi poochhte hain, toh woh padhkar rakhna.",
+  "source": {
+    "fileId": "0a7588905874abfe",
+    "fileName": "Barclays_ Nidhee Kamble.pdf",
+    "originalPath": "2019 Experiences\\Barclays_ Nidhee Kamble.pdf",
+    "year": "2019",
+    "experienceType": null,
+    "companyFolder": "2019 Experiences"
+  }
+}

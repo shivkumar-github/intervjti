@@ -1,0 +1,29 @@
+{
+  "fileId": "6a9d0643209f7ef2",
+  "fileName": "Yatharth Dedhia NPCI Interview.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\Internships\\NPCI\\Yatharth Dedhia NPCI Interview.pdf",
+    "year": "2023",
+    "experienceType": "Internships",
+    "companyFolder": "NPCI"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "NPCI INTERVIEW EXPERIENCE (Accepted)\n-Yatharth Dedhia (CS)\nOA ROUND (6/9/23):\nSECTION A: Typical logical reasoning questions\n●Few Graph analysis-related questions (time-consuming).\nSECTION B: In-depth ML theory MCQ questions\n●Topics related to random forests, probability, etc.\nSECTION C: Essay writing on a given topic\nSECTION D: 2 coding questions (easy-medium)\n●Rat in a maze dp problem\n●Dont remember the 2nd one (was easier)\nShortlist released (by 9/9/23)\nAfter being shortlisted:\n●Revised all the OS,DBMS,OOPs concepts and went through pyqs on\nthe internet.\n●Revised all the imp basic algos (sorting, LL, DP, etc) which i had\nalready done previously in DSA 450 List\n●Went through PPT to know more about the company and job role.\n●Finalised intro.\n●Went through all of my projects.\n●Revised every tech stack used in projects.\n●Went through ReactJS, SQL, OS, OOPs, DBMS interview questions\nonline.\n●Took a mock interview with a friend to reduce nerves and improve\nconfidence and english speaking.\nINTERVIEW (13/9/23):\n●3 panelists (one of them was absent from mine)\n●HR representative asked for my full name as per the aadhar card (twice\nidk why).\n●They asked if I was okay with joining at any of the centers (yes)."
+    },
+    {
+      "pageNumber": 2,
+      "text": "●They first asked me to introduce myself.\n●What do you know about Python and C++\n●What are classes\n●What do you know about SQL\n○I replied saying I haven't used it in any projects personally, as I\nworked on the frontend part, but I am familiar with it as it was in\nthe coursework.\n○I also briefly mentioned about the SQL query use and types (DDL,\nDML, etc)\n●He further asked what exactly is DDL, DML, etc and give example.\n●Which ML algorithms do you know?\n○I replied I am not well versed in ML algorithms, as I have worked\nwith DL only.\n●Coding question: Count the number of words in a string\n○Used C++\n○Had to write the code, compile and run it with any example string\n○Used counting the number of spaces and then adding 1 as the\nlogic, worked fine with them.\n●How to find the middle element in a linked list (logic only, no code)\n○First gave the naive approach which is to count the number of\nnodes in LL and then go to the floor(n/2).\n○He told me to optimize it.\n○Explained the 2-pointer (fast and slow pointer) method.\n○He was satisfied with it.\n●HR round did not take place.\n●Asked if I had any more questions.\n○I asked, what tech stack we would get to work on during the\ninternship.\nPERSONAL TIPS FOR INTERVIEWS:\nPreparation:\n●Never lie on your resume (about tech stacks too) as they can ask\nanything from anything mentioned on your resume.\n●Be thorough with your projects and tech stacks used in them and how\nyou used it, get some basic theoretical questions about it too. There are\nplenty tech stack specific interview questions available online."
+    },
+    {
+      "pageNumber": 3,
+      "text": "●Keep finalised, short (about 3-5mins) introduction ready as it is asked\nin almost every interview. Get it corrected with any senior. (no need\nto mug it up just remember the points).\n●Intro should be about yourself, your skills, and what you learned from\nyour projects/experiences, rather than details about your\nprojects/experiences.\n●Be prepared with STAR explanation for all of your projects beforehand.\n●Go through the basic HR questions present online.\n●Many interviewers ask about the hurdles (time/team management, etc)\nin your project, be ready with it beforehand.\n●Keep working copies of your project ready, they could ask for live\ndemos.\nDuring the interviews:\n●Be confident and calm, it is visible via your body language during the\ninterview.\n●Take your time to think about the answer before you speak, you can\nask the interviewer for some time too (let me think about it).\n●Don’t stray your answer away from the question.\n●Clarify the question if you did not understand it.\n●Be honest with your answers at all times.\n●Explain any project or situation using STAR approach. Read examples\nonline if needed.\n●In the end they might ask if you have any questions for them, ask at\nleast 1 question and genuinely be interested in it, and dont just ask for\nthe sake of asking.\nCoding question in interviews:\n●During any coding question clarify if they need just the algo explanation\nor code as well.\n●They might give you hints if you get stuck, try to pick-up on those hints\nand try your best.\n●Keep explaining through your thought process while explaining the algo.\n●Start with the brute force solution, and build up upon that even if you\nknow the most optimal solution.\n●Know the time/space complexity of the basic algos and what is the\nreason for the same, complexity is almost always asked for any\nquestion."
+    },
+    {
+      "pageNumber": 4,
+      "text": "●Ask about the assumptions to be made for the questions (if they are\nneeded to be made).\n●Ask for the constraints present for the question if any.\n●It is fine if you dont get to the final solution, they are mostly interested in\nyour thought process and how you tackle the question and try to find the\nsolution."
+    }
+  ]
+}

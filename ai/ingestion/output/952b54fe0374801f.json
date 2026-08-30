@@ -1,0 +1,49 @@
+{
+  "fileId": "952b54fe0374801f",
+  "fileName": "Vedant Kale - Wells Fargo interviews experience.PDF.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2024 Experiences\\Internship\\Wells Fargo\\Vedant Kale - Wells Fargo interviews experience.PDF.pdf",
+    "year": "2024",
+    "experienceType": "Internship",
+    "companyFolder": "Wells Fargo"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "WELLS FARGO \nIntern Analyst - Summer Internship \n \n \n \nVedant Kale \nComputer Engineering \nBatch 2026 \nLocation : Hyderabad/Bangalore \nStipend : INR 90,000"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Round 1 : Online Assessment - 22nd April, 2025 \nPlatform : SHL (Video and Screen proctored) \nDuration : Around 2 hours \nThe online assessment consisted of: \n1.​ GenAI Aptitude \n2.​ Verbal Aptitude \na.​ Fill in the blanks with appropriate words \nb.​ Basic grammar questions \nc.​ Questions based on the given passage \n3.​ Business Aptitude \na.​ Questions on graph analysis \n4.​ Coding Section - 2 coding questions \n5.​ Advanced Coding Section - 1 coding question \n \nI don’t remember the exact coding questions, but one was based on Maps and \nanother on Binary Exponentiation. Both questions were easy, and I was able to \nsolve them. \nIn the advanced coding section, the question was a Cryptarithmetic problem, like: \nInput: SEND + MORE​\nOutput: MONEY \nI wasn’t able to come up with a full solution during the test, so I hardcoded the \nvalues. That approach passed 2 out of 3 test cases. \n \n \n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Results: \n25 people were shortlisted for interviews, and I was one of them. We received the \nresults on 29 April, 2025, in the afternoon.  \nStart preparing for the interviews as soon as you are done with the OA. Don’t wait \nfor the results as they are always announced only the day before interviews.\n \n3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Round 2 : Technical Interview- 30th April, 2025 \nPlatform : Microsoft Teams \nDuration : Around 30 minutes \nThe interview started with a short introduction about myself. Then the interviewer \nbegan with CS fundamentals. \nIn DSA, he asked me to give real-world examples for different data structures like \nQueue, Stack, Linked List, Graph, and Dynamic Programming.​\n After that, he asked me about the advantages and disadvantages of singly and \ndoubly linked lists. \nNext, we moved to OOPs, where he asked me to explain the 4 pillars of OOP with \nexamples. He also asked the difference between a shallow copy and a deep copy. \nThen we moved to DBMS. He asked about the ACID properties and the difference \nbetween MySQL and MongoDB. He also asked why I used MongoDB over SQL in \none of my projects. \nAfter that, he asked a few coding questions. I don’t remember all of them exactly, \nbut here’s what I recall: \n●​ One question was to create a file in C++, read data from it, and count the \nnumber of words, showing knowledge of C++ file handling in detail. \n●​ Then, I had to count the frequency of each word and store it in another file. \n●​ Another question was to reverse an array and then a linked list. \nIn the end, he asked if I had any questions for him. \n \n \n4"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Results: \n12 people were shortlisted for the third round, and I was one of them. We received \nthe results on 6 May, 2025. \n \n \n \n \n5"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Round 3 : Technical Interview- 9th May, 2025 \nPlatform : Microsoft Teams \nDuration : Around 30 minutes \nThe second interview was conducted by a senior professional from Wells Fargo and \nmainly focused on my projects and behavioral skills. \nHe started by asking me to introduce myself, and then asked me to explain all the \nprojects mentioned in my resume.​\nHe appreciated my work and said that my projects were really impressive. \nAfter that, he asked me a few technical questions: \n1.​ Difference between JavaScript and TypeScript \n2.​ Difference between React.js and Next.js \n3.​ Difference between MongoDB and MySQL \nThen he asked a situational question:​\n\"If you completed a project 3 days before the deadline and later realized you                \nmisunderstood the requirements, how would you respond?\"​\nHe also asked, \"How will you make sure such things don’t happen again?\" \nWe then discussed code quality. He asked how I ensure clean code, and followed \nup with:​\n\"How do you measure code coverage?\"​\nI talked about using Mocha, Chai, and Jest for testing, and at that time my Software \nEngineering course helped me understand these concepts better. \nAt the end, I asked him about the technologies used in his team for maintaining \ncode quality and measuring coverage. \n \n6"
+    },
+    {
+      "pageNumber": 7,
+      "text": "He also asked what I’m currently working on. I said I’m focusing on CP and DSA.​\nHe advised me to keep doing development alongside DSA, mentioning that DSA \nhelps in online assessments, but development is equally important. \nLastly, I asked him about his role in the company, he said he mainly works with \nAngularJs and he ended by appreciating my attitude and skills. \n \nResults: \n9 candidates were shortlisted and proceeded to the next round. We received the \nresults on 13th May 2025. \n \n \n7"
+    },
+    {
+      "pageNumber": 8,
+      "text": "Round 4 : HR Interview- 14th May, 2025 \nPlatform : Microsoft Teams \nDuration : Around 20 minutes \nThe final round was an HR interview, and it was a casual discussion-based round. \nHe began by asking me to introduce myself and then asked me to explain the \nprojects where I’ve used Generative AI. \nAfter that, he asked about my current CGPA and the percentage I scored in my \ndiploma. He then asked, Why do you want to join Wells Fargo and What motivates \nyou? \nNext, he asked how I felt about the previous two technical rounds, and whether I \nwould be willing to relocate if selected for the internship. \nAt the end, I asked him a question about how the Tareef acquisition/merger \naffected the company, and what changes happened afterward. \n \nResults: \nOn 19th May 2025, 5 people were selected for the internship, and I’m thankful to be \none of them. The whole process happened during our semester exams, so it really \ntested our patience and focus. But in the end, everything went well and it was a \ngreat experience.  \nLastly, I’ve realised that sometimes, even with your best efforts, things might not go \nas planned  and that’s okay. Often it’s just about timing and staying open to what \ncomes next. What truly matters is to keep moving forward, stay consistent, and \nbelieve in your journey.  \n \n8"
+    },
+    {
+      "pageNumber": 9,
+      "text": "Preparation Tips \n1. Technical aspects you have to prepare, no doubt in that. But make sure you \nprepare on your communication skills and there’s only one way to do it and it's \npractice. Talk to people, strangers, your teachers, higher authorities, take any \nopportunity of public speaking. \n2. Practice important DSA topics well in advance. While solving DSA questions, \nhave a time bound and speak up your approach like you are talking to an \ninterviewer \n3. Refer 30-40 important questions list on GFG/Interview Bit for OS, DBMS, OOPS. \nChatGPT can be very helpful for solving doubts and explaining key concepts. \n4. During interview try to speak whatever you think, long silence can be boring for \nthe interviewer. \n5. Know your resume, read each and every word of it. \n6. Body language is important, so have an upright, confident posture during the \nInterview. \n \nALL THE BEST!!! \n \n9"
+    }
+  ]
+}

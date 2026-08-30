@@ -1,0 +1,21 @@
+{
+  "fileId": "0a7588905874abfe",
+  "fileName": "Barclays_ Nidhee Kamble.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2019 Experiences\\Barclays_ Nidhee Kamble.pdf",
+    "year": "2019",
+    "experienceType": null,
+    "companyFolder": "2019 Experiences"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Barclays India Hackathon, 2019 \nNidhee Kamble \nFinalist, Team ​Smurfs​, VJTI \n \n \n \nTeam: Ameya Daddikar, Nidhee Kamble, Yash Gupte \n \nSelection through: Hackathon rounds \nFormat: \nRound 1:​ ​Team coding​ round, 3 questions; \nRound 2:​ ​Individual coding​ round, ~9 questions; \nRound 3:​ 15-hour hackathon, venue: Sheraton Grand, Pune \na) Technical  \nb) H.R. \n \nNote: The teams were selected for Round 3 of the Hackathon based on the results on Round 1 and \nRound 2 aggregated. However, the Technical and H.R. rounds were conducted parallely with the \nhackathon. The interviews and its results were independent of the proceedings of the hackathon \nfinale and were based on the aforementioned rounds. \n \n \nROUND 1 \n1st June, 2019 \n# Questions: 3 \nDuration: 03 hours \n \nQ1: Question similar to ​N-queen problem​, but modified. (Dynamic programming) \nQ2: ​Bit manipulation​. \nQ3: Logic based, but had a formula that needed to be derived. \n \n \nROUND 2 \n5th-6th-7th June, 2019 \nDuration per day: 02 hours \n# Questions: 3 or 4 per day. \n \nQuestion domains​: \nSegment trees \nDivide and Conquer \nDynamic Programming \nVariations/applications of Kadane’s algorithm \nGraphs \n \n \nROUND 3(a) \n27th June, 2019"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Question basis: Broadly, ​resume-based​. \nProject:​ frameworks, architecture \nLanguages:​ Library implementation specific \nOther ​courses/domains​ that have been done and/or mentioned \nDomains​ for other questions: \nDatabase management:​ some theoretical questions, database-specific syntaxes  \nObject-Oriented Programming:​ concepts and implementation, Java \nSystem Design:​ Development styles, scaling and sharding, Redis, UML \n \n \n \nYes \nNo \nAsked to write code or draw on paper \n\u0000 \n \nWas pen-paper code scrutinised for minute \nsyntax-related details \n \n\u0000 \nAsked technical questions referencing previous \nrounds \n\u0000 (just a few) \n \n \n \n \nROUND 3(b) \n27th June, 2019 \n \nQuestions related to personal ​experiences​ in certain contexts and ​beliefs​ regarding specific things.  \nA few questions to ask for basic ​commerce-related knowledge​ or ​fintech​ in general. \nAur woh ​RISES​ ​(Barclays’ values) ke baare mein bhi poochhte hain, toh woh padhkar rakhna."
+    }
+  ]
+}

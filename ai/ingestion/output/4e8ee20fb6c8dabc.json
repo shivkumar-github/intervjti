@@ -1,0 +1,17 @@
+{
+  "fileId": "4e8ee20fb6c8dabc",
+  "fileName": "SoumilKamat_WellsFargo_Experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Internship\\Wells Fargo\\SoumilKamat_WellsFargo_Experience.pdf",
+    "year": "2021",
+    "experienceType": "Internship",
+    "companyFolder": "Wells Fargo"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Wells Fargo Interview Experience \nSoumil Kamat | TY BTech IT \n \nCoding Round: \nIt was conducted on AMCAT platform and the webcam had to be kept on, also no changing \ntabs/windows was permitted. \nSection 1: Reading comprehension and general vocabulary questions were asked and I could answer \nmost of them. (Questions had to be attempted in the given order only) \nSection 2: There were questions based on stock market, choosing the best airline scheme, etc. I was able \nto answer half of the questions well and just guessed the remaining as the time was insufficient. \n(Questions had to be attempted in the given order only) \nSection 3: There were 2 coding questions to be solved in an hour. I had solved the second question first \nas I had found it easy but I don’t recollect the question. The first question was tricky to understand from \nthe wording but it was based on finding the greatest difference in the position of any 2 elements which \nwere incorrectly ordered (with respect to ascending order of themselves) in the array (i.e., greatest \ndistance between the 2 elements of any inverted pair in the array). I managed to pass 11/13 test cases \nusing brute force. \nRound 2: \nThis was a technical round based on DSA, OOPS, OS conducted on Zoom. I was asked to give my \nintroduction, then I was asked DSA questions such as which is the best sorting method according to me \nand why. Then I was asked to write the code for checking if an element is present given an unsorted \narray using binary search. I was able to code it but there was a small error in the sorting part which I was \nable to rectify later. Then I was to write the code for merging two linked lists. I attempted the question \nbut due to some error the code didn’t work. Then I was asked about stack, 4 oops pillars and functions \nof operating systems which I could answer. I was also asked about deque but I didn’t know about that. I \ndidn’t feel that the round went extremely well but I was shortlisted for the next round to my delight! \nRound 3: \nThis was mostly a tech round also on Zoom. First, I was asked to introduce myself. Then I was asked a \nquestion on explaining a data structure with an example of how it is used in real life. I was also asked \nabout which operating systems I have used. Then I was asked about my previous internship, academic \nprojects and interests. Then I briefly explained about my recent projects and was asked questions on \nthem such as SQL vs NoSQL, authentication, motivation behind making the project, etc. Then I was \nasked about which domains I would be most interested to work on and then if I had any questions. This \nround went well and I got selected along with 5 other students!                                                                    \nThere was an hr round the next day on phone and it was a mere formality."
+    }
+  ]
+}

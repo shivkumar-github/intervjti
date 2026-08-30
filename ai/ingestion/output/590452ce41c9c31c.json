@@ -1,0 +1,33 @@
+{
+  "fileId": "590452ce41c9c31c",
+  "fileName": "Yash_Shroff_Dolat_Capital.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Dolat Capital\\Yash_Shroff_Dolat_Capital.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Dolat Capital"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "DOLAT CAPITAL\nName: Yash Shroff\nBranch: IT\nID : 201080040\nYear : 2023\nCTC : 21 Lakhs (Thoda bada chada ke hai )\nBase 12L + Variable pay + ( retention bonus over 5 years spread.)"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1. FIRST ROUND (Online test):\n●2 Sections\nEach section had 2 coding questions\nQ1.\nYou are given an integer array A and an integer K ,\nRemove the minimum number of elements such that the frequency of\neach element is divisible by k.\nReturn the min number of elements removed.\nQ2.\nImplement a billing system for a Parking lot of Commercial building.\nThis had a lot of conditions and accordingly was to implemented.\nQ3.\nThe name was something punished students ,\nThere are N students numbered from 1 to N who visited a museum.\nThey entered in the order A1, A2, .., AN and exited in the order B1,\nB2,..BN. If the ith student overtook the jth student, then the ith student\nwill be punished. Any student can be punished at most once\nReturn the count of punished students.\nQ4.\nAn integer N is given ,\nP is all prime numbers less than N\nQ is all fibonacci numbers less than N\nFind number of elements is in Q Union P\n(14 STUDENTS GOT SELECTED IN THIS ROUND.)"
+    },
+    {
+      "pageNumber": 3,
+      "text": "2. SECOND ROUND →Tech round (OFFLINE ROUND AT DOLAT )(1 hour 40 mins)\nI was interviewed by 2 Senior Employees of DOLAT Capital at their office.\n●\nThe Interview will be completely on Cpp and OOPs and DSA\nAvoid using Standard template libraries (STL) in codes\n1.\nIntroduce Yourself ?Followed by how would I rate myself on OOPs & DSA\nI replied 6.5 to each on a scale of 1 to 10.\nThe interview began with a few starter C++ and OOPs questions\n1.\nPillars of OOPs. Explain all (Encapsulation, Abstraction, Polymorphism, Inheritance)\n2.\nImplement inheritance with code and example\n(Access specifiers) (Code it on paper)\n3.\nCombined questions on Inheritance,Types of Inheritance\na.\nDifference between public, private and protected\ni.\nWhat happens when in parent class access specifier are x/y/z and\nAccess specifiers of child class are x/y/z.\n(x/y/z corresponds to public , protected,private).\n→Diamond problem , scope resolution operator.\n4.\nPolymorphism and its types (Explain each and Code on paper )\n1.\nTalking about parameters in function overloading , what happens if\nParameter is default.\n(If two functions , one with two param and one with three param is called,\nBut a function call is made with two param and third as default , then what will happen , will\nfunc with two param be called or func with three param , or compiler error)\nThis was a tricky question (read about how default para works with operator overloading).\n→Imp questions on virtual keyword\nWhich func will get called when?\n→What happens when base class pointer points to child class\n→What happens when child class pointer points to base class\n(UPCASTING AND DOWNCASTING)"
+    },
+    {
+      "pageNumber": 4,
+      "text": "5.\nBasic questions on many more operators like “->”, “;”, “::”, “*”, “&”\n6.\nGetters setters\n7.\nConstructors , types of constructors\na.\nDefault, parameterised , Copy\nb.\nUse of delete keyword\nUse of this keyword\n●\nInheritance with constructors :\nWhat happens when Child class has parameterised constructor and base class has\na default constructor , Then which all constructors get called child obj is created ?,\nHow to initialise parent if parent has parameterised constructor via child?\nI told them how inheritance causes parent class constructor to be called before child\nclass with example\n8.Difference between Static and Dynamic Allocation of objects\n9.Keywords - new, malloc, static, void, this\nDSA\n1.\nBuild a class of LinkedList\n2.\nWhat are diff types of data structures?\n3.\nExplain stack and queue,\nWhy stack /queue are used , if arrays can be used?\n4.\nGiven a singly LinkedList and a pointer to a node (which is to be deleted)\nAnd only that is given , how would you delete it?\nBasically no head pointer was given so yeah.\nSee this question online and you will find it easily. Once I solved it , I told them that it\nis possible to do so in all cases except if the node is the last node.\nThen they told me to solve it if the pointer was of last node only , we had some\ndiscussion here but couldn't really get to any conclusion.\n5.\nGiven a sorted array 1, 5, 7, 10, 11 -> return the indices of two numbers that add up\nto a given target. Example if target = 8 return 0, 2\nFirst approach is using two nested loops .\nThen I gave them two pointer approach , it was not clear so I was asked to code it on\npaper.\nThen they wanted one more solution so i gave hash map one , they denied it ,\nThen I gave them a binary search solution , which again I was asked to code down\non the paper.\nI was asked to explain Time complexity in detail.\n6.\nAll ques time complexity I had explained first hand , linked one they had asked me\nupfront and I had told them the correct ans."
+    },
+    {
+      "pageNumber": 5,
+      "text": "7.\nWe were running short of time so had a small convo with them , told them I had my\ninternship just finished a day before the interview , they asked me what I had\nprepared , then I told them I revised concepts of trees , recursion, DP.\n8.\nThey asked me what all you saw in Dp, I told them just visited a few famous\nproblems , Coin change , knapsack etc. Told them how recursion then memoization\ntop down works.\nI was able to answer most questions except a question on malloc and Hash Maps\n3. HR Round (15 mins)\n1.\nChecked Resume\n2.\nSaw Projects and asked a few things\n3.\nPlans for masters ,Family members\n4.\nWhy DOLAT?\n5.\nC++ OR Python\n6.\nWhy not the current internship company’s PPO?\nI asked a few questions about the company , how work is assigned , and then my feedback.\nFor resources :\n●\nA lot of people have given them just to check their experiences.\nTBH→I followed love babbar , and had purchased his online course also.\nOne thing I'll tell you , whoever is reading this.\nVJTI ke vajh se chance milege kafi , give it your best hojayega! Padlo bas dhang se."
+    }
+  ]
+}

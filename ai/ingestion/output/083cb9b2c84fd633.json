@@ -1,0 +1,25 @@
+{
+  "fileId": "083cb9b2c84fd633",
+  "fileName": "Dhruvin_Thakkar_Dolat interview experience.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2023 Experiences\\FTE\\Dolat Capital\\Dhruvin_Thakkar_Dolat interview experience.pdf",
+    "year": "2023",
+    "experienceType": "FTE",
+    "companyFolder": "Dolat Capital"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Name: Dhruvin Thakkar\nBranch: IT\nID : 201080033\nYear : 2023\nCompany: Dolat Capital\n1. FIRST ROUND (Online test):\n●There were 2 sections each of which had 2 coding questions.\n●I obscurely remember one of those questions where we were given\nan integer number ‘n’ as an input and we were asked to find the\nunion of all the prime numbers and fibonacci numbers (no repeating\nelements) less than it.\n2. SECOND ROUND (Technical round)\n●It must have lasted for an hour and a half. As Dolat Capital uses C++ as\ntheir primary language, the whole interview was based on C++.\n●I was interviewed by 2 of their employees. To get started, they asked me to\nintroduce myself followed by the question ‘How much would you rate\nyourself on the C++ programming language’ to which I answered a 7.\n●There was an immediate follow up question ‘Why a 7 and not a 9?’. I\nhonestly reciprocated that I’m not good enough for a 9.\n●None of the projects on my resume encompassed the use of C++ so they\nasked me to give an explanation for it. I replied that most of the projects on\nmy resume existed because they were required to be made either for\nacademic purposes or for internship rounds😝.\n●This was just a warm up as we can see that the technical questions have\nnot commenced yet. They started off with basic OOPs questions like what\ndoes OOPs stand for, what are its four pillars, etc. They asked me to\nexplain compile time polymorphism, runtime polymorphism with examples\nfor each. I gave the example of function overloading for the former and\nfunction overriding for the latter. I was also asked to write an example code\nwhich explains function overriding on paper which evidently encompassed\nthe use of the ‘virtual’ keyword. Questions regarding constructors and\ndestructors followed by questions like ‘Explain inheritance, its types,\naccess specifiers, etc’ were asked which included questions pertaining to\nthe famous diamond problem(again the ‘virtual’ keyword). They also asked"
+    },
+    {
+      "pageNumber": 2,
+      "text": "questions regarding operator overloading like ‘What is operator\noverloading?’ which also included writing an example code. Next I was\nasked to explain the ‘static’ keyword.\n●After checking on my grip on OOPs, they tested my knowledge regarding\nother C++ concepts like pointers, strings, etc. I was supposed to give the\noutputs for the codes they had written on paper regarding pointers and\nreferences followed by inevitable questions on dynamic memory allocation.\nQuestions like ‘What is memory leak?’, ‘Explain the malloc keyword’, ‘What\nis the difference between pointers and references?’, etc where asked.\nHonestly, I wasn’t able to explain the ‘malloc’ keyword as it had been a\nwhile since I studied it.\n●Next, we moved on to DSA. I was asked to explain the difference between\nbinary trees and binary search trees. I was asked to write a code to merge\n2 binary search trees on paper which I sadly failed to do. I was given two\nnumbers in the forms of strings and was asked to add them and return the\nanswer in the form of a string. Next, I was asked to write a code which\ninserted a new node in a linked list at the specified position. Next, I was\nasked to write a code which printed the following ‘*’ pattern:\n●This is all I could remember from the technical interview. Of course I must\nhave missed on mentioning a few questions but all the major ones have\nbeen cited above. At last, they asked me if I had any questions for them. I\nasked them how it felt working here and how the working environment felt\nto them to which they gave very positive answers."
+    },
+    {
+      "pageNumber": 3,
+      "text": "3. HR Round\n●Must have been 15 minutes long. The following questions were asked:\n❖Tell me about yourself, your family, etc.\n❖Why is C++ your primary language?\n❖What are your plans for higher education?\n❖Why did you choose this field if your father is in the field of finance?\n❖Have you applied for any other companies other than Dolat Capital?\nI think that's about it. That’s all I can remember from the HR round.\nAll the best!"
+    }
+  ]
+}

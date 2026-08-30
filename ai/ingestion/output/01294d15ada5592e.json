@@ -1,0 +1,17 @@
+{
+  "fileId": "01294d15ada5592e",
+  "fileName": "Vedant_Paranjape.pdf",
+  "status": "success",
+  "source": {
+    "originalPath": "2021 Experiences\\Placements\\Oracle\\Vedant_Paranjape.pdf",
+    "year": "2021",
+    "experienceType": "Placements",
+    "companyFolder": "Oracle"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Background\n●\nB. Tech Electronics from VJTI, Mumbai\n●\nCGPA 8.02\nRound 1 (Online Coding Round) — 107 mins\nThe test was conducted through Oracle's testing platform. It only had MCQ questions, even the\ncoding ones. The questions were an assortment of English, Business aptitude Core CS and\ncoding questions. The questions were quite easy, but there were a lot of questions. Each\nsection had subsections and once submitted one subsection it was locked. Once a question\nwas marked and submitted, it was not possible to remark the question again, i.e., it was locked.\nRound 2 (Technical Interview Round 1) — 1 hr\nI was asked to give my introduction. After that, they asked me about my internship experiences,\nwhich I explained. Since, it was all embedded related, they didn't have much to ask. They asked\nme how I flashed the microcontroller used in one of my project, and what build environment I\nused, I explained that I used CMake.\nIn my resume, I had written that one of my project used GitHub Actions and Docker. So they\nasked me a few questions, where would I use cloud and how docker was used in my project.\nWhy do people prefer cloud services rather than building their own server ?\nThen I was asked about core CS (OOPS), they asked me why object-oriented is useful, and\nasked me attributes of a class. I further told them, I was not well versed in theory of OOPS as I\nam from ECE and have rather used it more in a practical setting.\nAfter this I was asked if I know about git, Since I did, I was asked what is git fetch and git pull\nand the difference between the two. Then I was asked what is git cherry-pick.\nNext I was asked DSA. First question was which is a sorting algorithm which sorts in time better\nthan O(n^2) and which algorithm is preferred by you and why.\nCan you explain the working of bucket sort ? Next I was asked to implement Bubble sort.\nAfter this, I was told to implement an algorithm to find the 2nd largest element in an array.\nRound 3 (Technical Interview Round 2) — 45 mins\nThis round didn't have much coding questions, I was asked to implement code to find Fibonacci\nseries recursively. Next I was asked about what is a lambda function and where did you use it.\nFurther I was asked what cloud services have you used, I answered the common ones. He then\nasked if I knew about Oracle Cloud, to which I said now. He went on to explain Oracle's cloud\noffering to me. In the end he asked me about my preference and if I have ever worked on Java\nsystems."
+    }
+  ]
+}
