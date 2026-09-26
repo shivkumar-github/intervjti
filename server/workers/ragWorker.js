@@ -8,10 +8,12 @@ const modelsPath = path.join(__dirname, "../models");
 
 console.log("Models path:", modelsPath);
 console.log("Models directory:", fs.readdirSync(modelsPath));
+
 console.log(
     "ExperienceChunk exists:",
     fs.existsSync(path.join(modelsPath, "ExperienceChunk.js"))
 );
+
 console.log(
     "experienceChunk exists:",
     fs.existsSync(path.join(modelsPath, "experienceChunk.js"))
