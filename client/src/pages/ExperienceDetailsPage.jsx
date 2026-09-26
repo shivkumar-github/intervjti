@@ -6,7 +6,7 @@ import api from '../api/axios';
 import { createSocket } from "../socket";
 import { formatDistanceToNow } from 'date-fns';
 
-const rejectionReasons = ['SPA', 'DUPLICATE', 'INCOMPLETE DETAILS', 'OTHER'];
+const rejectionReasons = ['SPAM', 'DUPLICATE', 'INCOMPLETE DETAILS', 'OTHER'];
 
 const statusConfig = {
   approved: { label: 'Approved', dot: '#1a7a4a', bg: 'rgba(26,122,74,0.10)', color: '#1a7a4a', border: 'rgba(26,122,74,0.2)' },
