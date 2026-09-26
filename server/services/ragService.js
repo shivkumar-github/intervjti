@@ -17,7 +17,7 @@ const VECTOR_INDEX = "experience_chunk_vector_index";
 const COLLECTION_NAME = "experiencechunks";
 
 const EMBEDDING_MODEL = "gemini-embedding-2";
-const GENERATION_MODEL = "gemini-3.6-flash";
+const GENERATION_MODEL = "gemini-3.5-flash-lite";
 
 const EMBEDDING_DIMENSIONS = 768;
 

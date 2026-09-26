@@ -1,6 +1,9 @@
 const Experience = require('../models/Experience');
 const sanitizeHtml = require('sanitize-html');
 const striptags = require('striptags');
+const {
+    processExperienceForRAG
+} = require('../services/ragIngestionService');
 
 module.exports.getExperience = async (req, res) => {
 	try {
@@ -168,43 +171,111 @@ module.exports.deleteExperience = async (req, res) => {
 };
 
 module.exports.updateExperienceStatus = async (req, res) => {
-	try {
-		const { id } = req.params;
-		const { status, reason, remark } = req.body;
-		if (!['approved', 'rejected'].includes(status)) {
-			return res.status(400).json({
-				success: false,
-				message: 'Invalid status!'
-			});
-		}
-		// console.log(id, status);
+    try {
 
-		const experience = await Experience.findById(id);
+        const { id } = req.params;
+        const { status, reason, remark } = req.body;
 
-		if (!experience) {
-			return res.status(400).json({
-				success: false,
-				message: 'Experience not found!'
-			});
-		}
 
-		experience.status = status;
-		if (status === 'rejected') {
-			experience.reason = reason;
-			experience.remark = remark;
-		}
-		experience.save();
+        // ----------------------------------------------------
+        // Validate status
+        // ----------------------------------------------------
 
-		res.status(200).json({
-			success: true,
-			message: `Experience ${status}`
-		});
+        if (!['approved', 'rejected'].includes(status)) {
 
-	} catch (err) {
-		// console.log(err);
-		res.status(500).json({
-			success: false,
-			message: 'Server Error!'
-		});
-	}
+            return res.status(400).json({
+                success: false,
+                message: 'Invalid status!'
+            });
+        }
+
+
+        // ----------------------------------------------------
+        // Find experience
+        // ----------------------------------------------------
+
+        const experience =
+            await Experience.findById(id);
+
+        if (!experience) {
+
+            return res.status(400).json({
+                success: false,
+                message: 'Experience not found!'
+            });
+        }
+
+
+        // ----------------------------------------------------
+        // REJECT
+        // ----------------------------------------------------
+
+        if (status === 'rejected') {
+
+            experience.status = 'rejected';
+            experience.reason = reason;
+            experience.remark = remark;
+
+            await experience.save();
+
+            return res.status(200).json({
+                success: true,
+                message: 'Experience rejected'
+            });
+        }
+
+
+        // ----------------------------------------------------
+        // APPROVE
+        // ----------------------------------------------------
+
+        experience.status = 'approved';
+
+        await experience.save();
+
+
+        // ----------------------------------------------------
+        // Process approved experience for RAG
+        // ----------------------------------------------------
+
+        try {
+
+            await processExperienceForRAG(
+                experience
+            );
+
+        } catch (ragError) {
+
+            console.error(
+                'RAG processing failed:',
+                ragError
+            );
+
+            return res.status(500).json({
+                success: false,
+                message:
+                    'Experience approved, but RAG processing failed.'
+            });
+        }
+
+
+        return res.status(200).json({
+            success: true,
+            message:
+                'Experience approved and processed for RAG'
+        });
+
+
+    } catch (err) {
+
+        console.error(
+            'Error updating experience status:',
+            err
+        );
+
+        return res.status(500).json({
+            success: false,
+            message: 'Server Error!'
+        });
+    }
 };
