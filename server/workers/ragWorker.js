@@ -21,6 +21,24 @@ console.log(
 
 console.log("==========================");
 
+try {
+    console.log("=== TESTING EXPERIENCE CHUNK IMPORT ===");
+
+    console.log(
+        "Resolved path:",
+        require.resolve("../models/ExperienceChunk")
+    );
+
+    const ExperienceChunk = require("../models/ExperienceChunk");
+
+    console.log("ExperienceChunk loaded successfully");
+    console.log("========================================");
+} catch (error) {
+    console.error("=== EXPERIENCE CHUNK IMPORT FAILED ===");
+    console.error(error);
+    console.error("=======================================");
+}
+
 require('dotenv').config();
 
 const { Worker } = require('bullmq');
