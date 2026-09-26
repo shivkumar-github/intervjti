@@ -1,4 +1,5 @@
 const Experience = require('../models/Experience');
+const ExperienceChunk = require('../models/ExperienceChunk');
 const sanitizeHtml = require('sanitize-html');
 const striptags = require('striptags');
 const {
@@ -212,12 +213,14 @@ module.exports.updateExperienceStatus = async (req, res) => {
 		// ----------------------------------------------------
 
 		if (status === 'rejected') {
-
 			experience.status = 'rejected';
 			experience.reason = reason;
 			experience.remark = remark;
-
 			await experience.save();
+
+			await ExperienceChunk.deleteMany({
+				experienceId: experience._id
+			});
 
 			return res.status(200).json({
 				success: true,
@@ -260,7 +263,7 @@ module.exports.updateExperienceStatus = async (req, res) => {
 		return res.status(200).json({
 			success: true,
 			message:
-			'Experience approved and RAG processing queued'
+				'Experience approved and RAG processing queued'
 		});
 
 

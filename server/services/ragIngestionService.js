@@ -3,7 +3,7 @@ require("dotenv").config();
 const { GoogleGenAI } = require("@google/genai");
 const striptags = require("striptags");
 
-const ExperienceChunk = require("../models/experienceChunk");
+const ExperienceChunk = require("../models/ExperienceChunk");
 
 const ai = new GoogleGenAI({
     apiKey: process.env.GEMINI_API_KEY

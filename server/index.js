@@ -29,7 +29,7 @@ const io = new Server(server, {
   cors: {
     origin: [
       "https://intervjti.vercel.app",
-      "http://localhost:5173"
+      "http://localhost:5173" 
     ],
     methods: ["GET", "POST"],
     credentials: true
