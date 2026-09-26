@@ -1,3 +1,12 @@
+const fs = require("fs");
+
+console.log("=== RUNTIME FILE CHECK ===");
+console.log("Current directory:", process.cwd());
+console.log("Models directory:", fs.readdirSync("../models"));
+console.log("ExperienceChunk exists:", fs.existsSync("../models/ExperienceChunk.js"));
+console.log("experienceChunk exists:", fs.existsSync("../models/experienceChunk.js"));
+console.log("==========================");
+
 require('dotenv').config();
 
 const { Worker } = require('bullmq');
