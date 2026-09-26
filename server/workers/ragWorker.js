@@ -1,10 +1,22 @@
 const fs = require("fs");
+const path = require("path");
 
 console.log("=== RUNTIME FILE CHECK ===");
 console.log("Current directory:", process.cwd());
-console.log("Models directory:", fs.readdirSync("../models"));
-console.log("ExperienceChunk exists:", fs.existsSync("../models/ExperienceChunk.js"));
-console.log("experienceChunk exists:", fs.existsSync("../models/experienceChunk.js"));
+
+const modelsPath = path.join(__dirname, "../models");
+
+console.log("Models path:", modelsPath);
+console.log("Models directory:", fs.readdirSync(modelsPath));
+console.log(
+    "ExperienceChunk exists:",
+    fs.existsSync(path.join(modelsPath, "ExperienceChunk.js"))
+);
+console.log(
+    "experienceChunk exists:",
+    fs.existsSync(path.join(modelsPath, "experienceChunk.js"))
+);
+
 console.log("==========================");
 
 require('dotenv').config();
