@@ -1,9 +1,10 @@
 const express = require("express");
 const { askRAG } = require("../services/ragService");
+const { aiRateLimiter } = require('../middleware/rateLimiter');
 
 const router = express.Router();
 
-router.post("/ask", async (req, res) => {
+router.post("/ask",aiRateLimiter, async (req, res) => {
     try {
         const { question } = req.body;
 
