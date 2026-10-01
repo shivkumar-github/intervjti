@@ -5,7 +5,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
 function generateOtp() {
-	return randomInt(1000000, 10000000).toString();
+	return randomInt(100000, 1000000).toString();
 }
 
 module.exports.sendOtp = async (req, res) => {
