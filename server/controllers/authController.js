@@ -9,39 +9,59 @@ function generateOtp() {
 }
 
 module.exports.sendOtp = async (req, res) => {
-	const { email } = req.body;
-	if (!email) return res.status(400).json({ success: false, message: 'Email is required.' });
-	// DOUBT: validate if mail is from our college
-	try {
-		let user = await User.findOne({ email });
+    const { email } = req.body;
 
-		const otp = generateOtp();
+    if (!email) {
+        return res.status(400).json({
+            success: false,
+            message: 'Email is required.'
+        });
+    }
 
-		if (user && user.password) {
-			return res.status(500).json({
-				success: false,
-				message: 'User already exists!'
-			});
-		}
+    // Allow VJTI emails, including branch subdomains
+    const emailRegex = /^[^\s@]+@([a-zA-Z0-9-]+\.)?vjti\.ac\.in$/;
 
-		if (!user) {
-			user = new User({ email });
-		}
-		await sendOtpEmail(email, otp);
-		user.otp = otp;
-		await user.save();
-		return res.status(200).json({
-			success: true,
-			message: 'OTP sent successfully.'
-		})
-	}
-	catch (err) {
-		console.log(err);
-		return res.status(500).json({
-			success: false,
-			message: 'Error sending OTP'
-		});
-	}
+    if (!emailRegex.test(email)) {
+        return res.status(400).json({
+            success: false,
+            message: 'Please use your VJTI email address.'
+        });
+    }
+
+    try {
+        let user = await User.findOne({ email });
+
+        const otp = generateOtp();
+
+        if (user && user.password) {
+            return res.status(500).json({
+                success: false,
+                message: 'User already exists!'
+            });
+        }
+
+        if (!user) {
+            user = new User({ email });
+        }
+
+        await sendOtpEmail(email, otp);
+
+        user.otp = otp;
+        await user.save();
+
+        return res.status(200).json({
+            success: true,
+            message: 'OTP sent successfully.'
+        });
+    }
+    catch (err) {
+        console.log(err);
+
+        return res.status(500).json({
+            success: false,
+            message: 'Error sending OTP'
+        });
+    }
 };
 
 module.exports.verifyOtp = async (req, res) => {

@@ -11,7 +11,6 @@ const userSchema = mongoose.Schema({
 	},
 	name: {
 		type: String,
-		required: true
 	},
 	role: {
 		type: String,
@@ -30,8 +29,9 @@ const userSchema = mongoose.Schema({
 }, { timestamps: true });
 
 userSchema.pre('save', function(next) {
-	this.name = this.email.split("@")[0];
-	next();
+    if (!this.name && this.email) {
+        this.name = this.email.split('@')[0];
+    }
+    next();
 });
-
 module.exports = mongoose.model('User', userSchema);
