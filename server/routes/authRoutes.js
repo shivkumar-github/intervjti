@@ -15,13 +15,13 @@ const {
 
 const router = express.Router();
 
-router.post('/send-otp', otpRateLimiter, sendOtp);
+router.post('/send-otp', sendOtp);
 
 router.post('/verify-otp', verifyOtp);
 
 router.post('/set-password', setPassword);
 
-router.post('/login', loginRateLimiter, Login);
+router.post('/login', Login);
 
 router.post('/refresh', refresh);
 

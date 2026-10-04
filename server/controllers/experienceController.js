@@ -1,4 +1,4 @@
-const Experience = require('../models/Experience');
+const Experience = require('Experience');
 const ExperienceChunk = require('../models/ExperienceChunk');
 const sanitizeHtml = require('sanitize-html');
 const striptags = require('striptags');

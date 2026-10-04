@@ -38,7 +38,10 @@ const startWorker = async () => {
             },
             {
                 connection: {
-                    url: process.env.REDIS_URL
+                    url: process.env.REDIS_URL,
+                    tls: {
+                        servername: new URL(process.env.REDIS_URL).hostname
+                    }
                 }
             }
         );

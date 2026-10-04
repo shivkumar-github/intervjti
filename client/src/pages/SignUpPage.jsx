@@ -13,7 +13,7 @@ function StepIndicator({ current }) {
           <div className={`su-step${i < current ? ' done' : i === current ? ' active' : ''}`}>
             <div className="su-step-circle">
               {i < current ? (
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
               ) : (
                 <span>{i + 1}</span>
               )}
@@ -348,7 +348,7 @@ export default function SignUpPage() {
               {['Access all student experiences', 'Share your own interview story', 'Ask questions in real-time discussion', 'Help your juniors succeed'].map(p => (
                 <div key={p} className="su-perk">
                   <div className="su-perk-check">
-                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
                   </div>
                   {p}
                 </div>
@@ -384,14 +384,14 @@ export default function SignUpPage() {
                     <label className="su-label">College Email</label>
                     <div className="su-input-wrap">
                       <span className="su-input-icon">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
                       </span>
                       <input className="su-input" type="email" placeholder="you@vjti.ac.in" value={email} onChange={(e) => setEmail(e.target.value)} autoFocus required disabled={success} />
                     </div>
                   </div>
-                  {error && <div className="su-feedback error"><span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></span>{error}</div>}
+                  {error && <div className="su-feedback error"><span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg></span>{error}</div>}
                   <button className="su-submit" onClick={sendOtp} disabled={sendingOtp || !email || success}>
-                    {sendingOtp ? <><div className="su-spinner" />Sending OTP…</> : <>Send OTP <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></>}
+                    {sendingOtp ? <><div className="su-spinner" />Sending OTP…</> : <>Send OTP <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" /></svg></>}
                   </button>
                   <p className="su-footer-link">Already have an account? <Link to="/loginpage">Log in</Link></p>
                 </>
@@ -402,14 +402,105 @@ export default function SignUpPage() {
                 <>
                   <div className="su-field">
                     <label className="su-label">6-Digit Code</label>
-                    <input className="su-otp-input" type="text" inputMode="numeric" maxLength={6} placeholder="••••••" value={otp} onChange={(e) => setOtp(e.target.value.replace(/\D/g, ''))} autoFocus required disabled={success} />
+                    <input
+                      className="su-otp-input"
+                      type="text"
+                      inputMode="numeric"
+                      maxLength={6}
+                      placeholder="••••••"
+                      value={otp}
+                      onChange={(e) =>
+                        setOtp(e.target.value.replace(/\D/g, ''))
+                      }
+                      autoFocus
+                      required
+                      disabled={success}
+                    />
                   </div>
-                  {error && <div className="su-feedback error"><span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></span>{error}</div>}
-                  <button className="su-submit" onClick={verifyOtp} disabled={!otp || otp.length < 6 || verifyingOtp || success}>
-                    {verifyingOtp ? <><div className="su-spinner" />Verifying…</> : <>Verify Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg></>}
+
+                  {/* Spam folder message */}
+                  <p className="su-spam-message">
+                    Didn't receive the OTP? Please check your <strong>Spam</strong> or
+                    <strong> Junk</strong> folder as well.
+                  </p>
+
+                  {error && (
+                    <div className="su-feedback error">
+                      <span className="su-feedback-icon">
+                        <svg
+                          width="13"
+                          height="13"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <circle cx="12" cy="12" r="10" />
+                          <line x1="12" y1="8" x2="12" y2="12" />
+                          <line x1="12" y1="16" x2="12.01" y2="16" />
+                        </svg>
+                      </span>
+                      {error}
+                    </div>
+                  )}
+
+                  <button
+                    className="su-submit"
+                    onClick={verifyOtp}
+                    disabled={!otp || otp.length < 6 || verifyingOtp || success}
+                  >
+                    {verifyingOtp ? (
+                      <>
+                        <div className="su-spinner" />
+                        Verifying…
+                      </>
+                    ) : (
+                      <>
+                        Verify Code
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </>
+                    )}
                   </button>
-                  <p className="su-resend">Didn't get it? <button onClick={sendOtp} disabled={sendingOtp}>{sendingOtp ? 'Resending…' : 'Resend OTP'}</button></p>
-                  <p className="su-footer-link"><button style={{ background:'none', border:'none', color:'var(--muted)', fontSize:12, cursor:'pointer', fontFamily:"var(--font-body)" }} onClick={() => { setStep(STEPS.EMAIL); setError(''); setOtp(''); }}>← Change email</button></p>
+
+                  <p className="su-resend">
+                    Didn't get it?{" "}
+                    <button onClick={sendOtp} disabled={sendingOtp}>
+                      {sendingOtp ? "Resending…" : "Resend OTP"}
+                    </button>
+                  </p>
+
+                  <p className="su-footer-link">
+                    <button
+                      style={{
+                        background: "none",
+                        border: "none",
+                        color: "var(--muted)",
+                        fontSize: 12,
+                        cursor: "pointer",
+                        fontFamily: "var(--font-body)"
+                      }}
+                      onClick={() => {
+                        setStep(STEPS.EMAIL);
+                        setError("");
+                        setOtp("");
+                      }}
+                    >
+                      ← Change email
+                    </button>
+                  </p>
                 </>
               )}
 
@@ -419,22 +510,22 @@ export default function SignUpPage() {
                   <div className="su-field">
                     <label className="su-label">Password</label>
                     <div className="su-input-wrap">
-                      <span className="su-input-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+                      <span className="su-input-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg></span>
                       <input className="su-input" type={showPassword ? 'text' : 'password'} placeholder="Min. 8 characters" value={password} onChange={(e) => setPassword(e.target.value)} autoFocus required disabled={success} style={{ paddingRight: 40 }} />
                       <button type="button" className="su-pw-toggle" onClick={() => setShowPassword(p => !p)} tabIndex={-1}>
                         {showPassword
-                          ? <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
-                          : <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                          ? <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" /><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" /><line x1="1" y1="1" x2="23" y2="23" /></svg>
+                          : <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
                         }
                       </button>
                     </div>
                     {/* Strength bars */}
                     {password && (
                       <div className="su-pw-strength">
-                        {[1,2,3,4].map(n => {
+                        {[1, 2, 3, 4].map(n => {
                           const str = Math.min(4, [/.{8,}/, /[A-Z]/, /[0-9]/, /[^A-Za-z0-9]/].filter(r => r.test(password)).length);
-                          const colors = ['#c0392b','#e8521a','#f7c948','#1a7a4a'];
-                          return <div key={n} className="su-pw-bar" style={{ background: n <= str ? colors[str-1] : undefined }} />;
+                          const colors = ['#c0392b', '#e8521a', '#f7c948', '#1a7a4a'];
+                          return <div key={n} className="su-pw-bar" style={{ background: n <= str ? colors[str - 1] : undefined }} />;
                         })}
                       </div>
                     )}
@@ -443,34 +534,34 @@ export default function SignUpPage() {
                   <div className="su-field">
                     <label className="su-label">Confirm Password</label>
                     <div className="su-input-wrap">
-                      <span className="su-input-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+                      <span className="su-input-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg></span>
                       <input className="su-input" type={showConfirm ? 'text' : 'password'} placeholder="Re-enter password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required disabled={success} style={{ paddingRight: 40 }} />
                       <button type="button" className="su-pw-toggle" onClick={() => setShowConfirm(p => !p)} tabIndex={-1}>
                         {showConfirm
-                          ? <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
-                          : <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                          ? <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" /><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" /><line x1="1" y1="1" x2="23" y2="23" /></svg>
+                          : <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
                         }
                       </button>
                     </div>
                     {passwordMatch && (
                       <p className="su-pw-err">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg>
                         {passwordMatch}
                       </p>
                     )}
                   </div>
 
-                  {error && <div className="su-feedback error"><span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></span>{error}</div>}
+                  {error && <div className="su-feedback error"><span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg></span>{error}</div>}
 
                   {success && (
                     <div className="su-feedback success">
-                      <span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+                      <span className="su-feedback-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg></span>
                       Account created! Redirecting to login…
                     </div>
                   )}
 
                   <button className="su-submit" onClick={handleSubmit} disabled={creatingAccount || !!passwordMatch || !password || !confirmPassword || success}>
-                    {creatingAccount ? <><div className="su-spinner" />Creating account…</> : <>Create Account <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></>}
+                    {creatingAccount ? <><div className="su-spinner" />Creating account…</> : <>Create Account <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg></>}
                   </button>
                   <p className="su-footer-link">Already have an account? <Link to="/loginpage">Log in</Link></p>
                 </>

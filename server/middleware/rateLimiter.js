@@ -2,7 +2,11 @@ const rateLimit = require('express-rate-limit');
 const { RedisStore } = require('rate-limit-redis');
 const Redis = require('ioredis');
 
-const redisClient = new Redis(process.env.REDIS_URL);
+const redisClient = new Redis(process.env.REDIS_URL, {
+    tls: {
+        servername: new URL(process.env.REDIS_URL).hostname
+    }
+});
 
 const loginRateLimiter = rateLimit({
     windowMs: 15 * 60 * 1000,
