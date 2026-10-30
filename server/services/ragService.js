@@ -1,17 +1,14 @@
 const mongoose = require("mongoose");
 const { GoogleGenAI } = require("@google/genai");
 
-// ============================================================
 // GEMINI CLIENT
-// ============================================================
 
 const ai = new GoogleGenAI({
     apiKey: process.env.GEMINI_API_KEY
 });
 
-// ============================================================
+
 // CONFIGURATION
-// ============================================================
 
 const VECTOR_INDEX = "experience_chunk_vector_index";
 const COLLECTION_NAME = "experiencechunks";
@@ -21,15 +18,11 @@ const GENERATION_MODEL = "gemini-3.5-flash-lite";
 
 const EMBEDDING_DIMENSIONS = 768;
 
-// Keep this at 5 for now.
-// We will improve retrieval architecture later.
+// optimise the architecture by adjusting these
 const RETRIEVAL_LIMIT = 5;
 const NUM_CANDIDATES = 100;
 
-
-// ============================================================
 // ASK RAG
-// ============================================================
 
 async function askRAG(question) {
 
@@ -40,10 +33,7 @@ async function askRAG(question) {
     const collection =
         mongoose.connection.db.collection(COLLECTION_NAME);
 
-
-    // ========================================================
     // 1. EMBED USER QUERY
-    // ========================================================
 
     const embeddingResponse =
         await ai.models.embedContent({
@@ -120,9 +110,7 @@ async function askRAG(question) {
     ]).toArray();
 
 
-    // ========================================================
     // 3. HANDLE NO RESULTS
-    // ========================================================
 
     if (results.length === 0) {
 
@@ -135,10 +123,7 @@ async function askRAG(question) {
         };
     }
 
-
-    // ========================================================
     // 4. BUILD CONTEXT
-    // ========================================================
 
     const context = results
         .map((result, index) => {
@@ -166,9 +151,7 @@ ${result.text}
         .join("\n");
 
 
-    // ========================================================
     // 5. GENERATE ANSWER
-    // ========================================================
 
     const prompt = `
 You are an interview-experience assistant for Intervjti.

@@ -75,6 +75,7 @@ export default function NavBar() {
           gap: 16px;
         }
 
+
         /* LOGO */
         .nb-logo {
           display: flex;
@@ -83,25 +84,42 @@ export default function NavBar() {
           text-decoration: none;
           flex-shrink: 0;
         }
+
         .nb-logo-mark {
-          width: 34px; height: 34px;
+          width: 42px;
+          height: 42px;
           background: var(--ink);
-          border-radius: 10px;
-          display: flex; align-items: center; justify-content: center;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           position: relative;
           overflow: hidden;
           transition: transform var(--transition);
+
+          color: var(--surface);
+          font-family: var(--font-display);
+          font-size: 17px;
+          font-weight: 800;
+          letter-spacing: -1px;
         }
+
         .nb-logo-mark::after {
           content: '';
           position: absolute;
-          bottom: -6px; right: -6px;
-          width: 18px; height: 18px;
+          bottom: -6px;
+          right: -6px;
+          width: 18px;
+          height: 18px;
           background: var(--accent);
           border-radius: 50%;
+          z-index: 1;
         }
-        .nb-logo:hover .nb-logo-mark { transform: rotate(-6deg) scale(1.06); }
-        .nb-logo-mark svg { position: relative; z-index: 1; }
+
+        .nb-logo:hover .nb-logo-mark {
+          transform: rotate(-6deg) scale(1.06);
+        }
+
         .nb-logo-text {
           font-family: var(--font-display);
           font-size: 18px;
@@ -109,8 +127,10 @@ export default function NavBar() {
           color: var(--ink);
           letter-spacing: -0.04em;
         }
-        .nb-logo-text span { color: var(--accent); }
 
+        .nb-logo-text span {
+          color: var(--accent);
+        }
         /* DESKTOP LINKS */
         .nb-links {
           display: flex;
@@ -264,13 +284,10 @@ export default function NavBar() {
         <div className="nb-inner">
           {/* Logo */}
           <NavLink to="/" className="nb-logo" onClick={handleLinkClick}>
-            <div className="nb-logo-mark">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3 12L8 4L13 12" stroke="#f5f4f0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M5 9H11" stroke="#f5f4f0" strokeWidth="1.5" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <span className="nb-logo-text">Inter<span>VJTI</span></span>
+            <div className="nb-logo-mark">IV</div>
+            <span className="nb-logo-text">
+              Inter<span>VJTI</span>
+            </span>
           </NavLink>
 
           {/* Desktop nav links */}
@@ -297,7 +314,7 @@ export default function NavBar() {
               >
                 {link.label === "Upload" && (
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                    <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
                   </svg>
                 )}
                 {link.label}

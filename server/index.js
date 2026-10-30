@@ -49,7 +49,7 @@ io.use((socket, next) => {
 
   } catch (err) {
     next(new Error("Unauthorised!"));
-  }
+  } 
 });
 
 io.on("connection", (socket) => {

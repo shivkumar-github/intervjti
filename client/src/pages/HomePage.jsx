@@ -78,7 +78,7 @@ export default function HomePage() {
   // Derive tags from data
   const tags = ["All", ...Array.from(new Set(allExps.map((e) => e.category || e.tag || e.type).filter(Boolean)))];
 
-  // ✅ FIX: Search now works on companyName, studentName, batch, and content
+  
   const filtered = allExps.filter((exp) => {
     if (activeTag !== "All" && (exp.category || exp.tag || exp.type) !== activeTag) return false;
     if (!search.trim()) return true;
